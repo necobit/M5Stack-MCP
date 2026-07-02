@@ -8,9 +8,23 @@ export function jsonResult(payload: unknown) {
 }
 
 // Every tool response carries the snapshot timestamp so the assistant knows
-// how fresh the data is.
+// how fresh the data is. M5Stack releases new products weekly, so past a
+// threshold we nudge the assistant to suggest refreshing the snapshot.
+const STALE_AFTER_DAYS = 45;
+
 export function withDataAsOf<T extends object>(catalog: Catalog, payload: T) {
-  return { ...payload, data_as_of: catalog.meta.fetchedAt };
+  const ageDays = Math.floor((Date.now() - Date.parse(catalog.meta.fetchedAt)) / 86_400_000);
+  return {
+    ...payload,
+    data_as_of: catalog.meta.fetchedAt,
+    ...(ageDays >= STALE_AFTER_DAYS
+      ? {
+          data_freshness_warning:
+            `Product snapshot is ${ageDays} days old; M5Stack ships new products weekly. ` +
+            "Newer products may be missing — suggest the user update (git pull or `npm run update-data`).",
+        }
+      : {}),
+  };
 }
 
 export function resolveOrError(

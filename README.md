@@ -62,11 +62,17 @@ claude mcp add m5stack -- node /path/to/M5Stack-MCP/dist/index.js
 
 ## データ更新
 
-スナップショットは公式ソースから再生成できます:
+M5Stackは新製品のリリースが頻繁なため、スナップショットは2通りの方法で追従できます。
+
+**自動（GitHub Actions）**: 毎週月曜にデータを再取得し、差分があれば自動コミットするワークフローが動いています（[.github/workflows/update-data.yml](.github/workflows/update-data.yml)、手動実行も可）。ローカルは `git pull` で追従し、グローバルインストールしている場合は `npm run build && npm install -g .` で反映してください。
+
+**手動**:
 
 ```bash
 npm run update-data
 ```
+
+なおツール応答には常に `data_as_of`（スナップショット取得日時）が含まれ、45日以上古い場合はLLMに更新を促す警告が付きます。新製品は互換性キュレーションが無くても、フォームファクタ規則＋本文からの自動抽出で判定されます（confidenceが下がるだけで動作します）。
 
 - ソース: `shop.m5stack.com` の Shopify JSON（全製品・価格・在庫・EOL）+ [m5-docs](https://github.com/m5stack/m5-docs) の `product_list.json`（docsリンク・キーワード）
 - 差分レポート（新規/削除/EOL遷移/価格変動）を stderr に出力
