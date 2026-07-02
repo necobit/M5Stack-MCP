@@ -1,0 +1,53 @@
+{
+  "controllers": {
+    "atom-lite-esp32-development-kit": { "family": "ATOM", "generation": "ATOM-ESP32", "grovePorts": ["A"] },
+    "atom-matrix-esp32-dev-kit-v1-1": { "family": "ATOM", "generation": "ATOM-ESP32", "grovePorts": ["A"] },
+    "atom-echo-smart-speaker-dev-kit": { "family": "ATOM", "generation": "ATOM-ESP32", "grovePorts": ["A"] },
+    "atom-echos3r-smart-speaker-dev-kit": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3-lite-esp32s3-dev-kit": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3u": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3r-dev-kit": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3r-proto-kit-without-screen": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3r-camera-kit": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3r-camera-kit-m12-version-ov3660": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3r-ai-chatbot-kit-8mb-psram": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "atoms3r-cam-ai-chatbot-kit-8mb-psram": { "family": "ATOM", "generation": "ATOM-S3", "grovePorts": ["A"] },
+    "m5stack-nanoc6-dev-kit": { "family": "ATOM", "generation": "NanoC6", "grovePorts": ["A"], "notes": "ATOM form factor, ESP32-C6 (no classic Bluetooth)" },
+
+    "m5stickc-plus-esp32-pico-mini-iot-development-kit": { "family": "STICKC", "generation": "PLUS", "grovePorts": ["A"] },
+    "m5stickc-plus-with-watch-accessories": { "family": "STICKC", "generation": "PLUS", "grovePorts": ["A"] },
+    "m5stickc-plus2-with-watch-accessories": { "family": "STICKC", "generation": "PLUS2", "grovePorts": ["A"] },
+    "m5sticks3-esp32s3-mini-iot-dev-kit": { "family": "STICKC", "generation": "S3", "grovePorts": ["A"] },
+    "m5stickt2-esp32-thermal-camera-development-kit-lepton-3-0": { "family": "STICKC", "generation": "T2", "grovePorts": ["A"] },
+
+    "esp32-basic-core-lot-development-kit-v2-7": { "family": "CORE", "generation": "Core1", "grovePorts": ["A"], "mbus": "M-Bus-Core1", "notes": "Port B/C available via M5GO/FIRE bottom" },
+    "m5stack-basic-core-esp32-iot-devkit-comm-edition": { "family": "CORE", "generation": "Core1", "grovePorts": ["A"], "mbus": "M-Bus-Core1" },
+    "m5go-iot-starter-kit-v2-7": { "family": "CORE", "generation": "Core1", "grovePorts": ["A", "B", "C"], "mbus": "M-Bus-Core1", "notes": "M5GO bottom provides Port B/C" },
+    "m5stack-fire-iot-development-kit-psram-v2-7": { "family": "CORE", "generation": "Core1", "grovePorts": ["A", "B", "C"], "mbus": "M-Bus-Core1", "notes": "Charging bottom provides Port B/C" },
+    "m5stack-core2-esp32-iot-development-kit": { "family": "CORE", "generation": "Core2", "grovePorts": ["A"], "mbus": "M-Bus-Core2" },
+    "m5stack-core2-esp32-iot-development-kit-v1-3": { "family": "CORE", "generation": "Core2", "grovePorts": ["A"], "mbus": "M-Bus-Core2" },
+    "m5stack-core2-for-aws-kit-v1-3": { "family": "CORE", "generation": "Core2", "grovePorts": ["A", "B", "C"], "mbus": "M-Bus-Core2", "notes": "Bottom2 provides Port B/C" },
+    "m5stack-tough-esp32-iot-development-board-kit": { "family": "CORE", "generation": "Core2", "grovePorts": ["A"], "mbus": "M-Bus-Core2", "notes": "Sealed waterproof case; module stacking not practical" },
+    "m5stack-cores3-esp32s3-iotdevelopment-kit": { "family": "CORE", "generation": "CoreS3", "grovePorts": ["A", "B", "C"], "mbus": "M-Bus-Core2", "notes": "Battery bottom provides Port B/C" },
+    "m5stack-cores3-se-iot-controller-w-o-battery-bottom": { "family": "CORE", "generation": "CoreS3", "grovePorts": ["A"], "mbus": "M-Bus-Core2", "notes": "Port B/C require the separate battery bottom" },
+    "m5stack-cores3-lite-esp32s3-iot-dev-kit": { "family": "CORE", "generation": "CoreS3", "grovePorts": ["A"], "mbus": "M-Bus-Core2" },
+    "m5paper-esp32-development-kit-v1-1-960x540-4-7-eink-display-235-ppi": { "family": "CORE", "generation": "Paper", "grovePorts": ["A", "B", "C"], "notes": "Not M-Bus module stackable" },
+    "m5stack-esp32-core-ink-development-kit1-54-elnk-display": { "family": "CORE", "generation": "CoreInk", "grovePorts": ["A"], "notes": "Has StickC-compatible 8-pin HAT header" },
+    "m5stack-tab5-iot-development-kit-esp32-p4": { "family": "CORE", "generation": "Tab5", "grovePorts": ["A"], "notes": "Tablet form factor; not M-Bus module stackable" },
+
+    "m5stamp-pico-mate-with-pin-headers": { "family": "STAMP", "generation": "Pico", "grovePorts": ["A"] },
+    "m5stamp-c3-mate-with-pin-headers": { "family": "STAMP", "generation": "C3", "grovePorts": ["A"] },
+    "m5stamp-c3u-mate-with-pin-headers": { "family": "STAMP", "generation": "C3U", "grovePorts": ["A"] },
+    "m5stamp-pico-5pcs": { "family": "STAMP", "generation": "Pico", "grovePorts": [], "notes": "Bare module, requires soldering; no Grove socket" },
+    "m5stamp-c3-5pcs": { "family": "STAMP", "generation": "C3", "grovePorts": [], "notes": "Bare module, requires soldering; no Grove socket" },
+    "m5stamp-c3u-5pcs": { "family": "STAMP", "generation": "C3U", "grovePorts": [], "notes": "Bare module, requires soldering; no Grove socket" },
+    "m5stack-dial-v1-1": { "family": "STAMP", "generation": "StampS3", "grovePorts": ["A", "B"] },
+    "m5stack-din-meter-v1-1-with-m5stamps3a": { "family": "STAMP", "generation": "StampS3", "grovePorts": ["A", "B"] },
+    "m5stack-cardputer-adv-version-esp32-s3": { "family": "STAMP", "generation": "StampS3", "grovePorts": ["A"] },
+
+    "keyboard-for-tab5": { "family": "OTHER", "grovePorts": [], "notes": "Accessory keyboard for Tab5, not a controller" },
+    "m5stack-thread-border-router": { "family": "OTHER", "grovePorts": [], "notes": "Finished network appliance, not a general-purpose controller" }
+  },
+  "overrides": [],
+  "portRequirements": {}
+}

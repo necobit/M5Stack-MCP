@@ -1,0 +1,9 @@
+{
+  "fetchedAt": "2026-07-02T08:16:50.749Z",
+  "productCount": 643,
+  "docsMatchedCount": 294,
+  "sources": [
+    "https://shop.m5stack.com/products.json",
+    "https://raw.githubusercontent.com/m5stack/m5-docs/master/docs/en/product_list.json"
+  ]
+}

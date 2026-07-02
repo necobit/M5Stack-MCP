@@ -1,0 +1,154 @@
+[
+  {
+    "category": "unit",
+    "label": "Units (Grove-connected sensors & actuators)",
+    "total": 194,
+    "eolCount": 31,
+    "subcategories": [
+      {
+        "handle": "unit",
+        "count": 160
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 2
+      },
+      {
+        "handle": "accessories",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "category": "module",
+    "label": "Modules (M-Bus stackable, for Core family)",
+    "total": 116,
+    "eolCount": 50,
+    "subcategories": [
+      {
+        "handle": "for-stack",
+        "count": 60
+      },
+      {
+        "handle": "accessories",
+        "count": 4
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "category": "accessory",
+    "label": "Accessories (cables, mounts, power ...)",
+    "total": 102,
+    "eolCount": 35,
+    "subcategories": [
+      {
+        "handle": "accessories",
+        "count": 42
+      },
+      {
+        "handle": "for-chain",
+        "count": 12
+      },
+      {
+        "handle": "for-stack",
+        "count": 6
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 5
+      },
+      {
+        "handle": "ai-hardware",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "category": "kit",
+    "label": "Kits",
+    "total": 84,
+    "eolCount": 60,
+    "subcategories": [
+      {
+        "handle": "accessories",
+        "count": 13
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 4
+      },
+      {
+        "handle": "ai-hardware",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "category": "controller",
+    "label": "Controllers (Core / Stick / Atom / Stamp ...)",
+    "total": 66,
+    "eolCount": 3,
+    "subcategories": [
+      {
+        "handle": "controllers",
+        "count": 63
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "category": "atomic-base",
+    "label": "Atomic Bases (for ATOM family)",
+    "total": 39,
+    "eolCount": 4,
+    "subcategories": [
+      {
+        "handle": "for-atom",
+        "count": 33
+      },
+      {
+        "handle": "accessories",
+        "count": 2
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "category": "hat",
+    "label": "Hats (for StickC family)",
+    "total": 34,
+    "eolCount": 10,
+    "subcategories": [
+      {
+        "handle": "for-stick",
+        "count": 23
+      }
+    ]
+  },
+  {
+    "category": "stamp-accessory",
+    "label": "Stamp accessories",
+    "total": 8,
+    "eolCount": 0,
+    "subcategories": [
+      {
+        "handle": "for-stamp",
+        "count": 8
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 1
+      }
+    ]
+  }
+]
