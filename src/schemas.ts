@@ -66,6 +66,10 @@ export const suggestConfigurationInput = {
   include_eol: z.boolean().default(false),
 };
 
+export const updateCatalogInput = {
+  force: z.boolean().default(false).describe("Refresh even if the snapshot is less than a day old"),
+};
+
 export const getPriceStockInput = {
   identifiers: z.array(z.string()).min(1).max(10).describe("Product handles or SKUs (max 10)"),
 };

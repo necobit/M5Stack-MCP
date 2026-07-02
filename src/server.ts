@@ -6,6 +6,7 @@ import { registerGetProduct } from "./tools/getProduct.js";
 import { registerListCategories } from "./tools/listCategories.js";
 import { registerSearchProducts } from "./tools/searchProducts.js";
 import { registerSuggestConfiguration } from "./tools/suggestConfiguration.js";
+import { registerUpdateCatalog } from "./tools/updateCatalog.js";
 
 export function createServer(): McpServer {
   const catalog = loadCatalog();
@@ -21,6 +22,7 @@ export function createServer(): McpServer {
   registerCheckCompatibility(server, catalog);
   registerSuggestConfiguration(server, catalog);
   registerGetPriceStock(server, catalog);
+  registerUpdateCatalog(server, catalog);
 
   return server;
 }

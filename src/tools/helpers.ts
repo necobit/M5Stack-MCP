@@ -13,7 +13,7 @@ export function jsonResult(payload: unknown) {
 const STALE_AFTER_DAYS = 45;
 
 export function withDataAsOf<T extends object>(catalog: Catalog, payload: T) {
-  const ageDays = Math.floor((Date.now() - Date.parse(catalog.meta.fetchedAt)) / 86_400_000);
+  const ageDays = catalog.ageDays();
   return {
     ...payload,
     data_as_of: catalog.meta.fetchedAt,
@@ -21,7 +21,7 @@ export function withDataAsOf<T extends object>(catalog: Catalog, payload: T) {
       ? {
           data_freshness_warning:
             `Product snapshot is ${ageDays} days old; M5Stack ships new products weekly. ` +
-            "Newer products may be missing — suggest the user update (git pull or `npm run update-data`).",
+            "Newer products may be missing — call the update_catalog tool to refresh.",
         }
       : {}),
   };

@@ -48,6 +48,7 @@ claude mcp add m5stack -- node /path/to/M5Stack-MCP/dist/index.js
 | `check_compatibility` | コントローラ×周辺機器の互換性判定（根拠・確度付き） |
 | `suggest_configuration` | 用途記述→役割別候補+互換マトリクス+最安バンドル |
 | `get_price_stock` | 現在価格・在庫のライブ取得（最大10件） |
+| `update_catalog` | 製品カタログをその場で再取得（新製品対応、結果はローカルキャッシュに保存） |
 
 ## 使用例（Claude への質問例）
 
@@ -62,17 +63,14 @@ claude mcp add m5stack -- node /path/to/M5Stack-MCP/dist/index.js
 
 ## データ更新
 
-M5Stackは新製品のリリースが頻繁なため、スナップショットは2通りの方法で追従できます。
+M5Stackは新製品のリリースが頻繁なため、複数の経路で追従します。**基本的に何もしなくてもインストール済みの各環境が自動で最新に追従します。**
 
-**自動（GitHub Actions）**: 毎週月曜にデータを再取得し、差分があれば自動コミットするワークフローが動いています（[.github/workflows/update-data.yml](.github/workflows/update-data.yml)、手動実行も可）。ローカルは `git pull` で追従し、グローバルインストールしている場合は `npm run build && npm install -g .` で反映してください。
+1. **起動時の自動更新（各ローカル）** — サーバー起動時にスナップショットが7日以上古いと、バックグラウンドで公式ソースから再取得し `~/.cache/m5stack-mcp/` に保存します。以降の起動は同梱データより新しいキャッシュを優先します。無効化は環境変数 `M5STACK_MCP_AUTO_UPDATE=0`
+2. **`update_catalog` ツール** — 「新製品が見つからない」「最新のラインナップで調べて」といった場面でClaude自身がその場で再取得できます（約15〜30秒）
+3. **リポジトリの週次自動更新（GitHub Actions）** — 毎週月曜にデータを再取得し、差分があれば自動コミット（[.github/workflows/update-data.yml](.github/workflows/update-data.yml)、手動実行も可）。クローンしたての状態でも比較的新しいデータが手に入ります
+4. **手動**: `npm run update-data`（リポジトリ同梱の `data/` を再生成）
 
-**手動**:
-
-```bash
-npm run update-data
-```
-
-なおツール応答には常に `data_as_of`（スナップショット取得日時）が含まれ、45日以上古い場合はLLMに更新を促す警告が付きます。新製品は互換性キュレーションが無くても、フォームファクタ規則＋本文からの自動抽出で判定されます（confidenceが下がるだけで動作します）。
+ツール応答には常に `data_as_of`（スナップショット取得日時）が含まれ、45日以上古い場合は `update_catalog` を促す警告が付きます。新製品は互換性キュレーションが無くても、フォームファクタ規則＋本文からの自動抽出で判定されます（confidenceが下がるだけで動作します）。
 
 - ソース: `shop.m5stack.com` の Shopify JSON（全製品・価格・在庫・EOL）+ [m5-docs](https://github.com/m5stack/m5-docs) の `product_list.json`（docsリンク・キーワード）
 - 差分レポート（新規/削除/EOL遷移/価格変動）を stderr に出力
