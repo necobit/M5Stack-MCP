@@ -87,4 +87,11 @@ npm run inspect   # MCP Inspector でツールを手動テスト
 
 ## ライセンス
 
-MIT
+MIT（[LICENSE](LICENSE)）
+
+同梱の製品スナップショット（`data/products.json` 等）は以下の公式ソースから生成しています:
+
+- [shop.m5stack.com](https://shop.m5stack.com) — 製品名・説明文・画像URL等の著作権は M5Stack Technology Co., Ltd. に帰属します
+- [m5stack/m5-docs](https://github.com/m5stack/m5-docs)（MITライセンス）
+
+本プロジェクトはM5Stack社の非公式ツールであり、同社とは無関係です。

@@ -4,6 +4,11 @@
   "description": "MCP server for M5Stack product lineup — search, compatibility check, and configuration advice for prototyping",
   "type": "module",
   "license": "MIT",
+  "author": "necobit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necobit/M5Stack-MCP.git"
+  },
   "bin": {
     "m5stack-mcp": "dist/index.js"
   },
