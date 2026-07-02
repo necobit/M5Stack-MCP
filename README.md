@@ -56,6 +56,10 @@ claude mcp add m5stack -- node /path/to/M5Stack-MCP/dist/index.js
 - 「CoreS3 と Core2 どちらを選ぶべき？在庫ある？」
 - 「予算50ドルで土壌水分監視のプロトタイプを組みたい」
 
+実際の応答例（「ミニ四駆をハックして自由に動かしたい」と相談したところ）:
+
+![使用例: ミニ四駆ハックの相談にATOM Lite + ATOMIC Motion Baseの構成を提案](docs/example-mini4wd.png)
+
 ## データ更新
 
 スナップショットは公式ソースから再生成できます:
