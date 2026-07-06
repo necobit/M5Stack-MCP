@@ -2,16 +2,16 @@
   {
     "category": "unit",
     "label": "Units (Grove-connected sensors & actuators)",
-    "total": 194,
+    "total": 195,
     "eolCount": 31,
     "subcategories": [
       {
         "handle": "unit",
-        "count": 160
+        "count": 161
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 2
+        "count": 3
       },
       {
         "handle": "accessories",

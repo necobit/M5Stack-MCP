@@ -1675,6 +1675,47 @@
     }
   },
   {
+    "handle": "add-on-display-out-for-poe-p4-lt8912b",
+    "shopifyId": 9218420834561,
+    "title": "Add-on Display Out for PoE-P4 (LT8912B)",
+    "eol": false,
+    "sku": "U221",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-ETHERNET"
+    ],
+    "descriptionText": "AddOn Display Out For PoE-P4 is a display output expansion module designed for Unit PoE-P4 . Based on the LT8912B chip, it converts the MIPI DSI display signal from Unit PoE-P4 into HDMI output, making it easy to connect an external monitor for visualizing local graphical interfaces, status information, and control screens.\n In addition to display output, the module integrates expansion capabilities for touch and local storage. The onboard TP interface connects to a touch controller and provides the required I2C communication, reset, and interrupt signals for touch input and UI interaction. The onboard microSD slot connects to the main controller's SDIO bus and can store images, UI resources, configuration files, or other display-related data, making it easier to build a more complete local display solution. The module also exposes a USB Type-A interface for connecting peripherals such as a mouse or keyboard. It is suitable for PoE display terminals, industrial HMI, information dashboards, embedded control panels, and similar applications.\n Features\n Display output expansion module for Unit PoE-P4\n Converts MIPI DSI to HDMI display output based on LT8912B \n Standard HDMI Type-A interface for quick connection to external displays\n Onboard TP touch interface, supporting touch input and UI interaction expansion\n Onboard microSD slot connected to the main controller's SDIO bus, supporting local storage of images, UI resources, and configuration files\n Onboard USB Type-A interface",
+    "variants": [
+      {
+        "sku": "U221",
+        "title": "Default Title",
+        "price": "9.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 9.95,
+      "max": 9.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_305926b3-a6cb-42c6-ba2d-0c9c27573986.webp?v=1782979010",
+    "url": "https://shop.m5stack.com/products/add-on-display-out-for-poe-p4-lt8912b",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "ai-8850-llm-acceleration-m-2-kit-4gb-version-ax8850",
     "shopifyId": 9185888600321,
     "title": "AI-8850 LLM Acceleration M.2 Kit 4GB Version (AX8850)",
@@ -1928,7 +1969,7 @@
         "sku": "K131-V11",
         "title": "Default Title",
         "price": "89.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3358,7 +3399,7 @@
         "sku": "K055",
         "title": "Default Title",
         "price": "28.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3730,7 +3771,7 @@
         "sku": "A166",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5020,7 +5061,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6211,7 +6252,7 @@
         "sku": "M120",
         "title": "Default Title",
         "price": "10.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -9725,7 +9766,7 @@
         "sku": "U169",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10600,7 +10641,7 @@
         "sku": "U123",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -15307,7 +15348,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17452,7 +17493,7 @@
         "sku": "K144",
         "title": "Default Title",
         "price": "79.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18461,7 +18502,7 @@
         "sku": "C145",
         "title": "Without NP-F550 Battery",
         "price": "55.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19511,7 +19552,7 @@
         "sku": "K141",
         "title": "Default Title",
         "price": "42.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -23794,7 +23835,7 @@
         "sku": "A119",
         "title": "Default Title",
         "price": "1.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26162,7 +26203,7 @@
         "sku": "A035",
         "title": "10cm-15LED",
         "price": "4.95",
-        "available": true
+        "available": false
       },
       {
         "sku": "A035-B",
