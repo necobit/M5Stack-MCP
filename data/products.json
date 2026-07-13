@@ -593,7 +593,7 @@
         "sku": "U056",
         "title": "Default Title",
         "price": "3.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -722,7 +722,7 @@
         "sku": "M138-V11",
         "title": "Default Title",
         "price": "14.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -1335,7 +1335,7 @@
         "sku": "U165",
         "title": "Default Title",
         "price": "6.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -1594,7 +1594,7 @@
         "sku": "U013-V11",
         "title": "Default Title",
         "price": "5.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -2589,7 +2589,7 @@
         "sku": "C126-ECHO",
         "title": "Default Title",
         "price": "14.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3546,7 +3546,7 @@
         "sku": "T002",
         "title": "Default Title",
         "price": "6.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3771,7 +3771,7 @@
         "sku": "A166",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3809,7 +3809,7 @@
         "sku": "A133-B",
         "title": "Default Title",
         "price": "16.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -4494,7 +4494,7 @@
         "sku": "A077",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4776,7 +4776,7 @@
         "sku": "A163",
         "title": "Default Title",
         "price": "2.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5061,7 +5061,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5104,7 +5104,7 @@
         "sku": "C126",
         "title": "Default Title",
         "price": "17.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5633,7 +5633,7 @@
         "sku": "U090-B",
         "title": "Default Title",
         "price": "4.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6252,7 +6252,7 @@
         "sku": "M120",
         "title": "Default Title",
         "price": "10.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -8761,7 +8761,7 @@
     "tags": [
       "ACCESSORIES-OTHERS"
     ],
-    "descriptionText": "Description\n Customized M5STACK logo Adhesive tape",
+    "descriptionText": "Customized M5STACK logo Adhesive tape",
     "variants": [
       {
         "sku": "A031",
@@ -9309,7 +9309,7 @@
         "sku": "U183",
         "title": "Default Title",
         "price": "6.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -10453,7 +10453,7 @@
         "sku": "U161",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -11086,7 +11086,7 @@
         "sku": "U158-B",
         "title": "Default Title",
         "price": "21.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -11307,7 +11307,7 @@
         "sku": "M025-B",
         "title": "Default Title",
         "price": "15.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -11360,7 +11360,7 @@
         "sku": "U032-V11",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -11686,7 +11686,7 @@
         "sku": "A162",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12667,7 +12667,7 @@
         "sku": "U175",
         "title": "Default Title",
         "price": "4.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16312,7 +16312,7 @@
         "sku": "K127-EU",
         "title": "CM4Stack with EU Plug AC/DC Adapter",
         "price": "199.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16541,7 +16541,7 @@
         "sku": "K010-V13",
         "title": "Default Title",
         "price": "42.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -18496,7 +18496,7 @@
         "sku": "K145",
         "title": "With NP-F550 Battery",
         "price": "60.00",
-        "available": false
+        "available": true
       },
       {
         "sku": "C145",
@@ -18673,7 +18673,7 @@
         "sku": "U078-M12",
         "title": "Default Title",
         "price": "95.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19043,8 +19043,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-C6",
@@ -19136,7 +19135,7 @@
         "sku": "S013",
         "title": "Default Title",
         "price": "12.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19384,7 +19383,7 @@
         "sku": "S006",
         "title": "Default Title",
         "price": "5.30",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19660,6 +19659,84 @@
     }
   },
   {
+    "handle": "m5stampc5-module-esp32-c5",
+    "shopifyId": 9234367283457,
+    "title": "M5StampC5 Module (ESP32-C5)",
+    "eol": false,
+    "sku": "S016",
+    "category": "controller",
+    "formFactor": "STAMP_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "STAMP"
+    ],
+    "descriptionText": "Stamp-C5 is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The module adopts a 2.54mm pad pitch design, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Features\n ESP32-C5HF4 main controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and hardware design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status indicators\n RED: Charging indicator (blinks while charging; turns off when fully charged)\n BLUE: G28 / BOOT indicator\n Includes\n 1 x Stamp-C5\n Applications\n Dual-band Wi-Fi 6 IoT devices\n Zigbee / Thread",
+    "variants": [
+      {
+        "sku": "S016",
+        "title": "Default Title",
+        "price": "6.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 6.5,
+      "max": 6.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5StampC5_Module3.webp?v=1783655876",
+    "url": "https://shop.m5stack.com/products/m5stampc5-module-esp32-c5",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
+    "handle": "m5stampc5-module-with-2-54-header-pin",
+    "shopifyId": 9234360205569,
+    "title": "M5StampC5 Module with 2.54 Header Pin",
+    "eol": false,
+    "sku": "S016-DIP",
+    "category": "controller",
+    "formFactor": "STAMP_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "STAMP"
+    ],
+    "descriptionText": "Stamp-C5 DIP is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The overall design adopts a 2.54mm pad pitch and includes 2 x 2.54-7P standard pin headers, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Features\n ESP32-C5HF4 main controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and hardware design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status indicators\n RED: Charging indicator (blinks while charging; turns off when fully charged)\n BLUE: G28 / BOOT indicator\n Includes\n 1 x Stamp-C5 DIP\n 2 x 2",
+    "variants": [
+      {
+        "sku": "S016-DIP",
+        "title": "Default Title",
+        "price": "7.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 7.95,
+      "max": 7.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5StampC5_Module_with_2.54_Header_Pin2.webp?v=1783655754",
+    "url": "https://shop.m5stack.com/products/m5stampc5-module-with-2-54-header-pin",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "m5stamps3-bat-module-with-2-54-header-pin",
     "shopifyId": 9095258439937,
     "title": "M5StampS3 BAT Module with 2.54 Header Pin",
@@ -19803,7 +19880,7 @@
         "sku": "A144",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20013,7 +20090,7 @@
         "sku": "K126",
         "title": "Default Title",
         "price": "79.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20717,7 +20794,7 @@
         "sku": "U118",
         "title": "Default Title",
         "price": "36.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21029,7 +21106,7 @@
         "sku": "K016-H",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21415,7 +21492,7 @@
         "sku": "U055",
         "title": "Default Title",
         "price": "5.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21644,7 +21721,7 @@
         "sku": "U054",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21876,7 +21953,7 @@
         "sku": "U144",
         "title": "Default Title",
         "price": "3.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22046,7 +22123,7 @@
         "sku": "U023",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22187,7 +22264,7 @@
         "sku": "U025",
         "title": "Default Title",
         "price": "2.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22480,7 +22557,7 @@
         "sku": "U166",
         "title": "Default Title",
         "price": "3.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22861,7 +22938,7 @@
         "sku": "U028",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -24579,13 +24656,13 @@
         "sku": "A146",
         "title": "10cm (10pcs a pack)",
         "price": "14.50",
-        "available": false
+        "available": true
       },
       {
         "sku": "A146-B",
         "title": "50cm (2pcs a pack)",
         "price": "4.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24954,7 +25031,7 @@
         "sku": "U114",
         "title": "Default Title",
         "price": "4.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25359,7 +25436,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -25903,7 +25980,7 @@
         "sku": "M014-B",
         "title": "Default Title",
         "price": "17.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26203,7 +26280,7 @@
         "sku": "A035",
         "title": "10cm-15LED",
         "price": "4.95",
-        "available": false
+        "available": true
       },
       {
         "sku": "A035-B",
@@ -26362,7 +26439,7 @@
         "sku": "A180",
         "title": "Default Title",
         "price": "55.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26396,7 +26473,7 @@
       "CORE",
       "ESP32-S3"
     ],
-    "descriptionText": "StackChan Core is the main controller for the StackChan robot and is intended for mainboard replacement. It uses an ESP32-S3 controller with a 240 MHz dual-core processor, built-in 16MB Flash and 8MB PSRAM, and native Wi-Fi + BLE wireless communication. The board integrates many built-in peripherals: a rugged 2.0-inch capacitive touch screen, a 0.3 MP camera, proximity sensor, ambient light sensor, and nine-axis IMU; it also provides a microSD card slot, an onboard 1W speaker, dual microphones, power and reset buttons, and is suitable as a direct replacement for the original controller in StackChan AI desktop robots.\n Note\n CoreS3 , CoreS3-Lite , and StackChan Core differ only in appearance and have no difference in hardware functionality. StackChan Core comes preloaded with StackChan firmware at the factory. After flashing the StackChan firmware, CoreS3 and CoreS3-Lite can also be used directly as the main controller for the StackChan robot. For the firmware flashing method, refer to the Restore Factory Firmware section on the StackChan product page.\n Features\n Main controller replacement for StackChan\n Based on ESP32 with Wi-Fi @16MB Flash, 8MB PSRAM\n Integrated camera, proximity sensor, speaker, real-time clock, I2S amplifier, dual microphones, capacitive touch screen, power button, reset button, and gyroscope\n Rugged glass-based construction\n Supports OTG and CDC\n Uses AXP2101 power management for a low-power design\n Includes\n 1 x StackChan Core\n 1 x Hex Key L-Shape 1.5mm",
+    "descriptionText": "StackChan Core is the main controller for the StackChan robot and is intended for mainboard replacement. It uses an ESP32-S3 controller with a 240 MHz dual-core processor, built-in 16MB Flash and 8MB PSRAM, and native Wi-Fi + BLE wireless communication. The board integrates many built-in peripherals: a rugged 2.0-inch capacitive touch screen, a 0.3 MP camera, proximity sensor, ambient light sensor, and nine-axis IMU; it also provides a microSD card slot, an onboard 1W speaker, dual microphones, power and reset buttons, and is suitable as a direct replacement for the original controller in StackChan AI desktop robots.\n Note CoreS3 , CoreS3-Lite , and StackChan Core differ only in appearance and have no difference in hardware functionality. StackChan Core comes preloaded with StackChan firmware at the factory. After flashing the StackChan firmware, CoreS3 and CoreS3-Lite can also be used directly as the main controller for the StackChan robot. For the firmware flashing method, refer to the Restore Factory Firmware section on the StackChan product page. \n Features\n Main controller replacement for StackChan\n Based on ESP32 with Wi-Fi @16MB Flash, 8MB PSRAM\n Integrated camera, proximity sensor, speaker, real-time clock, I2S amplifier, dual microphones, capacitive touch screen, power button, reset button, and gyroscope\n Rugged glass-based construction\n Supports OTG and CDC\n Uses AXP2101 power management for a low-power design\n Includes\n 1 x StackChan Core\n 1 x Hex Key L-Shape 1.5mm",
     "variants": [
       {
         "sku": "C156",
@@ -27216,7 +27293,7 @@
         "sku": "U088",
         "title": "Default Title",
         "price": "10.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27318,7 +27395,7 @@
         "sku": "U100",
         "title": "Default Title",
         "price": "55.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27418,7 +27495,7 @@
         "sku": "U098-B1",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27989,7 +28066,7 @@
         "sku": "U078-D",
         "title": "Default Title",
         "price": "75.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28038,7 +28115,7 @@
         "sku": "K024-B",
         "title": "Default Title",
         "price": "155.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28142,7 +28219,7 @@
         "sku": "M020-V12",
         "title": "Default Title",
         "price": "12.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
