@@ -22,7 +22,7 @@
   {
     "category": "module",
     "label": "Modules (M-Bus stackable, for Core family)",
-    "total": 116,
+    "total": 117,
     "eolCount": 50,
     "subcategories": [
       {
@@ -35,7 +35,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 2
+        "count": 3
       }
     ]
   },
@@ -70,8 +70,8 @@
   {
     "category": "kit",
     "label": "Kits",
-    "total": 84,
-    "eolCount": 60,
+    "total": 85,
+    "eolCount": 61,
     "subcategories": [
       {
         "handle": "accessories",
@@ -99,7 +99,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 14
+        "count": 15
       }
     ]
   },

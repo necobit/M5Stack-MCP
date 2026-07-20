@@ -762,7 +762,7 @@
         "sku": "M121-V11",
         "title": "Default Title",
         "price": "10.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -1594,7 +1594,7 @@
         "sku": "U013-V11",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3071,7 +3071,7 @@
         "sku": "C008-B-V11",
         "title": "Default Title",
         "price": "14.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3809,7 +3809,7 @@
         "sku": "A133-B",
         "title": "Default Title",
         "price": "16.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3887,7 +3887,7 @@
         "sku": "A103",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4622,7 +4622,7 @@
         "sku": "A131",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5061,7 +5061,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7129,7 +7129,7 @@
         "sku": "U215",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -8441,7 +8441,7 @@
         "sku": "M011",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -8727,7 +8727,7 @@
         "sku": "U124",
         "title": "Default Title",
         "price": "5.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -8805,7 +8805,7 @@
         "sku": "U012-B",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -9766,7 +9766,7 @@
         "sku": "U169",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -10641,7 +10641,7 @@
         "sku": "U123",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12683,6 +12683,46 @@
       "interfaces": [],
       "i2cAddress": null,
       "source": "unknown"
+    }
+  },
+  {
+    "handle": "io-module-for-stamplc-ina226aidgsr",
+    "shopifyId": 9256201224449,
+    "title": "IO Module for StamPLC (INA226AIDGSR)",
+    "eol": false,
+    "sku": "A176",
+    "category": "module",
+    "formFactor": "MODULE",
+    "subcategories": [
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-STAMPLC-EXPANSION-MODULE"
+    ],
+    "descriptionText": "Isolated I/O Expansion for Industrial PLC Automation\n StamPLC IO is an electrically isolated IO expansion module designed for the StamPLC host and developed for industrial environments where high- and low-voltage circuits coexist. It provides two active analog acquisition channels, two solid-state relay outputs, and one mechanical relay output. The module supports signal acquisition from industrial active voltage and current sensors while controlling the on/off state of various load circuits. Its onboard STM32G030F6P6 main controller centrally manages external inputs and outputs, relay driving, address assignment, and I2C bus communication over the isolated channel. A hardware DIP switch allows the I2C address to be customized, enabling multiple modules to be connected in parallel or cascaded for flexible IO expansion.\n The module integrates a CA-IS3020S digital isolator and B0505M-2WR3 isolated power module to provide complete electrical isolation between the communication bus and power circuit. This design effectively suppresses common-mode interference and surge impacts from sensors and field loads, significantly improving overall system stability. It is suitable for industrial automation applications such as power branch monitoring, low-voltage actuator driving, and sensor power management.\n Key Features: Analog Inputs, Solid-State & Mechanical Relays\n STM32G030F6P6 main controller\n I2C communication interface\n Onboard 4-position DIP switch for configuring the device I2C ",
+    "variants": [
+      {
+        "sku": "A176",
+        "title": "Default Title",
+        "price": "19.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 19.95,
+      "max": 19.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/IO_Module_for_StamPLC_INA226AIDGSR_2.webp?v=1784258939",
+    "url": "https://shop.m5stack.com/products/io-module-for-stamplc-ina226aidgsr",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
     }
   },
   {
@@ -16224,7 +16264,7 @@
         "sku": "A148-A",
         "title": "Default Title",
         "price": "1.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16489,7 +16529,7 @@
         "sku": "K010-V11",
         "title": "Default Title",
         "price": "46.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16593,7 +16633,7 @@
         "sku": "K010-AWS-V13",
         "title": "Default Title",
         "price": "49.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19673,7 +19713,7 @@
     "tags": [
       "STAMP"
     ],
-    "descriptionText": "Stamp-C5 is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The module adopts a 2.54mm pad pitch design, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Features\n ESP32-C5HF4 main controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and hardware design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status indicators\n RED: Charging indicator (blinks while charging; turns off when fully charged)\n BLUE: G28 / BOOT indicator\n Includes\n 1 x Stamp-C5\n Applications\n Dual-band Wi-Fi 6 IoT devices\n Zigbee / Thread",
+    "descriptionText": "M5StampC5 ESP32-C5 Wi-Fi 6 Module Overview\n Stamp-C5 is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The module adopts a 2.54mm pad pitch design, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Wireless Connectivity and ESP32-C5 Hardware Features\n ESP32-C5HF4 Main Controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless Connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and Hardware Design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status Indicators\n RED: Charging indicator (blinks while charging; turns off when fully charged)\n BLUE: G28 / BOOT indicat",
     "variants": [
       {
         "sku": "S016",
@@ -19712,13 +19752,13 @@
     "tags": [
       "STAMP"
     ],
-    "descriptionText": "Stamp-C5 DIP is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The overall design adopts a 2.54mm pad pitch and includes 2 x 2.54-7P standard pin headers, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Features\n ESP32-C5HF4 main controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and hardware design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status indicators\n RED: Charging indicator (blinks while charging; turns off when fully charged)\n BLUE: G28 / BOOT indicator\n Includes\n 1 x Stamp-C5 DIP\n 2 x 2",
+    "descriptionText": "M5StampC5 DIP ESP32-C5 Wi-Fi 6 Module Overview\n Stamp-C5 DIP is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The overall design adopts a 2.54mm pad pitch and includes 2 x 2.54-7P standard pin headers, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Wireless Connectivity and Header-Friendly Hardware Features\n ESP32-C5HF4 Main Controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless Connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and Hardware Design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status Indicators\n RED: Charging indicator (blinks while cha",
     "variants": [
       {
         "sku": "S016-DIP",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21043,24 +21083,21 @@
     "handle": "m5stickc-plus-esp32-pico-mini-iot-development-kit",
     "shopifyId": 5466980483236,
     "title": "M5StickC PLUS ESP32-PICO Mini IoT Development Kit",
-    "eol": false,
+    "eol": true,
     "sku": "K016-P",
-    "category": "controller",
-    "formFactor": "STICKC_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [],
     "tags": [
-      "ESP32",
-      "STICK"
+      "EOL"
     ],
-    "descriptionText": "StickC-Plus is the large-screen version of the M5StickC . Its main controller uses the ESP32-PICO-D4 module, which supports Wi-Fi. Inside its compact body, it integrates rich hardware resources such as infrared, RTC, microphone, LED, IMU, buttons, buzzer, PMU, and more. While retaining the original functions of the M5StickC, it adds a passive buzzer. Additionally, the screen size has been upgraded to 1.14 inches, with a resolution of 135 x 240 TFT, increasing the display area by 18.7% compared to the previous 0.96-inch screen. The battery capacity is 120mAh, and the interface supports HAT and Unit series products.\n This compact and exquisite development tool can unleash unlimited creative potential. StickC-Plus can help quickly build IoT product prototypes, greatly simplifying the entire development process. Even for beginners who are just starting to learn programming, it can be used to create interesting applications and apply them to real-life scenarios.\n Features\n Based on ESP32 development, supports Wi-Fi\n Built-in 3-axis accelerometer and 3-axis gyroscope\n Built-in Red LED\n Integrated infrared transmitter\n Built-in RTC\n Integrated microphone\n User button, LCD (1.14 inch), power/reset button\n 120 mAh lithium battery\n Expansion interface\n Integrated passive buzzer\n Wearable & mountable\n Development Platform\n UiFlow1\n UiFlow2\n Arduino IDE\n ESP-IDF\n PlatformIO\n Includes\n 1 x StickC-Plus\n Applications\n Wearable devices\n IoT controllers\n STEM education\n DIY projects\n Smart ho",
+    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n M5StickC PLUS SE Mini IoT Dev Kit (ESP32-PICO)\n Description\n StickC-Plus is the large-screen version of the M5StickC . Its main controller uses the ESP32-PICO-D4 module, which supports Wi-Fi. Inside its compact body, it integrates rich hardware resources such as infrared, RTC, microphone, LED, IMU, buttons, buzzer, PMU, and more. While retaining the original functions of the M5StickC, it adds a passive buzzer. Additionally, the screen size has been upgraded to 1.14 inches, with a resolution of 135 x 240 TFT, increasing the display area by 18.7% compared to the previous 0.96-inch screen. The battery capacity is 120mAh, and the interface supports HAT and Unit series products.\n This compact and exquisite development tool can unleash unlimited creative potential. StickC-Plus can help quickly build IoT product prototypes, greatly simplifying the entire development process. Even for beginners who are just starting to learn programming, it can be used to create interesting applications and apply them to real-life scenarios.\n Features\n Based on ESP32 development, supports Wi-Fi\n Built-in 3-axis accelerometer and 3-axis gyroscope\n Built-in Red LED\n Integrated infrared transmitter\n Built-in RTC\n Integrated microphone\n User button, LCD (1.14 inch), power/reset button\n 120 mAh lithium battery\n Expansion interface\n Integrated passive buzzer\n Wearable & mountable\n Development Platform\n UiFlow1\n UiFl",
     "variants": [
       {
         "sku": "K016-P",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21080,6 +21117,56 @@
         "MPU6886"
       ],
       "matchType": "exact-sku"
+    },
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
+    "handle": "m5stickc-plus-se-mini-iot-dev-kit-esp32-pico",
+    "shopifyId": 9256203747585,
+    "title": "M5StickC PLUS SE Mini IoT Dev Kit (ESP32-PICO)",
+    "eol": false,
+    "sku": "K016-P-SE",
+    "category": "controller",
+    "formFactor": "STICKC_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "ESP32",
+      "STICK"
+    ],
+    "descriptionText": "M5StickC Plus SE Mini IoT Dev Kit Overview\n StickC-Plus SE is a lightweight version of StickC-Plus . It retains the core features while removing the onboard 6-axis IMU sensor, offering better cost efficiency. The enclosure features a new transparent orange design with a distinctive translucent appearance. Powered by the ESP32-PICO-D4 module, it supports 2.4 GHz Wi-Fi and integrates an infrared transmitter, RTC, onboard microphone, status indicator, customizable buttons, passive buzzer, and power management unit (PMU). It features a 1.14-inch color LCD with a 135 x 240 resolution for clear, detailed visuals. The built-in 120mAh battery and compatibility with Hat and Unit series expansion products provide flexible extensibility. This product is suitable for lightweight IoT development and simple creative projects that do not require motion sensing and prioritize cost efficiency.\n ESP32-PICO-D4 Hardware and IoT Features\n ESP32-PICO-D4 Controller with 2.4 GHz Wi-Fi\n 4MB Flash\n 520KB SRAM\n 2.4 GHz Wi-Fi\n 1.14-inch LCD, Buttons, IR, RTC, Microphone, and Buzzer\n Onboard red status indicator\n Integrated infrared transmitter\n Built-in RTC module\n Onboard microphone\n Customizable buttons, LCD, power button, and reset button\n 120mAh Battery, PMU, Hat-Bus, and Unit Expansion\n Built-in 120 mAh lithium battery\n Integrated passive buzzer\n Magnetic back; transparent orange enclosure\n UiFlow, Arduino, ESP-IDF, and PlatformIO Support\n UiFlow1\n UiFlow2\n Arduino IDE\n ESP-IDF\n PlatformIO\n What Is",
+    "variants": [
+      {
+        "sku": "K016-P-SE",
+        "title": "Default Title",
+        "price": "19.00",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 19,
+      "max": 19,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5StickC_PLUS_SE_Mini_IoT_Dev_Kit_ESP32-PICO2.webp?v=1784258111",
+    "url": "https://shop.m5stack.com/products/m5stickc-plus-se-mini-iot-dev-kit-esp32-pico",
+    "docs": {
+      "category": "M5Stick",
+      "docUrl": "https://docs.m5stack.com/#/en/core/m5stickc_plus",
+      "quickstartUrl": "https://docs.m5stack.com/#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start",
+      "keywords": [
+        "ESP32",
+        "AXP192",
+        "MPU6886"
+      ],
+      "matchType": "prefix-sku"
     },
     "connectivity": {
       "grove": [],
@@ -21767,7 +21854,7 @@
         "sku": "U055-B",
         "title": "Default Title",
         "price": "4.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22043,7 +22130,7 @@
         "sku": "U178",
         "title": "Default Title",
         "price": "12.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22690,7 +22777,7 @@
         "sku": "U196",
         "title": "Default Title",
         "price": "5.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -25436,7 +25523,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25576,7 +25663,7 @@
         "sku": "M131",
         "title": "Default Title",
         "price": "22.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25705,7 +25792,7 @@
         "sku": "K121",
         "title": "Default Title",
         "price": "13.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26439,7 +26526,7 @@
         "sku": "A180",
         "title": "Default Title",
         "price": "55.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27202,7 +27289,7 @@
         "sku": "U010",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
