@@ -415,7 +415,7 @@
         "sku": "A088",
         "title": "0.2M",
         "price": "2.25",
-        "available": true
+        "available": false
       },
       {
         "sku": "A088-A",
@@ -762,7 +762,7 @@
         "sku": "M121-V11",
         "title": "Default Title",
         "price": "10.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -1378,7 +1378,7 @@
         "sku": "U153",
         "title": "Default Title",
         "price": "14.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3692,7 +3692,7 @@
         "sku": "K118",
         "title": "Default Title",
         "price": "59.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3771,7 +3771,7 @@
         "sku": "A166",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4370,7 +4370,7 @@
         "sku": "A090-V12",
         "title": "Default Title",
         "price": "8.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5104,7 +5104,7 @@
         "sku": "C126",
         "title": "Default Title",
         "price": "17.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5191,7 +5191,7 @@
         "sku": "K125",
         "title": "Default Title",
         "price": "12.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5404,7 +5404,7 @@
         "sku": "K038-B",
         "title": "Default Title",
         "price": "45.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6682,7 +6682,7 @@
         "sku": "U192",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6894,7 +6894,7 @@
         "sku": "U085",
         "title": "Default Title",
         "price": "11.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7439,6 +7439,49 @@
         "A"
       ],
       "interfaces": [],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "chain-buzzer",
+    "shopifyId": 9289074737409,
+    "title": "Chain Buzzer",
+    "eol": false,
+    "sku": "U224",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-chain",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-CHAIN-HMI"
+    ],
+    "descriptionText": "Chain Buzzer Overview\n Chain Buzzer is a buzzer output node in the M5Stack Chain series. It features a built-in buzzer and programmable RGB LED, making it suitable for audible notifications, status alerts, smart home alarms, and other applications. It integrates an STM32G031G8U6 core MCU and uses a UART serial daisy-chain communication protocol. Two HY2.0-4P expansion ports allow additional Chain series devices to be connected, enabling richer audio-visual interactive applications.\n Buzzer, RGB LED, and Daisy-Chain Features\n M5Stack Chain series\n Buzzer audio output\n STM32G031G8U6 core MCU\n 1 x RGB LED\n UART serial daisy-chain communication protocol\n 2 x HY2.0-4P expansion ports for connecting Chain series devices\n What Is Included with Chain Buzzer\n 1 x Chain Buzzer\n 1 x Chain Bridge\n Applications for Alerts and Smart Home Alarms\n Audible notifications\n Device status alerts\n Smart home alarms\n Chain Buzzer Technical Specifications\n Specification \n Parameter \n MCU \n STM32G031G8U6 \n Input Power \n DC 5V \n Communication \n UART 115200bps@8N1 \n Interface \n 2 x HY2.0-4P \n Buzzer \n MLT-5020 \n RGB LED \n 1 x WS2812C \n Working Power \n 5V@198.3mA (buzzer duty cycle 50%, frequency 9.9kHz) \n Working Temp \n 0 ~ 40°C \n Product Size \n 23.9 x 23.9 x 16.0mm \n Product Weight \n 5.9g \n Package Size \n 138.0 x 93.0 x 17.0mm \n Gross Weight \n 9.2g \n Learn and Documents\n → DOCUMENTS",
+    "variants": [
+      {
+        "sku": "U224",
+        "title": "Default Title",
+        "price": "6.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 6.5,
+      "max": 6.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Chain_Buzzer_16.webp?v=1784857258",
+    "url": "https://shop.m5stack.com/products/chain-buzzer",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "UART"
+      ],
       "i2cAddress": null,
       "source": "extracted"
     }
@@ -8246,7 +8289,7 @@
         "sku": "M031-A",
         "title": "Default Title",
         "price": "79.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -10252,7 +10295,7 @@
         "sku": "U082-F",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10959,7 +11002,7 @@
         "sku": "U152",
         "title": "Default Title",
         "price": "2.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -11410,7 +11453,7 @@
         "sku": "U190",
         "title": "Default Title",
         "price": "12.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13069,7 +13112,7 @@
         "sku": "U079",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -13252,7 +13295,7 @@
         "sku": "U133-V11",
         "title": "Default Title",
         "price": "15.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -14407,7 +14450,7 @@
         "sku": "U184-CN470",
         "title": "Default Title",
         "price": "18.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15388,7 +15431,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15949,7 +15992,7 @@
         "sku": "U202",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16515,13 +16558,16 @@
     "handle": "m5stack-core2-esp32-iot-development-kit-v1-1",
     "shopifyId": 8106285105409,
     "title": "M5Stack Core2 ESP32 IoT Development Kit V1.1",
-    "eol": true,
+    "eol": false,
     "sku": "K010-V11",
-    "category": "kit",
-    "formFactor": "STANDALONE",
-    "subcategories": [],
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers"
+    ],
     "tags": [
-      "EOL"
+      "CORE",
+      "ESP32"
     ],
     "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n Core2 v1.3\n Description\n Core2 v1.1 is the iterative version of the second-generation host in the M5Stack development kit series, further enhancing the functionality based on the original generation host. It features a power management chip solution of AXP2101+INA3221, offering more comprehensive hardware functions, adding an RTC battery to meet the needs of low-power applications and precise timing functions. Its core controller is equipped with an ESP32-D0WDQ6-V3, featuring two independently controllable Xtensa® 32-bit LX6 processors, with a main frequency of up to 240Mhz, supporting WiFi functionality, and onboard 16MB Flash and 8MB PSRAM. Programs can be downloaded via the TYPE-C interface, and the robust configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor, providing tactile feedback and vibration alert functions. The built-in RTC module and battery dedicated to RTC power supply offer precise timing functions. The power section features an AXP2101 power management chip for effective control of body power consumption, with a built-in blue power indicator light. Additionally, the body is equipped with a TF-card (microSD) slot and speaker. To ensure higher quality sound effects, an I2S di",
     "variants": [
@@ -16736,7 +16782,7 @@
         "sku": "K128",
         "title": "Default Title",
         "price": "59.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16775,7 +16821,7 @@
         "sku": "K128-LITE",
         "title": "Default Title",
         "price": "44.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18713,7 +18759,7 @@
         "sku": "U078-M12",
         "title": "Default Title",
         "price": "95.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19211,7 +19257,7 @@
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19827,8 +19873,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-S3",
@@ -21579,7 +21624,7 @@
         "sku": "U055",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22983,7 +23028,7 @@
         "sku": "U150",
         "title": "Default Title",
         "price": "21.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -23115,7 +23160,7 @@
         "sku": "A045-B",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -23478,7 +23523,7 @@
         "sku": "U119",
         "title": "Default Title",
         "price": "10.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24702,7 +24747,7 @@
         "sku": "M139",
         "title": "Default Title",
         "price": "18.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -25523,7 +25568,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26520,7 +26565,7 @@
     "tags": [
       "BASE"
     ],
-    "descriptionText": "StackChan Body is the body part of the StackChan robot and can be used as a replacement for StackChan mainframe maintenance. The body includes a USB-C power/data interface, 550 mAh battery, two feedback-compatible servos (360° unlimited rotation horizontally and 90° vertically), 12 RGB LEDs (2 rows), infrared transmitter/receiver, a three-zone capacitive touch panel on top, full NFC, and other peripherals. It can replace the original body and is compatible with the StackChan AI desktop robot.\n Features\n Replacement and maintenance module for StackChan body\n USB-C power/data connection\n 550 mAh battery\n Two servos with feedback (360° horizontal endless rotation, 90° vertical rotation)\n 12 RGB LEDs (2 rows)\n Infrared transmitter and receiver\n Top 3-zone touch panel\n Includes\n 1 x StackChan Body\n 2 x M3 * 14mm screws (button head, mechanical thread)\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n 1 x Hex Key L-Shape 2.5mm (For M3 Screw)\n 1 x 1.25-4P male-to-female same-direction extension cable (100mm)\n Applications\n StackChan body replacement\n Specifications\n Specification \n Parameter \n Product Size \n 48.0 x 60.1 x 70.4mm \n Product Weight \n 145.3g \n Package Size \n 100.0 x 100.0 x 57.0mm \n Gross Weight \n 201.5g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "StackChan Body is the body part of the StackChan robot and can be used as a replacement for StackChan mainframe maintenance. The body includes a USB-C power/data interface, 550 mAh battery, two feedback-compatible servos (360° unlimited rotation horizontally and 90° vertically), 12 RGB LEDs (2 rows), infrared transmitter/receiver, a three-zone capacitive touch panel on top, full NFC, and other peripherals. It can replace the original body and is compatible with the StackChan AI desktop robot.\n Stackchan App\n The Stackchan App supports connections only to original StackChan core controllers, including those in the standard StackChan unit and the Remote Controller Kit, as well as the separately sold StackChan Core replacement controller. Before use, the StackChan user firmware must be flashed to the device. Note that this app cannot connect to non-original core models such as CoreS3, CoreS3-SE, and CoreS3-Lite.\n Features\n Replacement and maintenance module for StackChan body\n USB-C power/data connection\n 550 mAh battery\n Two servos with feedback (360° horizontal endless rotation, 90° vertical rotation)\n 12 RGB LEDs (2 rows)\n Infrared transmitter and receiver\n Top 3-zone touch panel\n Includes\n 1 x StackChan Body\n 2 x M3 * 14mm screws (button head, mechanical thread)\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n 1 x Hex Key L-Shape 2.5mm (For M3 Screw)\n 1 x 1.25-4P male-to-female same-direction extension cable (100mm)\n Applications\n StackChan body replacement\n Specifications\n Specif",
     "variants": [
       {
         "sku": "A180",
@@ -26560,7 +26605,7 @@
       "CORE",
       "ESP32-S3"
     ],
-    "descriptionText": "StackChan Core is the main controller for the StackChan robot and is intended for mainboard replacement. It uses an ESP32-S3 controller with a 240 MHz dual-core processor, built-in 16MB Flash and 8MB PSRAM, and native Wi-Fi + BLE wireless communication. The board integrates many built-in peripherals: a rugged 2.0-inch capacitive touch screen, a 0.3 MP camera, proximity sensor, ambient light sensor, and nine-axis IMU; it also provides a microSD card slot, an onboard 1W speaker, dual microphones, power and reset buttons, and is suitable as a direct replacement for the original controller in StackChan AI desktop robots.\n Note CoreS3 , CoreS3-Lite , and StackChan Core differ only in appearance and have no difference in hardware functionality. StackChan Core comes preloaded with StackChan firmware at the factory. After flashing the StackChan firmware, CoreS3 and CoreS3-Lite can also be used directly as the main controller for the StackChan robot. For the firmware flashing method, refer to the Restore Factory Firmware section on the StackChan product page. \n Features\n Main controller replacement for StackChan\n Based on ESP32 with Wi-Fi @16MB Flash, 8MB PSRAM\n Integrated camera, proximity sensor, speaker, real-time clock, I2S amplifier, dual microphones, capacitive touch screen, power button, reset button, and gyroscope\n Rugged glass-based construction\n Supports OTG and CDC\n Uses AXP2101 power management for a low-power design\n Includes\n 1 x StackChan Core\n 1 x Hex Key L-Shape 1.5mm",
+    "descriptionText": "StackChan Core is the main controller for the StackChan robot and is intended for mainboard replacement. It uses an ESP32-S3 controller with a 240 MHz dual-core processor, built-in 16MB Flash and 8MB PSRAM, and native Wi-Fi + BLE wireless communication. The board integrates many built-in peripherals: a rugged 2.0-inch capacitive touch screen, a 0.3 MP camera, proximity sensor, ambient light sensor, and nine-axis IMU; it also provides a microSD card slot, an onboard 1W speaker, dual microphones, power and reset buttons, and is suitable as a direct replacement for the original controller in StackChan AI desktop robots.\n Stackchan App\n The Stackchan App supports connections only to original StackChan core controllers, including those in the standard StackChan unit and the Remote Controller Kit, as well as the separately sold StackChan Core replacement controller. Before use, the StackChan user firmware must be flashed to the device. Note that this app cannot connect to non-original core models such as CoreS3, CoreS3-SE, and CoreS3-Lite.\n Features\n Main controller replacement for StackChan\n Based on ESP32 with Wi-Fi @16MB Flash, 8MB PSRAM\n Integrated camera, proximity sensor, speaker, real-time clock, I2S amplifier, dual microphones, capacitive touch screen, power button, reset button, and gyroscope\n Rugged glass-based construction\n Supports OTG and CDC\n Uses AXP2101 power management for a low-power design\n Includes\n 1 x StackChan Core\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n 1",
     "variants": [
       {
         "sku": "C156",
@@ -27123,7 +27168,7 @@
         "sku": "U149",
         "title": "Default Title",
         "price": "69.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28153,7 +28198,7 @@
         "sku": "U078-D",
         "title": "Default Title",
         "price": "75.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28400,7 +28445,7 @@
         "sku": "U151",
         "title": "Default Title",
         "price": "2.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28749,7 +28794,7 @@
         "sku": "U030",
         "title": "Default Title",
         "price": "3.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
