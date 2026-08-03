@@ -22,8 +22,8 @@
   {
     "category": "module",
     "label": "Modules (M-Bus stackable, for Core family)",
-    "total": 117,
-    "eolCount": 50,
+    "total": 116,
+    "eolCount": 49,
     "subcategories": [
       {
         "handle": "for-stack",
@@ -42,7 +42,7 @@
   {
     "category": "accessory",
     "label": "Accessories (cables, mounts, power ...)",
-    "total": 103,
+    "total": 104,
     "eolCount": 35,
     "subcategories": [
       {
@@ -51,14 +51,14 @@
       },
       {
         "handle": "for-chain",
-        "count": 13
-      },
-      {
-        "handle": "for-stack",
-        "count": 6
+        "count": 14
       },
       {
         "handle": "m5stack-new-arrival",
+        "count": 7
+      },
+      {
+        "handle": "for-stack",
         "count": 6
       },
       {
@@ -71,11 +71,11 @@
     "category": "kit",
     "label": "Kits",
     "total": 84,
-    "eolCount": 60,
+    "eolCount": 59,
     "subcategories": [
       {
         "handle": "accessories",
-        "count": 13
+        "count": 14
       },
       {
         "handle": "m5stack-new-arrival",
@@ -90,12 +90,12 @@
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 69,
+    "total": 70,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 66
+        "count": 67
       },
       {
         "handle": "m5stack-new-arrival",

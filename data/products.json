@@ -593,7 +593,7 @@
         "sku": "U056",
         "title": "Default Title",
         "price": "3.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -2872,7 +2872,7 @@
         "sku": "K042-D",
         "title": "Default Title",
         "price": "31.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -4370,7 +4370,7 @@
         "sku": "A090-V12",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4776,7 +4776,7 @@
         "sku": "A163",
         "title": "Default Title",
         "price": "2.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5061,7 +5061,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5104,7 +5104,7 @@
         "sku": "C126",
         "title": "Default Title",
         "price": "17.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6894,7 +6894,7 @@
         "sku": "U085",
         "title": "Default Title",
         "price": "11.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7156,21 +7156,23 @@
     "handle": "cardputer-accessory-kit",
     "shopifyId": 8568767054081,
     "title": "Cardputer Accessory Kit (M5StampS3 + Display)",
-    "eol": true,
+    "eol": false,
     "sku": "A145",
     "category": "kit",
     "formFactor": "STANDALONE",
-    "subcategories": [],
-    "tags": [
-      "EOL"
+    "subcategories": [
+      "accessories"
     ],
-    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n Cardputer Accessory Kit v1.1\n Description\n The Cardputer Accessory Kit is a repair kit designed for the Cardputer, specifically addressing issues such as bent or broken pins on the Stamp-S3 main control due to frequent plugging and unplugging, as well as the detachment of the screen FPC connector. The kit includes a tutorial to assist users in performing repairs and replacements themselves.\n Includes\n 1 x ST7789V2 1.14 Inch Screen\n 1 x Stamp-S3 PIN1.27\n 1 x M2 Key\n Applications\n Cardputer Maintenance\n Specifications\n Specification \n Details \n Product Size \n Stamp-S3 PIN1.27: 26 x 18 x 4.6mm\n1.14inch ST7789v2 Screen: 17.6 x 31 x 1.6mm \n Package Size \n 133 x 95 x 52mm \n Product Weight \n Stamp-S3 PIN1.27: 3.1g\n1.14inch ST7789v2 Screen: 1.7g \n Package Weight \n 20.6g \n Learn and Documents\n → DOCUMENTS",
+    "tags": [
+      "ACCESSORIES-OTHERS"
+    ],
+    "descriptionText": "Product Status Notice\n Please note that this product is now EOL (End of Life), and the currently available units are from our remaining stock. Once sold out, it will be discontinued again.\n Description\n The Cardputer Accessory Kit is a repair kit designed for the Cardputer, specifically addressing issues such as bent or broken pins on the Stamp-S3 main control due to frequent plugging and unplugging, as well as the detachment of the screen FPC connector. The kit includes a tutorial to assist users in performing repairs and replacements themselves.\n Includes\n 1 x ST7789V2 1.14 Inch Screen\n 1 x Stamp-S3 PIN1.27\n 1 x M2 Key\n Applications\n Cardputer Maintenance\n Specifications\n Specification \n Details \n Product Size \n Stamp-S3 PIN1.27: 26 x 18 x 4.6mm\n1.14inch ST7789v2 Screen: 17.6 x 31 x 1.6mm \n Package Size \n 133 x 95 x 52mm \n Product Weight \n Stamp-S3 PIN1.27: 3.1g\n1.14inch ST7789v2 Screen: 1.7g \n Package Weight \n 20.6g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "A145",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7737,6 +7739,49 @@
     }
   },
   {
+    "handle": "chain-pir-stm32g031",
+    "shopifyId": 9299659686145,
+    "title": "Chain PIR (STM32G031)",
+    "eol": false,
+    "sku": "U225",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-chain",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-CHAIN-SENSOR"
+    ],
+    "descriptionText": "Chain PIR is a pyroelectric infrared human presence sensing node in the M5Stack Chain series. It features a built-in pyroelectric infrared sensor and an integrated programmable RGB LED. It is suitable for applications such as human activity detection, smart home automation, and security alarms.\n Chain PIR integrates an STM32G031G8U6 data processor and uses a UART serial daisy-chain communication protocol. Its two HY2.0-4P expansion interfaces allow additional Chain series devices to be connected, enabling richer interactive applications.\n Features\n M5Stack Chain series\n Pyroelectric infrared human presence sensing\n STM32G031G8U6 main controller\n UART serial daisy-chain communication protocol\n 1 x RGB LED\n 2 x HY2.0-4P expansion interfaces for connecting Chain series devices\n Two operating modes:\n Automatic reporting mode: Automatically sends data to the host when the PIR status changes\n Query mode: The host initiates a query, and the slave responds with the current PIR status\n Includes\n 1 x Chain PIR\n 1 x Chain Bridge\n Applications\n Human activity detection\n Smart home automation\n Security alarms\n Specifications\n Specification \n Parameter \n MCU \n STM32G031G8U6 \n Power Input \n DC 5V \n Communication \n UART 115200bps@8N1 \n Interface \n 2 x HY2.0-4P \n RGB LED \n 1 x WS2812C \n Sensor \n AS312 Pyroelectric Infrared Sensor \n Maximum Detection Distance \n 2.4m \n Detection Angle \n ±60° \n Detection Interval \n 2s \n Operating Power Consumption \n 5V@10.74mA \n Product Size \n 23.9 x 23.9 x 22.3",
+    "variants": [
+      {
+        "sku": "U225",
+        "title": "Default Title",
+        "price": "6.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 6.5,
+      "max": 6.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Chain_PIR_STM32G031_2.webp?v=1785469041",
+    "url": "https://shop.m5stack.com/products/chain-pir-stm32g031",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "UART"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "chain-return-connector-for-chain-series",
     "shopifyId": 8816558014721,
     "title": "Chain Return Connector for Chain Series (5PCS)",
@@ -7839,7 +7884,7 @@
         "sku": "U209",
         "title": "Default Title",
         "price": "8.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -8684,7 +8729,7 @@
         "sku": "A002",
         "title": "Default Title",
         "price": "1.59",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10295,7 +10340,7 @@
         "sku": "U082-F",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -11002,7 +11047,7 @@
         "sku": "U152",
         "title": "Default Title",
         "price": "2.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12328,7 +12373,7 @@
         "sku": "U041-B",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -12710,7 +12755,7 @@
         "sku": "U175",
         "title": "Default Title",
         "price": "4.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13255,7 +13300,7 @@
         "sku": "A164",
         "title": "Default Title",
         "price": "11.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13295,7 +13340,7 @@
         "sku": "U133-V11",
         "title": "Default Title",
         "price": "15.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15431,7 +15476,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16569,13 +16614,13 @@
       "CORE",
       "ESP32"
     ],
-    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n Core2 v1.3\n Description\n Core2 v1.1 is the iterative version of the second-generation host in the M5Stack development kit series, further enhancing the functionality based on the original generation host. It features a power management chip solution of AXP2101+INA3221, offering more comprehensive hardware functions, adding an RTC battery to meet the needs of low-power applications and precise timing functions. Its core controller is equipped with an ESP32-D0WDQ6-V3, featuring two independently controllable Xtensa® 32-bit LX6 processors, with a main frequency of up to 240Mhz, supporting WiFi functionality, and onboard 16MB Flash and 8MB PSRAM. Programs can be downloaded via the TYPE-C interface, and the robust configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor, providing tactile feedback and vibration alert functions. The built-in RTC module and battery dedicated to RTC power supply offer precise timing functions. The power section features an AXP2101 power management chip for effective control of body power consumption, with a built-in blue power indicator light. Additionally, the body is equipped with a TF-card (microSD) slot and speaker. To ensure higher quality sound effects, an I2S di",
+    "descriptionText": "Product Status Notice\n Please note that this product is now EOL (End of Life), and the currently available units are from our remaining stock. Once sold out, it will be discontinued again.\n Description\n Core2 v1.1 is the iterative version of the second-generation host in the M5Stack development kit series, further enhancing the functionality based on the original generation host. It features a power management chip solution of AXP2101+INA3221, offering more comprehensive hardware functions, adding an RTC battery to meet the needs of low-power applications and precise timing functions. Its core controller is equipped with an ESP32-D0WDQ6-V3, featuring two independently controllable Xtensa® 32-bit LX6 processors, with a main frequency of up to 240Mhz, supporting WiFi functionality, and onboard 16MB Flash and 8MB PSRAM. Programs can be downloaded via the TYPE-C interface, and the robust configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor, providing tactile feedback and vibration alert functions. The built-in RTC module and battery dedicated to RTC power supply offer precise timing functions. The power section features an AXP2101 power management chip for effective control of body power consumption, with a built-in blue power indicator light. Additionally, the body is equipped with a",
     "variants": [
       {
         "sku": "K010-V11",
         "title": "Default Title",
         "price": "46.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16627,7 +16672,7 @@
         "sku": "K010-V13",
         "title": "Default Title",
         "price": "42.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16736,7 +16781,7 @@
         "sku": "K135",
         "title": "Default Title",
         "price": "119.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16782,7 +16827,7 @@
         "sku": "K128",
         "title": "Default Title",
         "price": "59.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16983,7 +17028,7 @@
         "sku": "K130-V11",
         "title": "Default Title",
         "price": "34.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17704,7 +17749,7 @@
         "sku": "M148",
         "title": "Default Title",
         "price": "24.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19243,15 +19288,18 @@
     "handle": "m5stamp-esp32s3-module",
     "shopifyId": 7967517245697,
     "title": "M5Stamp ESP32S3 Module",
-    "eol": true,
+    "eol": false,
     "sku": "S007",
-    "category": "module",
-    "formFactor": "MODULE",
-    "subcategories": [],
-    "tags": [
-      "EOL"
+    "category": "controller",
+    "formFactor": "STAMP_HOST",
+    "subcategories": [
+      "controllers"
     ],
-    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n Stamp-S3A\n Description\n Stamp-S3 is a highly integrated embedded core module based on the Espressif ESP32-S3FN8 SoC with 8 MB SPI flash . It features a high-performance 32-bit Xtensa LX7 dual-core processor running at up to 240 MHz and integrates a 5 V-to-3.3 V power circuit , an RGB status LED , and a programmable button .\nThe module exposes 23 GPIO pins of the ESP32-S3 on both 1.27 mm and 2.54 mm pitch headers, supporting multiple mounting options such as SMT, DIP male header, DIP female header, and fly-wire .\nWith its compact size, powerful performance, rich IO resources, and low-power consumption, the module is ideal for embedded IoT controller applications.\n Features\n ESP32-S3FN8 (2.4 GHz Wi-Fi)\n Minimum system board\n Multiple IO breakout options (SMT, DIP, fly-wire)\n Integrated programmable RGB LED and button\n Supports UiFlow graphical programming\n Development Platform\n UiFlow2\n Arduino IDE\n ESP-IDF\n PlatformIO\n Includes\n 1 x Stamp-S3\n 1 x HY2.0-4P Terminal\n 1 x 2.54-9P Male Header\n 1 x 2.54-6P Male Header\n 1 x Hex Key L-Shape\n 1 x User Manual\n Applications\n Specifications\n Specification \n Parameter \n SoC \n ESP32-S3FN8@Xtensa LX7 dual-core, main frequency up to 240MHz \n DC-DC \n MUN3CAD01-SC \n Flash \n 8MB \n Wi-Fi \n 2.4 GHz Wi-Fi \n Input Voltage \n 5V \n Power Consumption \n Sleep mode: – USB Type-C power: DC 5 V @ 400.67 µA – VIN_5V power: DC 5 V @ 310.89 µA;\nStandby mode: – USB Type",
+    "tags": [
+      "ESP32-S3",
+      "STAMP"
+    ],
+    "descriptionText": "Product Status Notice\n Please note that this product is now EOL (End of Life), and the currently available units are from our remaining stock. Once sold out, it will be discontinued again.\n Description\n Stamp-S3 is a highly integrated embedded core module based on the Espressif ESP32-S3FN8 SoC with 8 MB SPI flash . It features a high-performance 32-bit Xtensa LX7 dual-core processor running at up to 240 MHz and integrates a 5 V-to-3.3 V power circuit , an RGB status LED , and a programmable button .\nThe module exposes 23 GPIO pins of the ESP32-S3 on both 1.27 mm and 2.54 mm pitch headers, supporting multiple mounting options such as SMT, DIP male header, DIP female header, and fly-wire .\nWith its compact size, powerful performance, rich IO resources, and low-power consumption, the module is ideal for embedded IoT controller applications.\n Features\n ESP32-S3FN8 (2.4 GHz Wi-Fi)\n Minimum system board\n Multiple IO breakout options (SMT, DIP, fly-wire)\n Integrated programmable RGB LED and button\n Supports UiFlow graphical programming\n Development Platform\n UiFlow2\n Arduino IDE\n ESP-IDF\n PlatformIO\n Includes\n 1 x Stamp-S3\n 1 x HY2.0-4P Terminal\n 1 x 2.54-9P Male Header\n 1 x 2.54-6P Male Header\n 1 x Hex Key L-Shape\n 1 x User Manual\n Applications\n Specifications\n Specification \n Parameter \n SoC \n ESP32-S3FN8@Xtensa LX7 dual-core, main frequency up to 240MHz \n DC-DC \n MUN3CAD01-SC \n Flash \n 8MB \n Wi-Fi \n 2.4 GHz Wi-Fi \n Input Voltage \n 5V \n Power Consumption \n Sleep mode: – USB Type-C",
     "variants": [
       {
         "sku": "S007",
@@ -21183,6 +21231,7 @@
       "m5stack-new-arrival"
     ],
     "tags": [
+      "Backorder",
       "ESP32",
       "STICK"
     ],
@@ -21238,7 +21287,7 @@
         "sku": "K016-H",
         "title": "Default Title",
         "price": "22.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21336,7 +21385,7 @@
         "sku": "K016-H2",
         "title": "Default Title",
         "price": "22.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22822,7 +22871,7 @@
         "sku": "U196",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25527,7 +25576,7 @@
         "sku": "U188",
         "title": "Default Title",
         "price": "43.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26571,7 +26620,7 @@
         "sku": "A180",
         "title": "Default Title",
         "price": "55.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27168,7 +27217,7 @@
         "sku": "U149",
         "title": "Default Title",
         "price": "69.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27425,7 +27474,7 @@
         "sku": "U088",
         "title": "Default Title",
         "price": "10.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27527,7 +27576,7 @@
         "sku": "U100",
         "title": "Default Title",
         "price": "55.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
