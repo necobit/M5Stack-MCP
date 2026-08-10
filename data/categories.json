@@ -2,16 +2,16 @@
   {
     "category": "unit",
     "label": "Units (Grove-connected sensors & actuators)",
-    "total": 195,
+    "total": 196,
     "eolCount": 31,
     "subcategories": [
       {
         "handle": "unit",
-        "count": 161
+        "count": 162
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 3
+        "count": 4
       },
       {
         "handle": "accessories",
@@ -70,12 +70,12 @@
   {
     "category": "kit",
     "label": "Kits",
-    "total": 84,
-    "eolCount": 59,
+    "total": 86,
+    "eolCount": 62,
     "subcategories": [
       {
         "handle": "accessories",
-        "count": 14
+        "count": 13
       },
       {
         "handle": "m5stack-new-arrival",
@@ -90,16 +90,16 @@
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 70,
+    "total": 68,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 67
+        "count": 65
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 14
+        "count": 13
       }
     ]
   },
@@ -144,10 +144,6 @@
       {
         "handle": "for-stamp",
         "count": 8
-      },
-      {
-        "handle": "m5stack-new-arrival",
-        "count": 1
       }
     ]
   }

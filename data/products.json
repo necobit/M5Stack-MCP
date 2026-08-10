@@ -1335,7 +1335,7 @@
         "sku": "U165",
         "title": "Default Title",
         "price": "6.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -1378,7 +1378,7 @@
         "sku": "U153",
         "title": "Default Title",
         "price": "14.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -1675,6 +1675,45 @@
     }
   },
   {
+    "handle": "add-on-display-in-for-poe-p4-lt6911d",
+    "shopifyId": 9305175032065,
+    "title": "Add-on Display In for PoE-P4 (LT6911D)",
+    "eol": false,
+    "sku": "U220",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-ETHERNET"
+    ],
+    "descriptionText": "AddOn Display In For PoE-P4 is an HDMI video input expansion module designed for Unit PoE-P4 . Built around the LT6911D chip, it converts HDMI video signals from external devices into 2-Lane MIPI CSI signals and transmits them to Unit PoE-P4, enabling the host controller to capture, process, and analyze video.\n In addition to video input, the module provides peripheral connectivity and local storage expansion. The onboard microSD slot connects to the host controller's SDIO bus for storing captured video, images, and related data, while the onboard USB Type-A port supports peripherals such as mice and keyboards. Video, control, storage, and USB signals are routed to Unit PoE-P4 through a 24P FPC interface. The module is suitable for HDMI video capture, image processing and analysis, machine vision, video surveillance, and embedded multimedia terminals.\n Features\n HDMI video input expansion module for Unit PoE-P4\n HDMI to MIPI CSI video input conversion based on LT6911D \n Standard HDMI Type-A input for quick connection to external HDMI video sources\n Onboard microSD slot connected to the host controller's SDIO bus for local storage of captured video, images, and related data\n Onboard USB Type-A port supporting peripherals such as mice and keyboards\n Supports integrated applications combining video capture, image processing, peripheral connectivity, and local storage\n Supports 1280 x 720 @ 60Hz and 1920 x 1080 @ 30Hz input resolutions\n Note\n Because GPU scaling is enabled by def",
+    "variants": [
+      {
+        "sku": "U220",
+        "title": "Default Title",
+        "price": "9.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 9.95,
+      "max": 9.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Chain_Add-on_Display_In_for_PoE-P4_1.webp?v=1786000383",
+    "url": "https://shop.m5stack.com/products/add-on-display-in-for-poe-p4-lt6911d",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "add-on-display-out-for-poe-p4-lt8912b",
     "shopifyId": 9218420834561,
     "title": "Add-on Display Out for PoE-P4 (LT8912B)",
@@ -1886,7 +1925,7 @@
         "sku": "M133",
         "title": "Default Title",
         "price": "24.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3594,7 +3633,7 @@
         "sku": "T001",
         "title": "Default Title",
         "price": "9.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -4050,7 +4089,7 @@
         "sku": "A152-US915",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7156,23 +7195,21 @@
     "handle": "cardputer-accessory-kit",
     "shopifyId": 8568767054081,
     "title": "Cardputer Accessory Kit (M5StampS3 + Display)",
-    "eol": false,
+    "eol": true,
     "sku": "A145",
     "category": "kit",
     "formFactor": "STANDALONE",
-    "subcategories": [
-      "accessories"
-    ],
+    "subcategories": [],
     "tags": [
-      "ACCESSORIES-OTHERS"
+      "EOL"
     ],
-    "descriptionText": "Product Status Notice\n Please note that this product is now EOL (End of Life), and the currently available units are from our remaining stock. Once sold out, it will be discontinued again.\n Description\n The Cardputer Accessory Kit is a repair kit designed for the Cardputer, specifically addressing issues such as bent or broken pins on the Stamp-S3 main control due to frequent plugging and unplugging, as well as the detachment of the screen FPC connector. The kit includes a tutorial to assist users in performing repairs and replacements themselves.\n Includes\n 1 x ST7789V2 1.14 Inch Screen\n 1 x Stamp-S3 PIN1.27\n 1 x M2 Key\n Applications\n Cardputer Maintenance\n Specifications\n Specification \n Details \n Product Size \n Stamp-S3 PIN1.27: 26 x 18 x 4.6mm\n1.14inch ST7789v2 Screen: 17.6 x 31 x 1.6mm \n Package Size \n 133 x 95 x 52mm \n Product Weight \n Stamp-S3 PIN1.27: 3.1g\n1.14inch ST7789v2 Screen: 1.7g \n Package Weight \n 20.6g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . Please order the new version: Cardputer Accessory Kit v1.1 (M5StampS3A + Display) \n Description\n The Cardputer Accessory Kit is a repair kit designed for the Cardputer, specifically addressing issues such as bent or broken pins on the Stamp-S3 main control due to frequent plugging and unplugging, as well as the detachment of the screen FPC connector. The kit includes a tutorial to assist users in performing repairs and replacements themselves.\n Includes\n 1 x ST7789V2 1.14 Inch Screen\n 1 x Stamp-S3 PIN1.27\n 1 x M2 Key\n Applications\n Cardputer Maintenance\n Specifications\n Specification \n Details \n Product Size \n Stamp-S3 PIN1.27: 26 x 18 x 4.6mm\n1.14inch ST7789v2 Screen: 17.6 x 31 x 1.6mm \n Package Size \n 133 x 95 x 52mm \n Product Weight \n Stamp-S3 PIN1.27: 3.1g\n1.14inch ST7789v2 Screen: 1.7g \n Package Weight \n 20.6g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "A145",
         "title": "Default Title",
         "price": "9.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7884,7 +7921,7 @@
         "sku": "U209",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -8729,7 +8766,7 @@
         "sku": "A002",
         "title": "Default Title",
         "price": "1.59",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -11628,7 +11665,7 @@
         "sku": "M003-V21",
         "title": "Default Title",
         "price": "13.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -12669,7 +12706,7 @@
         "sku": "U200",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13668,7 +13705,7 @@
         "sku": "U065",
         "title": "Default Title",
         "price": "3.75",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13716,7 +13753,7 @@
         "sku": "U066",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16137,24 +16174,21 @@
     "handle": "m5stack-capsule-kit-w-m5stamps3",
     "shopifyId": 8047581626625,
     "title": "M5Stack Capsule Kit with M5StampS3",
-    "eol": false,
+    "eol": true,
     "sku": "K129",
-    "category": "controller",
-    "formFactor": "STAMP_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [],
     "tags": [
-      "ESP32-S3",
-      "STAMP"
+      "EOL"
     ],
-    "descriptionText": "Capsule is a multifunctional embedded development platform using Stamp-S3 as the core controller, integrating key functions such as sensors, power supply, storage, and control. It features a high-performance BMI270 IMU for precise motion tracking and attitude control, an SPM1423 microphone sensor for recording, voice recognition, and wake-up, and an infrared sensor for remote control. For power supply, the platform has a built-in 250mAh battery and supports external battery expansion to ensure long-term operation. In terms of data storage, the TF card slot expands storage capacity for data logging and media storage. The RTC8563 real-time clock module provides high-precision time and date information and supports timed wake-up for low-power functionality. Additionally, a buzzer provides audio feedback, while the Proto pin header offers extra expandability, allowing connection to custom sensors and expansion boards to meet various project needs. Structurally, it embeds 4 magnets and 2 M3 screws for attachment, increasing usage scenarios. This product is suitable for building IoT, embedded systems, sensor applications, and smart device data acquisition systems.\n Features\n Versatility: Integrates functions such as IMU, MIC, infrared, storage, clock, buzzer, and Proto expansion\n Flexible expandability: Through the Proto pin header and TF card slot, M5Capsule offers expandability, allowing connection to custom sensors and expansion boards to meet specific project needs.\n Voice reco",
+    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n M5Stack Capsule Kit v1.1 with M5StampS3A\n Description\n Capsule is a multifunctional embedded development platform using Stamp-S3 as the core controller, integrating key functions such as sensors, power supply, storage, and control. It features a high-performance BMI270 IMU for precise motion tracking and attitude control, an SPM1423 microphone sensor for recording, voice recognition, and wake-up, and an infrared sensor for remote control. For power supply, the platform has a built-in 250mAh battery and supports external battery expansion to ensure long-term operation. In terms of data storage, the TF card slot expands storage capacity for data logging and media storage. The RTC8563 real-time clock module provides high-precision time and date information and supports timed wake-up for low-power functionality. Additionally, a buzzer provides audio feedback, while the Proto pin header offers extra expandability, allowing connection to custom sensors and expansion boards to meet various project needs. Structurally, it embeds 4 magnets and 2 M3 screws for attachment, increasing usage scenarios. This product is suitable for building IoT, embedded systems, sensor applications, and smart device data acquisition systems.\n Features\n Versatility: Integrates functions such as IMU, MIC, infrared, storage, clock, buzzer, and Proto expansion\n Flexible expandability: Through the Proto pin header and T",
     "variants": [
       {
         "sku": "K129",
         "title": "Default Title",
         "price": "21.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16603,18 +16637,15 @@
     "handle": "m5stack-core2-esp32-iot-development-kit-v1-1",
     "shopifyId": 8106285105409,
     "title": "M5Stack Core2 ESP32 IoT Development Kit V1.1",
-    "eol": false,
+    "eol": true,
     "sku": "K010-V11",
-    "category": "controller",
-    "formFactor": "CORE_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [],
     "tags": [
-      "CORE",
-      "ESP32"
+      "EOL"
     ],
-    "descriptionText": "Product Status Notice\n Please note that this product is now EOL (End of Life), and the currently available units are from our remaining stock. Once sold out, it will be discontinued again.\n Description\n Core2 v1.1 is the iterative version of the second-generation host in the M5Stack development kit series, further enhancing the functionality based on the original generation host. It features a power management chip solution of AXP2101+INA3221, offering more comprehensive hardware functions, adding an RTC battery to meet the needs of low-power applications and precise timing functions. Its core controller is equipped with an ESP32-D0WDQ6-V3, featuring two independently controllable Xtensa® 32-bit LX6 processors, with a main frequency of up to 240Mhz, supporting WiFi functionality, and onboard 16MB Flash and 8MB PSRAM. Programs can be downloaded via the TYPE-C interface, and the robust configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor, providing tactile feedback and vibration alert functions. The built-in RTC module and battery dedicated to RTC power supply offer precise timing functions. The power section features an AXP2101 power management chip for effective control of body power consumption, with a built-in blue power indicator light. Additionally, the body is equipped with a",
+    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n M5Stack Core2 ESP32 IoT Development Kit v1.3\n Description\n Core2 v1.1 is the iterative version of the second-generation host in the M5Stack development kit series, further enhancing the functionality based on the original generation host. It features a power management chip solution of AXP2101+INA3221, offering more comprehensive hardware functions, adding an RTC battery to meet the needs of low-power applications and precise timing functions. Its core controller is equipped with an ESP32-D0WDQ6-V3, featuring two independently controllable Xtensa® 32-bit LX6 processors, with a main frequency of up to 240Mhz, supporting WiFi functionality, and onboard 16MB Flash and 8MB PSRAM. Programs can be downloaded via the TYPE-C interface, and the robust configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor, providing tactile feedback and vibration alert functions. The built-in RTC module and battery dedicated to RTC power supply offer precise timing functions. The power section features an AXP2101 power management chip for effective control of body power consumption, with a built-in blue power indicator light. Additionally, the body is equipped with a TF-card (microSD) slot and speaker. To ensure highe",
     "variants": [
       {
         "sku": "K010-V11",
@@ -16672,7 +16703,7 @@
         "sku": "K010-V13",
         "title": "Default Title",
         "price": "42.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16827,7 +16858,7 @@
         "sku": "K128",
         "title": "Default Title",
         "price": "59.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -17028,7 +17059,7 @@
         "sku": "K130-V11",
         "title": "Default Title",
         "price": "34.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -18458,7 +18489,7 @@
         "sku": "C152",
         "title": "Default Title",
         "price": "45.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -18627,13 +18658,13 @@
         "sku": "K145",
         "title": "With NP-F550 Battery",
         "price": "60.00",
-        "available": true
+        "available": false
       },
       {
         "sku": "C145",
         "title": "Without NP-F550 Battery",
         "price": "55.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19879,8 +19910,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-S3",
@@ -21385,7 +21415,7 @@
         "sku": "K016-H2",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -23209,7 +23239,7 @@
         "sku": "A045-B",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -23572,7 +23602,7 @@
         "sku": "U119",
         "title": "Default Title",
         "price": "10.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -24796,7 +24826,7 @@
         "sku": "M139",
         "title": "Default Title",
         "price": "18.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -24843,7 +24873,7 @@
         "sku": "A146-B",
         "title": "50cm (2pcs a pack)",
         "price": "4.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25576,7 +25606,7 @@
         "sku": "U188",
         "title": "Default Title",
         "price": "43.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26725,8 +26755,7 @@
     "category": "stamp-accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-stamp",
-      "m5stack-new-arrival"
+      "for-stamp"
     ],
     "tags": [
       "ESP32-C6",
@@ -28061,7 +28090,7 @@
         "sku": "U213",
         "title": "Default Title",
         "price": "21.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28494,7 +28523,7 @@
         "sku": "U151",
         "title": "Default Title",
         "price": "2.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28843,7 +28872,7 @@
         "sku": "U030",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
