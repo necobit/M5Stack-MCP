@@ -415,7 +415,7 @@
         "sku": "A088",
         "title": "0.2M",
         "price": "2.25",
-        "available": false
+        "available": true
       },
       {
         "sku": "A088-A",
@@ -1742,7 +1742,7 @@
       "max": 9.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_305926b3-a6cb-42c6-ba2d-0c9c27573986.webp?v=1782979010",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Add-on_Display_Out_for_PoE-P4_2.webp?v=1786524878",
     "url": "https://shop.m5stack.com/products/add-on-display-out-for-poe-p4-lt8912b",
     "docs": null,
     "connectivity": {
@@ -1783,7 +1783,7 @@
       "max": 185,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_45215164-b6a9-4649-89c6-9934c9bd8059.webp?v=1781235088",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/AI-8850_LLM_Acceleration_M.2_Kit_4GB_Version_AX8850_1.webp?v=1786525987",
     "url": "https://shop.m5stack.com/products/ai-8850-llm-acceleration-m-2-kit-4gb-version-ax8850",
     "docs": null,
     "connectivity": {
@@ -1868,6 +1868,44 @@
     }
   },
   {
+    "handle": "ai-pyramid-computing-box-4gb-version-ax8850",
+    "shopifyId": 9020040151297,
+    "title": "AI Pyramid Computing Box 4GB Version (AX8850)",
+    "eol": false,
+    "sku": "AI-003",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "ai-hardware"
+    ],
+    "tags": [
+      "AI-PC"
+    ],
+    "descriptionText": "AI Pyramid is a pyramid-shaped high-performance AI PC purpose-built for local AI inference and edge intelligence deployments. Powered by the Axera AX8850 SoC, it integrates an octa-core Cortex-A55 processor and a 24 TOPS @ INT8 NPU to effortlessly handle complex workloads including visual recognition, multimodal interaction, and on-device large model inference. AI Pyramid comes with 4GB LPDDR4x high-bandwidth memory paired with a dedicated hardware video processing engine, supporting 8K H.264/H.265 encode/decode and 16-channel 1080p parallel decoding to meet demands for AI vision analytics, video processing, and multi-stream media applications. Equipped with dual HDMI 2.0 digital multimedia output ports , dual Gigabit Ethernet, USB 3.0, and USB Type-C interfaces, it delivers exceptional flexibility for display output, networking, and peripheral expansion. It serves as a desktop-grade AI computing platform and is ideal for field deployment in edge computing scenarios. Designed for AI PCs, edge intelligent terminals, and smart interactive devices, AI Pyramid provides reliable AI inference performance for localized AI systems such as AI vision gateways, intelligent security, and local smart photo albums (Immich).\n Features\n High Performance\n Axera AX8850 SoC\n CPU: Octa-core Cortex-A55 @ 1.7 GHz\n NPU: 24 TOPS @ INT8\n 4GB (2+2) High-Bandwidth Memory: 64-bit LPDDR4x, 4266 Mbps\n Rich I/O Interface Suite\n 2× HDMI 2.0 digital audio/video output ports, 4K@60fps supported\n 4× USB-A 3.0 ",
+    "variants": [
+      {
+        "sku": "AI-003",
+        "title": "Default Title",
+        "price": "199.00",
+        "available": false
+      }
+    ],
+    "priceRange": {
+      "min": 199,
+      "max": 199,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_18ad308d-4df6-4d45-95e9-d22231a39f92.webp?v=1770341263",
+    "url": "https://shop.m5stack.com/products/ai-pyramid-computing-box-4gb-version-ax8850",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "ai-pyramid-computing-box-pro-8gb-version-ax8850",
     "shopifyId": 9020040446209,
     "title": "AI Pyramid Computing Box Pro 8GB Version (AX8850)",
@@ -1925,7 +1963,7 @@
         "sku": "M133",
         "title": "Default Title",
         "price": "24.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -2628,7 +2666,7 @@
         "sku": "C126-ECHO",
         "title": "Default Title",
         "price": "14.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3633,7 +3671,7 @@
         "sku": "T001",
         "title": "Default Title",
         "price": "9.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4989,7 +5027,7 @@
       "max": 21.5,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_757da32d-98f1-4ec7-b7cd-fe28fc5758ee.webp?v=1779266443",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/AtomS3R_AI_Chatbot_Kit_8MB_PSRAM_9.webp?v=1786609615",
     "url": "https://shop.m5stack.com/products/atoms3r-ai-chatbot-kit-8mb-psram",
     "docs": null,
     "connectivity": {
@@ -5028,7 +5066,7 @@
       "max": 24.5,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_74054f9e-61e6-459a-8554-b73947d7353f.webp?v=1779266570",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/AtomS3R-CAM_AI_Chatbot_Kit_8MB_PSRAM_9.webp?v=1786608787",
     "url": "https://shop.m5stack.com/products/atoms3r-cam-ai-chatbot-kit-8mb-psram",
     "docs": null,
     "connectivity": {
@@ -5100,7 +5138,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5822,7 +5860,7 @@
       "max": 9.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_f825b2d7-1832-449f-93fd-21b437c69487.webp?v=1782443691",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Base_Dual_16340_1400mAh_1.webp?v=1786525097",
     "url": "https://shop.m5stack.com/products/base-dual-16340-1400-mah",
     "docs": null,
     "connectivity": {
@@ -6098,7 +6136,7 @@
         "sku": "C001-C2",
         "title": "Default Title",
         "price": "6.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7239,7 +7277,7 @@
       "accessories"
     ],
     "tags": [
-      "ACCESSORIES-OTHERS"
+      "ACCESSORIES-DISPLAY"
     ],
     "descriptionText": "Cardputer Accessory Kit v1.1 is a kit for repairing Cardputer v1.1 / Cardputer-Adv, specifically addressing issues such as bent or broken header pins caused by frequent plugging/unplugging of the Stamp-S3A main controller, as well as the screen FPC connector coming off. A usage tutorial is included later in this document to help users complete repairs and replacements on their own.\n Includes\n 1 x Stamp-S3A\n 1 x ST7789V2 1.14 Inch Screen\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n 1 x Pin Sticker\n Applications\n Cardputer v1.1 / Cardputer-Adv repair\n Specifications\n Specification \n Parameter \n Product Size \n Stamp-S3A: 26.0 x 18.0 x 4.7mm \n1.14 Inch Screen: 17.6 x 31 x 1.6mm \n Product Weight \n Stamp-S3A: 3.4g\n1.14 Inch Screen: 1.7g \n Package Size \n 94.0 x 64.0 x 26.0mm \n Gross Weight \n 27.6g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
@@ -7272,7 +7310,7 @@
     "eol": false,
     "sku": "K152",
     "category": "controller",
-    "formFactor": "STAMP_HOST",
+    "formFactor": "STANDALONE",
     "subcategories": [
       "controllers",
       "m5stack-new-arrival"
@@ -7280,8 +7318,7 @@
     "tags": [
       "Backorder",
       "CARDPUTER",
-      "ESP32-S3",
-      "STAMP"
+      "ESP32-S3"
     ],
     "descriptionText": "Cardputer Mesh Kit is a portable communication terminal kit that integrates LoRa Mesh networking with global positioning capabilities. The kit centers around the Cardputer-Adv core controller and the Cap LoRa-1262 communication expansion module.\n Cardputer-Adv is a card-sized portable programmable controller built on the Stamp-S3A module (based on ESP32-S3FN8). It features a 1.14\" LCD screen and a 56-key compact keyboard for convenient on-site information display and command input. A built-in 1750mAh lithium battery ensures extended standalone operation. The device integrates an ES8311 audio codec, MEMS microphone, 1W speaker, and 3.5mm audio jack for voice interaction and audio output. Additional features include a 6-axis IMU BMI270, an infrared emitter, a microSD card slot, an HY2.0-4P Grove interface, and an EXT 2.54-14P expansion bus. The chassis supports magnetic attachment and is compatible with LEGO mounting holes.\n Cap LoRa-1262 serves as the communication expansion module of the kit. It connects to the Cardputer-Adv via the EXT 2.54-14P interface, drawing power and control signals directly from the host — plug-and-play with no additional configuration required. The module is built around the SX1262 LoRa solution, supporting the 868 ~ 923 MHz band with a receive sensitivity of -147 dBm and a transmit power of +22 dBm. An RP-SMA external antenna and RF shielding ensure reliable long-range communication with strong interference immunity. An integrated AT6668 GNSS module",
     "variants": [
@@ -7297,7 +7334,7 @@
       "max": 48,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_c6c94eb4-2922-423d-8776-73348c6086bb.webp?v=1777520997",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Cardputer_Mesh_Kit_for_Meshtastic_ESP32-S3_12.webp?v=1786610687",
     "url": "https://shop.m5stack.com/products/cardputer-mesh-kit-for-meshtastic-esp32-s3",
     "docs": null,
     "connectivity": {
@@ -7546,7 +7583,7 @@
         "sku": "C147",
         "title": "Default Title",
         "price": "14.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7721,7 +7758,7 @@
       "max": 5.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_aa6ee015-1491-43f4-ba54-c3533426e940.webp?v=1780626518",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Chain_Mono_Matrix_with_8x8_LEDs_White_11.webp?v=1786526903",
     "url": "https://shop.m5stack.com/products/chain-mono-matrix-with-8x8-leds-white",
     "docs": null,
     "connectivity": {
@@ -7887,7 +7924,7 @@
       "max": 9.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_d6f1d46a-a187-4681-a0d8-3ca55e7884bc.webp?v=1781753681",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Chain_RGB_Matrix_with_8x8_LEDs_11.webp?v=1786525912",
     "url": "https://shop.m5stack.com/products/chain-rgb-matrix-with-8x8-leds",
     "docs": null,
     "connectivity": {
@@ -8726,7 +8763,7 @@
         "sku": "A140",
         "title": "Default Title",
         "price": "4.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -8930,7 +8967,7 @@
         "sku": "U012-B",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12410,7 +12447,7 @@
         "sku": "U041-B",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13194,7 +13231,7 @@
         "sku": "U079",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13329,7 +13366,8 @@
       "m5stack-new-arrival"
     ],
     "tags": [
-      "CORE"
+      "CORE",
+      "FOR-TAB5-EXPANSION-MODULE"
     ],
     "descriptionText": "Tab5 Keyboard is a 70-key physical keyboard input expansion module designed specifically for Tab5. It connects directly to the host via Tab5 Ext.Port1, enabling a plug-and-play input experience. The module integrates an STM32F030C8T6 main control chip, responsible for keyboard matrix scanning and communication processing. The preloaded firmware supports three operating modes: Normal , HID , and Character , adapting to different interaction requirements. The keyboard adopts a 14 x 5 matrix design, supports multiple simultaneous key presses, and provides a complete set of letters, numbers, symbols, and commonly used function keys such as Aa, Ctrl, Sym, Alt, Tab, Esc, and arrow keys. The device communicates with Tab5 via I2C and provides an independent interrupt pin for low-latency real-time reporting of key events. Two onboard RGB LEDs can be used for full-color status indication. With a compact structure and simple connection method, it is suitable for text input, command interaction, and various portable applications that require a physical keyboard.\n Features\n Uses STM32F030C8T6 as the main control chip\n Designed for Tab5, plug and play via direct connection to the expansion port\n Three operating modes to meet diverse requirements\n 14 x 5 matrix, supports multiple simultaneous key presses\n Complete key layout with various commonly used function keys\n I2C communication with low-latency reporting through an interrupt pin\n Onboard dual RGB LEDs for colorful status indication\n S",
     "variants": [
@@ -13345,7 +13383,7 @@
       "max": 11,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_4c00aae0-a708-40c0-a8a7-d32185d7b380.webp?v=1780024069",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Keyboard_for_Tab5_1.webp?v=1786608139",
     "url": "https://shop.m5stack.com/products/keyboard-for-tab5",
     "docs": null,
     "connectivity": {
@@ -15376,7 +15414,7 @@
         "sku": "C151",
         "title": "Default Title",
         "price": "75.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15384,7 +15422,7 @@
       "max": 75,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_eabc16d0-1cb4-459a-b391-36a8204f05fc.webp?v=1778810072",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5Paper_Color_ESP32S3_Dev_Kit_600x400_SPECTRA_eInk_Display_4.webp?v=1786609787",
     "url": "https://shop.m5stack.com/products/m5paper-color-esp32s3-dev-kit",
     "docs": null,
     "connectivity": {
@@ -15513,7 +15551,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15851,7 +15889,7 @@
         "sku": "M144",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16160,7 +16198,7 @@
       "max": 19.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_852f6a11-8a84-4a0d-a9d3-153fbee1e126.webp?v=1781234810",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5Stack_Capsule_Kit_v1.1_with_M5StampS3A_1.webp?v=1786526395",
     "url": "https://shop.m5stack.com/products/m5stack-capsule-kit-v1-1-with-m5stamps3a",
     "docs": null,
     "connectivity": {
@@ -16266,7 +16304,7 @@
         "sku": "K132",
         "title": "Default Title",
         "price": "23.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16306,7 +16344,7 @@
         "sku": "K132-V11",
         "title": "Default Title",
         "price": "29.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16446,17 +16484,15 @@
     "handle": "m5stack-cm4stack-development-kit-cm4104032",
     "shopifyId": 7995331772673,
     "title": "M5Stack CM4Stack Development Kit (CM4104032)",
-    "eol": false,
+    "eol": true,
     "sku": "K127",
-    "category": "controller",
-    "formFactor": "CORE_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [],
     "tags": [
-      "CORE"
+      "EOL"
     ],
-    "descriptionText": "CM4Stack Raspberry Pi CM4 All-in-One Micro Host\n CM4Stack is an all-in-one industrial micro host built on the Raspberry Pi Compute Module 4 (CM4) , using the CM4104032 variant with built-in Wi-Fi , 4 GB RAM , and 32 GB eMMC storage . It delivers stable computing performance in a compact, industrial-grade design.\n Designed for edge and control scenarios, CM4Stack is suitable for industrial automation , smart home systems , IoT gateways , and embedded control applications.\n Integrated Touch Display & Multimedia\n CM4Stack features a 2.0-inch IPS LCD with capacitive touch and a resolution of 320 × 240 , enabling intuitive local interaction. A dedicated high-resolution multimedia interface supports external display expansion.\n High-Speed Connectivity & I/O\n 2 × USB 3.2 Type-A ports (PCIe + ASM3042) for high-speed peripherals\n 1 × USB Type-C (USB 2.0) supporting OTG and host power supply\n 1 × Gigabit Ethernet (RJ45) for reliable wired networking\n 1 × DC-JACK power input (12 V @ 3 A)\n Expansion & Industrial Interfaces\n For flexible system expansion, CM4Stack includes 2 × HY2.0-4P expansion ports providing I2C and UART interfaces, enabling easy connection to sensors, controllers, and external modules.\n Audio, Security & System Management\n Audio output is handled by a built-in 2 W speaker driven by an AW88298 16-bit I2S amplifier . For enhanced system security, CM4Stack integrates an ATECC608B hardware security encryption chip .\n Timekeeping and power management are supported by an on",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . \n CM4Stack Raspberry Pi CM4 All-in-One Micro Host\n CM4Stack is an all-in-one industrial micro host built on the Raspberry Pi Compute Module 4 (CM4) , using the CM4104032 variant with built-in Wi-Fi , 4 GB RAM , and 32 GB eMMC storage . It delivers stable computing performance in a compact, industrial-grade design.\n Designed for edge and control scenarios, CM4Stack is suitable for industrial automation , smart home systems , IoT gateways , and embedded control applications.\n Integrated Touch Display & Multimedia\n CM4Stack features a 2.0-inch IPS LCD with capacitive touch and a resolution of 320 × 240 , enabling intuitive local interaction. A dedicated high-resolution multimedia interface supports external display expansion.\n High-Speed Connectivity & I/O\n 2 × USB 3.2 Type-A ports (PCIe + ASM3042) for high-speed peripherals\n 1 × USB Type-C (USB 2.0) supporting OTG and host power supply\n 1 × Gigabit Ethernet (RJ45) for reliable wired networking\n 1 × DC-JACK power input (12 V @ 3 A)\n Expansion & Industrial Interfaces\n For flexible system expansion, CM4Stack includes 2 × HY2.0-4P expansion ports providing I2C and UART interfaces, enabling easy connection to sensors, controllers, and external modules.\n Audio, Security & System Management\n Audio output is handled by a built-in 2 W speaker driven by an AW88298 16-bit I2S amplifier . For enhanced system security, CM4Stack integrates an ATECC608B hardware security encryption chi",
     "variants": [
       {
         "sku": "K127",
@@ -16897,7 +16933,7 @@
         "sku": "K128-LITE",
         "title": "Default Title",
         "price": "44.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -17693,7 +17729,7 @@
         "sku": "K143",
         "title": "Default Title",
         "price": "99.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17788,7 +17824,7 @@
       "max": 24.9,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_77e316b7-0e39-4cb2-9a77-2654a773c761.webp?v=1776925910",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5Stack_LoRaWAN_EU868_Module_STM32WLE5_1.webp?v=1786611270",
     "url": "https://shop.m5stack.com/products/m5stack-lorawan-eu868-module-stm32wle5",
     "docs": null,
     "connectivity": {
@@ -18489,7 +18525,7 @@
         "sku": "C152",
         "title": "Default Title",
         "price": "45.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18497,7 +18533,7 @@
       "max": 45,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_7ccecf5c-e5f0-4dc9-8f50-3fd8f1bfcc27.webp?v=1779416592",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5Stack_Stopwatch_Dev_Kit_ESP32-S3_2.webp?v=1786608414",
     "url": "https://shop.m5stack.com/products/m5stack-stopwatch-dev-kit-esp32-s3",
     "docs": null,
     "connectivity": {
@@ -18619,7 +18655,7 @@
         "sku": "F086-XXXL",
         "title": "3XL",
         "price": "5.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19018,7 +19054,7 @@
       "max": 125,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_2b75ff44-f12c-4e17-9eda-52804e2b2fab.webp?v=1776927282",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5StackChan_AI_Desktop_Robot_Kit_with_Remote_Control_ESP32-S3_14.webp?v=1786611118",
     "url": "https://shop.m5stack.com/products/m5stackchan-ai-desktop-robot-kit-with-remote-control-esp32-s3",
     "docs": null,
     "connectivity": {
@@ -19470,7 +19506,7 @@
         "sku": "K138-V11",
         "title": "Default Title",
         "price": "49.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19478,7 +19514,7 @@
       "max": 49.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_aa475daf-63c9-4008-b792-5e1306e0d168.webp?v=1780625778",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M5Stamp_Fly_v1.1_with_M5StampS3A_4.webp?v=1786526958",
     "url": "https://shop.m5stack.com/products/m5stamp-fly-v1-1-with-m5stamps3a",
     "docs": null,
     "connectivity": {
@@ -19824,6 +19860,84 @@
     }
   },
   {
+    "handle": "m5stamp-uwb-module-qm33120w",
+    "shopifyId": 9313257554177,
+    "title": "M5Stamp UWB Module (QM33120W)",
+    "eol": false,
+    "sku": "S017",
+    "category": "controller",
+    "formFactor": "STAMP_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "STAMP"
+    ],
+    "descriptionText": "Stamp UWB is an ultra-compact embedded UWB ranging module that supports castellated-hole SMT mounting . It integrates the low-power QM33120W UWB transceiver, is compatible with IEEE 802.15.4-2020 and IEEE 802.15.4z-2020 BPRF, and operates on UWB Channel 9 with a center frequency of 7987.2 MHz. With its compact size and stable RF performance, the module supports TWR and TDoA positioning solutions for centimeter-level ranging and high-precision positioning. The current driver library supports both Single-Sided Two-Way Ranging (SS-TWR) and Double-Sided Two-Way Ranging (DS-TWR). It is suitable for indoor personnel positioning, cargo and asset tracking, proximity detection, robot navigation, and other applications.\n Power Supply To ensure communication quality, power Stamp UWB using a high-PSRR LDO or a power supply with ripple within 12mVpp. \n Module Layout When using the module in an on-board design, pay attention to its layout on the baseboard and minimize the impact of the baseboard on the module's PCB antenna performance and ranging accuracy. The module's antenna area should extend completely beyond the edge of the baseboard, with the antenna feed side positioned close to the baseboard edge. Avoid copper pours, traces, components, or other metal structures beneath and around the antenna area. In the module placement diagram below, “✓” indicates the strongly recommended position; the other positions are not recommended. When designing the complete device, consider the impact o",
+    "variants": [
+      {
+        "sku": "S017",
+        "title": "Default Title",
+        "price": "23.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 23.5,
+      "max": 23.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/S017_M5Stamp_UWB_Module_QM33120W_1.webp?v=1786617113",
+    "url": "https://shop.m5stack.com/products/m5stamp-uwb-module-qm33120w",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
+    "handle": "m5stamp-uwb-module-with-fpc-qm33120w",
+    "shopifyId": 9313270792449,
+    "title": "M5Stamp UWB Module with FPC (QM33120W)",
+    "eol": false,
+    "sku": "S017-F",
+    "category": "controller",
+    "formFactor": "STAMP_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "STAMP"
+    ],
+    "descriptionText": "Stamp UWB F is an ultra-compact embedded UWB ranging module. A 0.5mm-12P FPC connector is pre-soldered on the back of the module, allowing external connection through a 0.5mm-12P FPC cable . It integrates the low-power QM33120W UWB transceiver, is compatible with IEEE 802.15.4-2020 and IEEE 802.15.4z-2020 BPRF, and operates on UWB Channel 9 with a center frequency of 7987.2 MHz. With its compact size and stable RF performance, the module supports TWR and TDoA positioning solutions for centimeter-level ranging and high-precision positioning. The current driver library supports both Single-Sided Two-Way Ranging (SS-TWR) and Double-Sided Two-Way Ranging (DS-TWR). It is suitable for indoor personnel positioning, cargo and asset tracking, proximity detection, robot navigation, and other applications.\n Power Supply To ensure communication quality, power Stamp UWB F using a high-PSRR LDO or a power supply with ripple within 12mVpp. \n PCB Antenna Clearance When designing the complete device, pay attention to the impact of the FPC cable and its connector on the module antenna performance. The FPC cable must not pass beneath the module's PCB antenna or through the antenna clearance area, as this may alter the antenna impedance and radiation characteristics, degrade RF performance, and introduce ranging errors. Route the FPC cable outside the antenna area and perform actual testing after assembly to ensure the product's communication range and ranging accuracy meet the design requiremen",
+    "variants": [
+      {
+        "sku": "S017-F",
+        "title": "Default Title",
+        "price": "24.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 24.5,
+      "max": 24.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/S017-F_M5Stamp_UWB_Module_with_FPC_QM33120W_1.webp?v=1786676372",
+    "url": "https://shop.m5stack.com/products/m5stamp-uwb-module-with-fpc-qm33120w",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "m5stampc5-module-esp32-c5",
     "shopifyId": 9234367283457,
     "title": "M5StampC5 Module (ESP32-C5)",
@@ -19836,6 +19950,7 @@
       "m5stack-new-arrival"
     ],
     "tags": [
+      "ESP32-C5",
       "STAMP"
     ],
     "descriptionText": "M5StampC5 ESP32-C5 Wi-Fi 6 Module Overview\n Stamp-C5 is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The module adopts a 2.54mm pad pitch design, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Wireless Connectivity and ESP32-C5 Hardware Features\n ESP32-C5HF4 Main Controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless Connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and Hardware Design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status Indicators\n RED: Charging indicator (blinks while charging; turns off when fully charged)\n BLUE: G28 / BOOT indicat",
@@ -19844,7 +19959,7 @@
         "sku": "S016",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19875,6 +19990,7 @@
       "m5stack-new-arrival"
     ],
     "tags": [
+      "ESP32-C5",
       "STAMP"
     ],
     "descriptionText": "M5StampC5 DIP ESP32-C5 Wi-Fi 6 Module Overview\n Stamp-C5 DIP is a highly integrated wireless connectivity module based on the Espressif ESP32-C5HF4, designed for IoT applications that require efficient and stable communication. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting device access requirements across different network scenarios. The module uses a RISC-V 32-bit single-core processor with a clock frequency of up to 240MHz, includes 4MB Flash, and integrates hardware resources such as USB Type-C, a battery power input, an FPC expansion interface, and an IPEX-1 antenna connector. The overall design adopts a 2.54mm pad pitch and includes 2 x 2.54-7P standard pin headers, making it easy to quickly connect various peripherals and expand functions. While ensuring connectivity performance and security, it helps developers complete prototype validation and product implementation more efficiently.\n Wireless Connectivity and Header-Friendly Hardware Features\n ESP32-C5HF4 Main Controller\n RISC-V 32-bit single-core processor, up to 240MHz\n 4MB Flash\n Wireless Connectivity\n 2.4 & 5 GHz dual-band Wi-Fi 6\n BLE 5\n IEEE 802.15.4 (Zigbee, Thread)\n Interface and Hardware Design\n USB Type-C\n DC 3.7V battery power input\n 2.54mm pad pitch\n IPEX-1 antenna connector\n Rear FPC 0.5mm-12P interface\n SGM40567-4.2XG/TR charging IC\n 2.4 & 5 GHz shared antenna design\n Status Indicators\n RED: Charging indicator (blinks while cha",
@@ -19922,7 +20038,7 @@
         "sku": "S015-DIP",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20291,7 +20407,7 @@
         "sku": "U080",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21873,9 +21989,11 @@
     "sku": "U070",
     "category": "hat",
     "formFactor": "HAT",
-    "subcategories": [],
+    "subcategories": [
+      "for-stick"
+    ],
     "tags": [
-      "HOBBY-OTHERS"
+      "FOR-STICK-SENSOR"
     ],
     "descriptionText": "Product Status Notice\n This product has been discontinued, and the units currently available for sale are from the final remaining stock. Once sold out, they will not be replenished.\n Description\n Hat Yun is a cloud-shaped multifunctional environmental information collection base. It is equipped with a temperature and humidity sensor SHT20 , a pressure sensor BMP280 , a photoresistor, and 14 RGB LEDs. It features an embedded STM32F030F4 control chip, providing a simple and efficient program interface. The exquisite design not only allows for precise environmental data collection but also adds a decorative effect.\n The base is designed for M5StickC, with the same number of pins and space reserved, allowing for perfect connection with the expansion port on top of the M5StickC. The overall structure adopts a three-layer design, with the upper and lower PCB boards serving as the fixed structure and main circuit, respectively. To facilitate long-term circuit operation, an independent external power interface is also provided on the board. The middle layer is made of light-guiding acrylic, and to achieve better lighting effects, the cutting surface of the acrylic's outer contour is polished, aiming to effectively reduce light scattering when programming the lights, resulting in a more uniform and saturated lighting effect. The board embeds 2 magnets of 6 x 4.0mm and reserves 1 hook hole, allowing users to conveniently install it anywhere in their daily life.\n Features\n Control chip",
     "variants": [
@@ -23107,7 +23225,7 @@
         "sku": "U150",
         "title": "Default Title",
         "price": "21.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -23819,7 +23937,7 @@
         "sku": "U089",
         "title": "Default Title",
         "price": "3.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -25172,7 +25290,7 @@
       "max": 2.5,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_30bab1b1-cac9-48b2-ac78-f9a92bf16434.webp?v=1780625472",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Repair_Kit_for_Stackchan_1.webp?v=1786527173",
     "url": "https://shop.m5stack.com/products/repair-kit-for-stackchan",
     "docs": null,
     "connectivity": {
@@ -26288,7 +26406,7 @@
         "sku": "U137",
         "title": "Default Title",
         "price": "48.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26367,7 +26485,7 @@
         "sku": "K140",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26658,7 +26776,7 @@
       "max": 55,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_926903d1-73d3-4fb7-b102-9049c87696ce.webp?v=1782443405",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/StackChan_Body_1.webp?v=1786525306",
     "url": "https://shop.m5stack.com/products/stackchan-body",
     "docs": null,
     "connectivity": {
@@ -26698,7 +26816,7 @@
       "max": 45,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_8dab2d57-2c75-44f6-929b-66e7f60e4f6d.webp?v=1782443125",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/StackChan_Core_ESP32-S3_1.webp?v=1786525562",
     "url": "https://shop.m5stack.com/products/stackchan-core-esp32-s3",
     "docs": null,
     "connectivity": {
@@ -28090,7 +28208,7 @@
         "sku": "U213",
         "title": "Default Title",
         "price": "21.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
