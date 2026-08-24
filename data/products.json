@@ -2046,7 +2046,7 @@
         "sku": "K131-V11",
         "title": "Default Title",
         "price": "89.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3196,7 +3196,7 @@
         "sku": "C008-B",
         "title": "Default Title",
         "price": "15.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4699,7 +4699,7 @@
         "sku": "A131",
         "title": "Default Title",
         "price": "9.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -4931,7 +4931,7 @@
         "sku": "C123",
         "title": "Default Title",
         "price": "15.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15582,6 +15582,46 @@
     }
   },
   {
+    "handle": "m5papermono-with-lora-nfc-800x480-3-97-eink-display",
+    "shopifyId": 9316360159489,
+    "title": "M5PaperMono with LoRa & NFC (800x480, 3.97\" eInk Display)",
+    "eol": false,
+    "sku": "C153",
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "E-PAPER",
+      "ESP32-S3"
+    ],
+    "descriptionText": "PaperMono is an e-paper development board built around low-power display, near-field identification, and long-range communication capabilities. It features a touch-enabled 3.97-inch 4-level grayscale monochrome e-paper display, driven by SSD1677 with a resolution of 480 x 800, and integrates an FT6336G touch controller and a frontlight system for a more comfortable reading and interaction experience in low-light environments. The core adopts an ESP32-S3R8, paired with 16MB Flash, 8MB PSRAM, and 2.4 GHz Wi-Fi, along with an onboard buzzer, PDM microphone (LMD4737T261-AC02), RGB LED, BMI270 6-axis IMU, M5IOE1 IO expander, microSD card slot, and RX8130CE real-time clock. The NFC section is based on the ST25R3916, supporting ISO14443A, ISO14443B, FeliCa™, and ISO15693; LoRa communication adopts the SX1262 (Stamp LoRa-1262) solution with a built-in FPC antenna, supporting the 868MHz ~ 923MHz band. Combined with the M5PM1 multi-level power management system and a 1150mAh battery, it meets the requirements of low-power IoT and embedded applications such as e-readers, e-paper signage, access control terminals, identity authentication, and intelligent transportation.\n Note\n E-Paper Usage Precautions\n Avoid direct sunlight/prolonged sun exposure during use; high temperatures or strong UV can damage the panel.\n After approximately 10 partial fast refreshes in software, it is recommended to perform one full-screen refresh to clear the screen and avoid severe accumulated ghosting.\n The sc",
+    "variants": [
+      {
+        "sku": "C153",
+        "title": "Default Title",
+        "price": "65.00",
+        "available": false
+      }
+    ],
+    "priceRange": {
+      "min": 65,
+      "max": 65,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/C153_M5PaperMono_with_LoRa_NFC2.webp?v=1787221057",
+    "url": "https://shop.m5stack.com/products/m5papermono-with-lora-nfc-800x480-3-97-eink-display",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "m5papers3-esp32s3-development-kit",
     "shopifyId": 8663588339969,
     "title": "M5PaperS3 ESP32S3 Development Kit (960x540, 4.7\" eInk Display, 235 ppi)",
@@ -16112,7 +16152,7 @@
         "sku": "U202",
         "title": "Default Title",
         "price": "22.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21433,7 +21473,7 @@
         "sku": "K016-H",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -23632,7 +23672,7 @@
         "sku": "M036",
         "title": "Default Title",
         "price": "42.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -23829,6 +23869,46 @@
     }
   },
   {
+    "handle": "papermono-lite-dev-kit-800x480-3-97-e-ink-display",
+    "shopifyId": 9316359536897,
+    "title": "PaperMono Lite Dev Kit (800x480, 3.97\" e-Ink Display)",
+    "eol": false,
+    "sku": "C153-LITE",
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "E-PAPER",
+      "ESP32-S3"
+    ],
+    "descriptionText": "PaperMono-Lite is a streamlined version of PaperMono, designed for low-power display and portable interactive applications. It features a 3.97-inch 4-level grayscale monochrome e-paper display with touch support, driven by the SSD1677 at 480x800 resolution, and integrates an FT6336G touch controller and a front-light system, providing a clear and stable reading and interaction experience in low-light environments. Powered by the ESP32-S3R8 core, it comes with 16MB Flash, 8MB PSRAM, and 2.4 GHz Wi-Fi, along with an onboard buzzer, PDM microphone (LMD4737T261-AC02), RGB LED, BMI270 6-axis IMU, M5IOE1 IO expander, microSD card slot, and RX8130CE real-time clock. Compared with PaperMono, the Lite version does not include the NFC and LoRa modules, while retaining e-paper interaction and basic wireless connectivity. Combined with the M5PM1 multi-stage power management system and a 1150mAh battery, it is suitable for e-readers, e-signage, information display terminals, and low-power embedded applications.\n Note\n E-Paper Usage Notes\n Avoid direct sunlight/prolonged exposure during use, as high temperature or strong UV can damage the panel.\n After approximately 10 partial fast refreshes in software, it is recommended to perform a full-screen refresh to clear the screen, avoiding severe accumulated ghosting.\n The screen has built-in OTP waveforms that can be called directly. When using custom external waveforms, pay attention to DC balance, otherwise irreversible damage may be caused t",
+    "variants": [
+      {
+        "sku": "C153-LITE",
+        "title": "Default Title",
+        "price": "55.00",
+        "available": false
+      }
+    ],
+    "priceRange": {
+      "min": 55,
+      "max": 55,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/C153-LITE_PaperMono_Lite_Dev_Kit2.webp?v=1787220869",
+    "url": "https://shop.m5stack.com/products/papermono-lite-dev-kit-800x480-3-97-e-ink-display",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "passive-buzzer-unit",
     "shopifyId": 7442775343361,
     "title": "Passive Buzzer Unit",
@@ -23937,7 +24017,7 @@
         "sku": "U089",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26309,7 +26389,7 @@
         "sku": "M014-B",
         "title": "Default Title",
         "price": "17.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26406,7 +26486,7 @@
         "sku": "U137",
         "title": "Default Title",
         "price": "48.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28165,7 +28245,7 @@
         "sku": "U127",
         "title": "Default Title",
         "price": "12.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28732,7 +28812,7 @@
         "sku": "U087",
         "title": "Default Title",
         "price": "19.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28824,7 +28904,7 @@
         "sku": "A128-B",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
