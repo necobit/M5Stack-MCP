@@ -22,8 +22,8 @@
   {
     "category": "module",
     "label": "Modules (M-Bus stackable, for Core family)",
-    "total": 116,
-    "eolCount": 49,
+    "total": 117,
+    "eolCount": 50,
     "subcategories": [
       {
         "handle": "for-stack",
@@ -42,12 +42,12 @@
   {
     "category": "accessory",
     "label": "Accessories (cables, mounts, power ...)",
-    "total": 105,
-    "eolCount": 35,
+    "total": 108,
+    "eolCount": 37,
     "subcategories": [
       {
         "handle": "accessories",
-        "count": 42
+        "count": 41
       },
       {
         "handle": "for-chain",
@@ -55,11 +55,11 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 7
+        "count": 9
       },
       {
         "handle": "for-stack",
-        "count": 6
+        "count": 7
       },
       {
         "handle": "ai-hardware",
@@ -70,8 +70,8 @@
   {
     "category": "kit",
     "label": "Kits",
-    "total": 87,
-    "eolCount": 63,
+    "total": 89,
+    "eolCount": 65,
     "subcategories": [
       {
         "handle": "accessories",
@@ -90,12 +90,12 @@
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 71,
+    "total": 68,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 68
+        "count": 65
       },
       {
         "handle": "m5stack-new-arrival",
@@ -126,12 +126,12 @@
   {
     "category": "hat",
     "label": "Hats (for StickC family)",
-    "total": 34,
+    "total": 33,
     "eolCount": 10,
     "subcategories": [
       {
         "handle": "for-stick",
-        "count": 24
+        "count": 23
       }
     ]
   },

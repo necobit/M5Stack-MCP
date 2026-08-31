@@ -1335,7 +1335,7 @@
         "sku": "U165",
         "title": "Default Title",
         "price": "6.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3196,7 +3196,7 @@
         "sku": "C008-B",
         "title": "Default Title",
         "price": "15.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5121,18 +5121,15 @@
     "handle": "atoms3r-camera-kit-m12-version-ov3660",
     "shopifyId": 8610586820865,
     "title": "ATOMS3R Camera Kit M12 Version (OV3660)",
-    "eol": false,
+    "eol": true,
     "sku": "C126-M12",
-    "category": "controller",
-    "formFactor": "ATOM_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [],
     "tags": [
-      "ATOM",
-      "ESP32-S3"
+      "EOL"
     ],
-    "descriptionText": "AtomS3R-M12 is an IoT programmable controller integrated with an M12 camera , equipped with a 3-megapixel OV3660 wide-angle camera, supporting high-resolution image capture. It uses the ESP32-S3-PICO-1-N8R8 as the main controller, integrating Wi-Fi functionality, 8MB on-chip Flash , and 8MB PSRAM . It features a 5V to 3.3V power management circuit and includes a three-axis BMM150 geomagnetic sensor and a six-axis BMI270 attitude sensor. The product comes with UVC (USB Video Class) firmware, allowing it to be used as a driver-free USB camera, enabling users to use the camera directly via USB without installing drivers, and it has infrared emission control functionality. Compared to previous ATOM series host products, the 3D antenna of AtomS3R-M12 is enhanced, providing better performance and higher stability. The product also includes a USB Type-C interface for power supply and firmware download, and features a HY2.0-4P expansion port. The bottom is designed with six GPIO and power pins for easy expansion. With dimensions of only 24.0 x 24.0 x 22.1mm , it is suitable for embedded scenarios such as IoT device monitoring and educational development tools.\n Features\n Integrated ESP32-S3-PICO-1-N8R8 main controller\n 3-megapixel OV3660 camera\n Nine-axis sensor system (BMI270 six-axis + BMM150 three-axis geomagnetic sensor)\n 8MB Flash and 8MB PSRAM\n Supports infrared emission control functionality\n Expandable pins and interfaces\n Development Platform\n Arduino IDE\n ESP-IDF\n PlatformI",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . \n Description\n AtomS3R-M12 is an IoT programmable controller integrated with an M12 camera , equipped with a 3-megapixel OV3660 wide-angle camera, supporting high-resolution image capture. It uses the ESP32-S3-PICO-1-N8R8 as the main controller, integrating Wi-Fi functionality, 8MB on-chip Flash , and 8MB PSRAM . It features a 5V to 3.3V power management circuit and includes a three-axis BMM150 geomagnetic sensor and a six-axis BMI270 attitude sensor. The product comes with UVC (USB Video Class) firmware, allowing it to be used as a driver-free USB camera, enabling users to use the camera directly via USB without installing drivers, and it has infrared emission control functionality. Compared to previous ATOM series host products, the 3D antenna of AtomS3R-M12 is enhanced, providing better performance and higher stability. The product also includes a USB Type-C interface for power supply and firmware download, and features a HY2.0-4P expansion port. The bottom is designed with six GPIO and power pins for easy expansion. With dimensions of only 24.0 x 24.0 x 22.1mm , it is suitable for embedded scenarios such as IoT device monitoring and educational development tools.\n Features\n Integrated ESP32-S3-PICO-1-N8R8 main controller\n 3-megapixel OV3660 camera\n Nine-axis sensor system (BMI270 six-axis + BMM150 three-axis geomagnetic sensor)\n 8MB Flash and 8MB PSRAM\n Supports infrared emission control functionality\n Expandable p",
     "variants": [
       {
         "sku": "C126-M12",
@@ -5181,7 +5178,7 @@
         "sku": "C126",
         "title": "Default Title",
         "price": "17.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5810,7 +5807,7 @@
         "sku": "A122",
         "title": "Default Title",
         "price": "8.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6994,6 +6991,48 @@
       "grove": [],
       "interfaces": [
         "CAN"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "cap-cc1101-nfc-for-cardputer",
+    "shopifyId": 9328460431617,
+    "title": "Cap CC1101 & NFC for Cardputer Adv",
+    "eol": false,
+    "sku": "U219",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-CARDPUTER-ADV-WIRELESS"
+    ],
+    "descriptionText": "Cap CC1101 is a wireless expansion module integrating Sub-1 GHz RF and NFC functions, compatible with Cardputer-Adv and CardputerZero . The RF section is based on the TI CC1101 transceiver. Built-in dual single-pole triple-throw (SP3T) RF switches and multi-band RF matching circuits multiplex the 315MHz, 433MHz, 868MHz/915MHz bands to one RP-SMA antenna interface, supporting 2-FSK, 4-FSK, GFSK, MSK, ASK, OOK, and other modulation schemes.\n The NFC section uses the ST25R3916 chip and supports ISO14443A/B, FeliCa™, and ISO15693 protocols . It can operate in reader/writer and card emulation modes. The module communicates via SPI, includes an onboard DC-DC buck circuit, and provides a standard HY2.0-4P Grove interface for easy sensor expansion. It is suitable for wireless remote control, access-control identification, device communication, and IoT prototyping.\n Features\n SPI serial communication protocol\n CC1101 low-power Sub-1 GHz RF transceiver\n Operating frequency: 315/433/868/915 MHz\n Supports 2-FSK, 4-FSK, GFSK, MSK, ASK, and OOK modulation schemes\n Independent 64-byte RF RX FIFO and TX FIFO\n Built-in dual SP3T RF switches and multi-band RF matching network for dynamic band switching\n External RP-SMA antenna interface\n ST25R3916 high-performance NFC front end\n Supports reader/writer mode and card emulation mode\n Compatible with NFC-A, NFC-B, NFC-F, and NFC-V standards\n 512-byte NFC FIFO\n HY2.0-4P Grove expansion interface\n Supports sensor module expansion\n Development Platfo",
+    "variants": [
+      {
+        "sku": "U219",
+        "title": "Default Title",
+        "price": "18.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 18.95,
+      "max": 18.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U219_Cap_CC1101_NFC_for_Cardputer_2.webp?v=1787885454",
+    "url": "https://shop.m5stack.com/products/cap-cc1101-nfc-for-cardputer",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "SPI"
       ],
       "i2cAddress": null,
       "source": "extracted"
@@ -15148,6 +15187,61 @@
     }
   },
   {
+    "handle": "m5go-battery-bottom2-for-core2-only-v1-3",
+    "shopifyId": 9328450633985,
+    "title": "M5GO Battery Bottom2 (for Core2 only) V1.3",
+    "eol": false,
+    "sku": "A014-C-V13",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-stack",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "BASE"
+    ],
+    "descriptionText": "Base M5GO Bottom2 v1.3 is an expansion base designed specifically for the M5Stack Core2 series. It features an onboard BMI270 6-axis IMU , LMD4020 digital microphone , and 500 mAh built-in lithium battery . Two HY2.0-4P expansion ports expose commonly used ADC, DAC, and UART peripheral pins for convenient connection to various sensor modules.\n The base integrates 10 programmable SK6812 RGB LEDs on both sides. Combined with frosted light guides, they provide soft and even illumination. The bottom uses a Pogo Pin magnetic charging interface. When connected to a magnetic charging base, the onboard TP4057 charging management IC safely and steadily charges the built-in battery. The Pogo Pin interface also exposes the host controller's I2C bus , supporting magnetic external expansion. Built-in magnets and LEGO-compatible mounting holes on the back allow seamless integration with LEGO structures. It is suitable for IoT development, motion-sensing interaction, and creative audio-visual projects. \n Features\n Compatible with the Core2 series\n Digital microphone\n Programmable LED light bar\n 500mAh lithium battery\n HY2.0-4P expansion ports\n Compatible with LEGO brick structures\n Magnetic attachment design on the back\n Includes\n 1 x Base M5GO Bottom2 v1.3\n 2 x M3 * 16mm socket-head machine screws\n 2 x M3 * 18mm socket-head machine screws\n 1 x 2.5mm L-shaped hex key (for M3 screws)\n Applications\n Core2 series expansion\n IoT development\n Motion-sensing interaction\n Creative audio-visual pro",
+    "variants": [
+      {
+        "sku": "A014-C-V13",
+        "title": "Default Title",
+        "price": "9.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 9.95,
+      "max": 9.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A014-C-V13_M5GO_Battery_Bottom2_for_Core2_only_V1.3_1.webp?v=1787884445",
+    "url": "https://shop.m5stack.com/products/m5go-battery-bottom2-for-core2-only-v1-3",
+    "docs": {
+      "category": "Modules",
+      "docUrl": "https://docs.m5stack.com/#/en/base/m5go_bottom",
+      "quickstartUrl": null,
+      "keywords": [
+        "BATTERY",
+        "LEGO"
+      ],
+      "matchType": "prefix-sku"
+    },
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C",
+        "UART",
+        "ADC",
+        "DAC"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "m5go-battery-bottom3-for-cores3-only",
     "shopifyId": 8096049299713,
     "title": "M5GO Battery Bottom3 (for CoreS3 only)",
@@ -15414,7 +15508,7 @@
         "sku": "C151",
         "title": "Default Title",
         "price": "75.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -15551,7 +15645,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -15929,7 +16023,7 @@
         "sku": "M144",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16344,7 +16438,7 @@
         "sku": "K132",
         "title": "Default Title",
         "price": "23.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16613,24 +16707,21 @@
     "handle": "m5stack-core2-esp32-iot-development-kit",
     "shopifyId": 5621706162340,
     "title": "M5Stack Core2 ESP32 IoT Development Kit",
-    "eol": false,
+    "eol": true,
     "sku": "K010",
-    "category": "controller",
-    "formFactor": "CORE_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [],
     "tags": [
-      "CORE",
-      "ESP32"
+      "EOL"
     ],
-    "descriptionText": "Core2 is the second generation main unit in the M5Stack development kit series, further enhancing the functionality of the original first-generation main unit with more comprehensive hardware features. The core controller Core2 is equipped with ESP32-D0WDQ6-V3 , featuring two independently controllable Xtensa® 32-bit LX6 processors with a main frequency of up to 240 MHz, supporting Wi-Fi functionality. It has onboard 16MB Flash and 8MB PSRAM , and programs can be downloaded via the USB Type-C interface. Its powerful configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor , providing haptic feedback and vibration alert functions. The built-in RTC module provides precise timing functionality. The power section is equipped with an AXP192 power management chip that effectively controls the power consumption of the body, with a built-in green power indicator light. The body also includes a microSD slot and a speaker. To ensure higher quality sound effects, it uses a power amplifier chip with an I2S digital audio interface, effectively preventing signal distortion. The left side and bottom of the body have independent power and reset (RST) buttons, and the three dots on the front of the screen are part of the touch screen, which can be programmed to map hot zones as three virtual buttons. ",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . Please order the new version: M5Stack Core2 ESP32 IoT Development Kit v1.3 \n Description\n Core2 is the second generation main unit in the M5Stack development kit series, further enhancing the functionality of the original first-generation main unit with more comprehensive hardware features. The core controller Core2 is equipped with ESP32-D0WDQ6-V3 , featuring two independently controllable Xtensa® 32-bit LX6 processors with a main frequency of up to 240 MHz, supporting Wi-Fi functionality. It has onboard 16MB Flash and 8MB PSRAM , and programs can be downloaded via the USB Type-C interface. Its powerful configuration meets the resource demands of complex applications. The front is equipped with a 2.0-inch integrated capacitive touch screen, providing users with a smoother human-computer interaction experience.\n The body has a built-in vibration motor , providing haptic feedback and vibration alert functions. The built-in RTC module provides precise timing functionality. The power section is equipped with an AXP192 power management chip that effectively controls the power consumption of the body, with a built-in green power indicator light. The body also includes a microSD slot and a speaker. To ensure higher quality sound effects, it uses a power amplifier chip with an I2S digital audio interface, effectively preventing signal distortion. The left side and bottom of the body have independent power and reset (RST) butt",
     "variants": [
       {
         "sku": "K010",
         "title": "Default Title",
         "price": "46.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18667,15 +18758,13 @@
     "handle": "m5stack-t-shirt-origin",
     "shopifyId": 8898985165057,
     "title": "M5Stack T-shirt Origin",
-    "eol": false,
+    "eol": true,
     "sku": "F086-L",
     "category": "accessory",
     "formFactor": "ACCESSORY",
-    "subcategories": [
-      "accessories"
-    ],
+    "subcategories": [],
     "tags": [
-      "ACCESSORIES-OTHERS"
+      "EOL"
     ],
     "descriptionText": "Clothing Size Chart\n Measurements in centimeters \n Weight in kilograms \n Measurement \n L \n XL \n XXXL \n Bust \n 104 \n 108 \n 116 \n Length \n 70 \n 72 \n 76 \n Shoulder width \n 47 \n 49 \n 51 \n Sleeve length \n 22 \n 22 \n 23 \n Height (cm) \n 170-175 \n 175-180 \n 185-190 \n Weight (kgs) \n 60-70 \n 70-77 \n 85-92",
     "variants": [
@@ -19395,24 +19484,21 @@
     "handle": "m5stamp-esp32s3-module",
     "shopifyId": 7967517245697,
     "title": "M5Stamp ESP32S3 Module",
-    "eol": false,
+    "eol": true,
     "sku": "S007",
-    "category": "controller",
-    "formFactor": "STAMP_HOST",
-    "subcategories": [
-      "controllers"
-    ],
+    "category": "module",
+    "formFactor": "MODULE",
+    "subcategories": [],
     "tags": [
-      "ESP32-S3",
-      "STAMP"
+      "EOL"
     ],
-    "descriptionText": "Product Status Notice\n Please note that this product is now EOL (End of Life), and the currently available units are from our remaining stock. Once sold out, it will be discontinued again.\n Description\n Stamp-S3 is a highly integrated embedded core module based on the Espressif ESP32-S3FN8 SoC with 8 MB SPI flash . It features a high-performance 32-bit Xtensa LX7 dual-core processor running at up to 240 MHz and integrates a 5 V-to-3.3 V power circuit , an RGB status LED , and a programmable button .\nThe module exposes 23 GPIO pins of the ESP32-S3 on both 1.27 mm and 2.54 mm pitch headers, supporting multiple mounting options such as SMT, DIP male header, DIP female header, and fly-wire .\nWith its compact size, powerful performance, rich IO resources, and low-power consumption, the module is ideal for embedded IoT controller applications.\n Features\n ESP32-S3FN8 (2.4 GHz Wi-Fi)\n Minimum system board\n Multiple IO breakout options (SMT, DIP, fly-wire)\n Integrated programmable RGB LED and button\n Supports UiFlow graphical programming\n Development Platform\n UiFlow2\n Arduino IDE\n ESP-IDF\n PlatformIO\n Includes\n 1 x Stamp-S3\n 1 x HY2.0-4P Terminal\n 1 x 2.54-9P Male Header\n 1 x 2.54-6P Male Header\n 1 x Hex Key L-Shape\n 1 x User Manual\n Applications\n Specifications\n Specification \n Parameter \n SoC \n ESP32-S3FN8@Xtensa LX7 dual-core, main frequency up to 240MHz \n DC-DC \n MUN3CAD01-SC \n Flash \n 8MB \n Wi-Fi \n 2.4 GHz Wi-Fi \n Input Voltage \n 5V \n Power Consumption \n Sleep mode: – USB Type-C",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . Please order the new version: M5StampS3A ESP32S3 Module \n Description\n Stamp-S3 is a highly integrated embedded core module based on the Espressif ESP32-S3FN8 SoC with 8 MB SPI flash . It features a high-performance 32-bit Xtensa LX7 dual-core processor running at up to 240 MHz and integrates a 5 V-to-3.3 V power circuit , an RGB status LED , and a programmable button .\nThe module exposes 23 GPIO pins of the ESP32-S3 on both 1.27 mm and 2.54 mm pitch headers, supporting multiple mounting options such as SMT, DIP male header, DIP female header, and fly-wire .\nWith its compact size, powerful performance, rich IO resources, and low-power consumption, the module is ideal for embedded IoT controller applications.\n Features\n ESP32-S3FN8 (2.4 GHz Wi-Fi)\n Minimum system board\n Multiple IO breakout options (SMT, DIP, fly-wire)\n Integrated programmable RGB LED and button\n Supports UiFlow graphical programming\n Development Platform\n UiFlow2\n Arduino IDE\n ESP-IDF\n PlatformIO\n Includes\n 1 x Stamp-S3\n 1 x HY2.0-4P Terminal\n 1 x 2.54-9P Male Header\n 1 x 2.54-6P Male Header\n 1 x Hex Key L-Shape\n 1 x User Manual\n Applications\n Specifications\n Specification \n Parameter \n SoC \n ESP32-S3FN8@Xtensa LX7 dual-core, main frequency up to 240MHz \n DC-DC \n MUN3CAD01-SC \n Flash \n 8MB \n Wi-Fi \n 2.4 GHz Wi-Fi \n Input Voltage \n 5V \n Power Consumption \n Sleep mode: – USB Type-C power: DC 5 V @ 400.67 µA – VIN_5V power: DC 5 V @ 310.89 µA;\nStandby mod",
     "variants": [
       {
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20039,7 +20125,7 @@
         "sku": "S016-DIP",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20431,17 +20517,15 @@
     "handle": "m5stickc-18650",
     "shopifyId": 4407742169178,
     "title": "M5StickC 18650C",
-    "eol": false,
+    "eol": true,
     "sku": "U080",
-    "category": "hat",
-    "formFactor": "HAT",
-    "subcategories": [
-      "for-stick"
-    ],
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [],
     "tags": [
-      "FOR-STICK-OTHERS"
+      "EOL"
     ],
-    "descriptionText": "Hat 18650C is a rechargeable battery base designed specifically for the M5StickC, featuring a built-in 18650 high-capacity rechargeable lithium battery that can provide extended battery life for the device. The base uses the plug-in structure design of the HAT series, ensuring a reliable connection with the M5StickC during use. The bottom is equipped with a USB charging port, allowing for convenient and quick charging of the battery. The USB port on the base is only used for charging and does not support serial communication. The back of the base offers various types of mounting holes, making it easy for users to install it on various surfaces. The battery capacity is 2200mAh.\n Features\n Rechargeable design\n Replaceable battery\n 2200mAh rechargeable battery\n Includes\n 1 x Hat 18650C\n Specifications\n Specification \n Parameter \n Net Weight \n 90g \n Gross Weight \n 94g \n Product Size \n 150 x 24 x 24mm \n Package Size \n 173.0 x 25.0 x 25.0mm \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . \n Description\n Hat 18650C is a rechargeable battery base designed specifically for the M5StickC, featuring a built-in 18650 high-capacity rechargeable lithium battery that can provide extended battery life for the device. The base uses the plug-in structure design of the HAT series, ensuring a reliable connection with the M5StickC during use. The bottom is equipped with a USB charging port, allowing for convenient and quick charging of the battery. The USB port on the base is only used for charging and does not support serial communication. The back of the base offers various types of mounting holes, making it easy for users to install it on various surfaces. The battery capacity is 2200mAh.\n Features\n Rechargeable design\n Replaceable battery\n 2200mAh rechargeable battery\n Includes\n 1 x Hat 18650C\n Specifications\n Specification \n Parameter \n Net Weight \n 90g \n Gross Weight \n 94g \n Product Size \n 150 x 24 x 24mm \n Package Size \n 173.0 x 25.0 x 25.0mm \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "U080",
@@ -21113,7 +21197,7 @@
         "sku": "U118",
         "title": "Default Title",
         "price": "36.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25071,7 +25155,7 @@
         "sku": "A146-B",
         "title": "50cm (2pcs a pack)",
         "price": "4.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -25845,7 +25929,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28245,7 +28329,7 @@
         "sku": "U127",
         "title": "Default Title",
         "price": "12.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28904,7 +28988,7 @@
         "sku": "A128-B",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
