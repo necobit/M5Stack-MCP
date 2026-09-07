@@ -11,7 +11,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 4
+        "count": 2
       },
       {
         "handle": "accessories",
@@ -22,12 +22,12 @@
   {
     "category": "module",
     "label": "Modules (M-Bus stackable, for Core family)",
-    "total": 117,
+    "total": 118,
     "eolCount": 50,
     "subcategories": [
       {
         "handle": "for-stack",
-        "count": 60
+        "count": 61
       },
       {
         "handle": "accessories",
@@ -42,7 +42,7 @@
   {
     "category": "accessory",
     "label": "Accessories (cables, mounts, power ...)",
-    "total": 108,
+    "total": 111,
     "eolCount": 37,
     "subcategories": [
       {
@@ -55,11 +55,11 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 9
+        "count": 11
       },
       {
         "handle": "for-stack",
-        "count": 7
+        "count": 10
       },
       {
         "handle": "ai-hardware",
@@ -78,12 +78,12 @@
         "count": 13
       },
       {
-        "handle": "m5stack-new-arrival",
-        "count": 4
-      },
-      {
         "handle": "ai-hardware",
         "count": 3
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 2
       }
     ]
   },
@@ -99,7 +99,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 17
+        "count": 10
       }
     ]
   },
@@ -116,10 +116,6 @@
       {
         "handle": "accessories",
         "count": 2
-      },
-      {
-        "handle": "m5stack-new-arrival",
-        "count": 1
       }
     ]
   },

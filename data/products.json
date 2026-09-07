@@ -1123,7 +1123,7 @@
         "sku": "U125",
         "title": "Default Title",
         "price": "3.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3135,8 +3135,7 @@
     "category": "controller",
     "formFactor": "ATOM_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ATOM",
@@ -3836,8 +3835,7 @@
     "category": "atomic-base",
     "formFactor": "ATOMIC_BASE",
     "subcategories": [
-      "for-atom",
-      "m5stack-new-arrival"
+      "for-atom"
     ],
     "tags": [
       "ATOMIC-BASE"
@@ -4699,7 +4697,7 @@
         "sku": "A131",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5614,7 +5612,7 @@
         "sku": "K014-E",
         "title": "Default Title",
         "price": "79.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7232,7 +7230,6 @@
     "category": "unit",
     "formFactor": "UNIT",
     "subcategories": [
-      "m5stack-new-arrival",
       "unit"
     ],
     "tags": [
@@ -7351,8 +7348,7 @@
     "category": "controller",
     "formFactor": "STANDALONE",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "Backorder",
@@ -7622,7 +7618,7 @@
         "sku": "C147",
         "title": "Default Title",
         "price": "14.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7955,7 +7951,7 @@
         "sku": "U218",
         "title": "Default Title",
         "price": "9.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -9338,8 +9334,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "accessories",
-      "m5stack-new-arrival"
+      "accessories"
     ],
     "tags": [
       "ACCESSORIES-OTHERS"
@@ -9552,7 +9547,7 @@
         "sku": "M127",
         "title": "Default Title",
         "price": "23.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -11741,7 +11736,7 @@
         "sku": "M003-V21",
         "title": "Default Title",
         "price": "13.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12782,7 +12777,7 @@
         "sku": "U200",
         "title": "Default Title",
         "price": "8.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -13878,7 +13873,7 @@
         "sku": "U120",
         "title": "Default Title",
         "price": "17.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -15495,8 +15490,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "E-PAPER",
@@ -15645,7 +15639,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16721,7 +16715,7 @@
         "sku": "K010",
         "title": "Default Title",
         "price": "46.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16857,8 +16851,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "CORE",
@@ -16909,8 +16902,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "CORE",
@@ -17384,6 +17376,199 @@
       ],
       "interfaces": [],
       "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "m5stack-faces-3-bottom-board",
+    "shopifyId": 9336235655425,
+    "title": "M5STACK Faces 3 Bottom Board",
+    "eol": false,
+    "sku": "A168",
+    "category": "module",
+    "formFactor": "MODULE",
+    "subcategories": [
+      "for-stack",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FACES"
+    ],
+    "descriptionText": "Faces Bottom3 is a functional panel expansion base for the Faces series, connecting to the host via the M5-Bus. The base provides a 2.54-22P input panel bus, which can be used to connect function panels such as keyboards, calculators, and game controllers. It features a built-in 600mAh rechargeable battery and a TP4057 charging IC, supporting offline power supply and stable charging. RGB light strips are integrated on both sides (10 RGB LEDs in total), and the top provides 2 x HY2.0-4P expansion ports (PORT.B / PORT.C), along with RGB LED IO signal switching support. The back is equipped with Pogo Pin magnetic charging contacts, M3 screw holes, and wall-mount fixing holes for easy installation and mounting; the bottom features a lanyard hole for convenient carrying.\n Features\n Compatible with Faces series function panels (Gen 1 / Gen 3)\n Compatible with Core series main controllers (Core1 / Core2 / CoreS3, etc.)\n RGB LED strips on both sides (5 LEDs per side)\n 2 x HY2.0-4P expansion ports (PORT.B / PORT.C)\n Built-in 600mAh rechargeable battery\n Integrated TP4057 charging IC\n Pogo Pin magnetic charging contacts on the back\n LED IO switching switch, compatible with different hosts\n Battery power switch on the back\n M3 screw holes and wall-mount fixing holes on the back; lanyard hole at the bottom for convenient carrying\n Includes\n 1 x Faces Bottom3\n 1 x Faces Charging3\n 1 x Hex Key L-Shape 2.5mm (For M3 Screw)\n 6 x M3 * 12mm cap head machine screw\n Applications\n Handheld intera",
+    "variants": [
+      {
+        "sku": "A168",
+        "title": "Default Title",
+        "price": "22.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 22.5,
+      "max": 22.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A168_M5STACK_Faces3_Bottom_Board_1.webp?v=1788432762",
+    "url": "https://shop.m5stack.com/products/m5stack-faces-3-bottom-board",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "B",
+        "C"
+      ],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "m5stack-faces-calculator-panel-v3-0",
+    "shopifyId": 9336191746305,
+    "title": "M5STACK Faces Calculator Panel v3.0",
+    "eol": false,
+    "sku": "A005-V3",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-stack",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FACES"
+    ],
+    "descriptionText": "Faces Calculator3 is a calculator input panel designed for the Faces Bottom series. It adopts a 4 x 5 key layout that covers common digits, operators, and function keys, making it suitable for building interactive terminals with local calculation capabilities. The panel communicates with the host via I2C, providing interaction capabilities such as numeric entry, simple arithmetic operations, and calculation result display.\n Features\n Built-in STM32 main controller: STM32G031G8U6\n I2C communication interface\n Calculator key layout\n Includes\n 1x Faces Calculator3\n Applications\n Numeric input and arithmetic interaction scenarios\n Local calculation and parameter entry scenarios\n Teaching demonstrations and prototype verification projects\n Specifications\n Specification \n Parameter \n MCU \n STM32G031G8U6 \n Communication Interface \n I2C communication @ 0x08 \n Key Layout \n 4 x 5 calculator keypad \n Number of Keys \n 20 keys \n Standby Power (Panel Only) \n 3.3V@1.79mA \n Product Size \n 57.0 x 54.1 x 10.6mm \n Product Weight \n 20.7g \n Package Size \n 56.0 x 59.0 x 19.0mm \n Gross Weight \n 25.5g \n Product Comparison\n Product Compare \n Faces Calculator3 \n Faces Calculator \n MCU \n STM32G031G8U6 \n MEGA328 \n Learn and Documents\n → DOCUMENTS",
+    "variants": [
+      {
+        "sku": "A005-V3",
+        "title": "Default Title",
+        "price": "7.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 7.95,
+      "max": 7.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A005-V3_M5Stack_Faces_Calculator_Panel_V3.0_1.webp?v=1788431624",
+    "url": "https://shop.m5stack.com/products/m5stack-faces-calculator-panel-v3-0",
+    "docs": {
+      "category": "Modules",
+      "docUrl": "https://docs.m5stack.com/#/en/module/faces_calculator",
+      "quickstartUrl": null,
+      "keywords": [
+        "FACES",
+        "CALCULATOR"
+      ],
+      "matchType": "prefix-sku"
+    },
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": "0x08",
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "m5stack-faces-gamepad-panel-v3-0",
+    "shopifyId": 9336209867009,
+    "title": "M5STACK Faces Gamepad Panel v3.0",
+    "eol": false,
+    "sku": "A004-V3",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-stack",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FACES"
+    ],
+    "descriptionText": "Faces Gamepad3 is a game control input panel designed for the Faces Bottom series, providing classic directional controls, A/B buttons, and interactive buttons such as Pause/Start, making it suitable for gaming control and quick-operation scenarios. It integrates an STM32 core MCU that communicates with the host via the I2C communication protocol and an interrupt pin, featuring fast response and high integration.\n Features\n Built-in STM32 core MCU: STM32F030F4P6\n I2C communication interface\n Gamepad button layout\n Includes\n 1 x Faces Gamepad3\n Applications\n Gaming control input scenarios\n Directional control and quick-operation scenarios\n Embedded projects requiring button interaction\n Specifications\n Specification \n Parameter \n MCU \n STM32F030F4P6 \n Communication Interface \n I2C @0x08 \n Button Layout \n D-pad, A/B, Start/Select \n Number of Buttons \n 8 Buttons \n Standby Power (Panel Only) \n 3.3V@4.91mA \n Product Size \n 57.0 x 54.1 x 10.7mm \n Product Weight \n 19.2g \n Package Size \n 56.0 x 59.0 x 19.0mm \n Gross Weight \n 24.0g \n Product Comparison\n Product Compare \n Faces Gamepad3 \n Faces Gamepad \n MCU \n STM32F030F4P6 \n MEGA328 \n Learn and Documents\n → DOCUMENTS",
+    "variants": [
+      {
+        "sku": "A004-V3",
+        "title": "Default Title",
+        "price": "7.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 7.95,
+      "max": 7.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A004-V3_M5STACK_Faces_Gamepad_Panel_v3.0_1.webp?v=1788432027",
+    "url": "https://shop.m5stack.com/products/m5stack-faces-gamepad-panel-v3-0",
+    "docs": {
+      "category": "Modules",
+      "docUrl": "https://docs.m5stack.com/#/en/module/faces_gameboy",
+      "quickstartUrl": null,
+      "keywords": [
+        "FACES",
+        "GAMEPAD"
+      ],
+      "matchType": "prefix-sku"
+    },
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": "0x08",
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "m5stack-faces-keyboard-panel-v3-0",
+    "shopifyId": 9336222187777,
+    "title": "M5STACK Faces KeyBoard Panel v3.0",
+    "eol": false,
+    "sku": "A003-V3",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-stack",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FACES"
+    ],
+    "descriptionText": "Faces Keyboard3 is a keyboard input panel designed for the Faces Bottom series. It adopts a 35-key layout that supports multi-character input through key combinations, meeting the needs of basic text input and quick control. An STM32 main controller is integrated inside, which interacts with the host through the I2C communication protocol and an interrupt pin, featuring fast response and high integration.\n Features\n Built-in STM32 main controller: STM32F030C8T6\n I2C communication interface\n Key layout: QWERTY keyboard\n Input status indicator: Blue LED x2\n Includes\n 1x Faces Keyboard3\n Applications\n Human-machine interaction input scenarios\n Parameter configuration and quick operations\n Text input and menu control\n Specifications\n Specification \n Parameter \n MCU \n STM32F030C8T6 \n Communication Interface \n I2C communication @ 0x08 \n Key Layout \n QWERTY full keyboard \n Number of Keys \n 35 keys \n Input Status Indicator \n Blue LED x2 \n Standby Power (Panel Only) \n 3.3V@5.51mA \n Product Size \n 57.0 x 54.1 x 10.0mm \n Product Weight \n 21.4g \n Package Size \n 56.0 x 59.0 x 19.0mm \n Gross Weight \n 26.4g \n Product Comparison\n Product Compare \n Faces Keyboard3 \n Faces QWERTY \n MCU \n STM32F030C8T6 \n MEGA328 \n Learn and Documents\n → DOCUMENTS",
+    "variants": [
+      {
+        "sku": "A003-V3",
+        "title": "Default Title",
+        "price": "12.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 12.5,
+      "max": 12.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A003-V3_M5STACK_Faces_KeyBoard_Panel_v3.0_1.webp?v=1788432372",
+    "url": "https://shop.m5stack.com/products/m5stack-faces-keyboard-panel-v3-0",
+    "docs": {
+      "category": "Modules",
+      "docUrl": "https://docs.m5stack.com/#/en/module/faces_keyboard",
+      "quickstartUrl": null,
+      "keywords": [
+        "FACES",
+        "KEYBOARD",
+        "QWERTY"
+      ],
+      "matchType": "prefix-sku"
+    },
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": "0x08",
       "source": "extracted"
     }
   },
@@ -17935,8 +18120,7 @@
     "category": "module",
     "formFactor": "MODULE",
     "subcategories": [
-      "for-stack",
-      "m5stack-new-arrival"
+      "for-stack"
     ],
     "tags": [
       "MODULE"
@@ -18643,8 +18827,7 @@
     "category": "controller",
     "formFactor": "STANDALONE",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "Controllers-Others",
@@ -18823,13 +19006,13 @@
         "sku": "K145",
         "title": "With NP-F550 Battery",
         "price": "60.00",
-        "available": false
+        "available": true
       },
       {
         "sku": "C145",
         "title": "Without NP-F550 Battery",
         "price": "55.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19161,9 +19344,7 @@
     "sku": "K151-R",
     "category": "kit",
     "formFactor": "STANDALONE",
-    "subcategories": [
-      "m5stack-new-arrival"
-    ],
+    "subcategories": [],
     "tags": [
       "Backorder",
       "ESP32-S3",
@@ -19449,8 +19630,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-P4",
@@ -19632,7 +19812,7 @@
         "sku": "K138-V11",
         "title": "Default Title",
         "price": "49.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20085,7 +20265,7 @@
         "sku": "S016",
         "title": "Default Title",
         "price": "6.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20531,7 +20711,7 @@
         "sku": "U080",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -23664,7 +23844,6 @@
     "category": "unit",
     "formFactor": "UNIT",
     "subcategories": [
-      "m5stack-new-arrival",
       "unit"
     ],
     "tags": [
@@ -25155,7 +25334,7 @@
         "sku": "A146-B",
         "title": "50cm (2pcs a pack)",
         "price": "4.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26473,7 +26652,7 @@
         "sku": "M014-B",
         "title": "Default Title",
         "price": "17.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27654,7 +27833,7 @@
         "sku": "U185",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27785,7 +27964,7 @@
         "sku": "U088",
         "title": "Default Title",
         "price": "10.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28938,8 +29117,7 @@
     "category": "kit",
     "formFactor": "STANDALONE",
     "subcategories": [
-      "accessories",
-      "m5stack-new-arrival"
+      "accessories"
     ],
     "tags": [
       "ACCESSORIES-OTHERS"
