@@ -22,12 +22,12 @@
   {
     "category": "module",
     "label": "Modules (M-Bus stackable, for Core family)",
-    "total": 118,
+    "total": 119,
     "eolCount": 50,
     "subcategories": [
       {
         "handle": "for-stack",
-        "count": 61
+        "count": 62
       },
       {
         "handle": "accessories",
@@ -35,7 +35,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 3
+        "count": 4
       }
     ]
   },
@@ -134,12 +134,16 @@
   {
     "category": "stamp-accessory",
     "label": "Stamp accessories",
-    "total": 8,
+    "total": 9,
     "eolCount": 0,
     "subcategories": [
       {
         "handle": "for-stamp",
-        "count": 8
+        "count": 9
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 1
       }
     ]
   }

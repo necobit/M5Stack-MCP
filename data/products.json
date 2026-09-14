@@ -1123,7 +1123,7 @@
         "sku": "U125",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -2666,7 +2666,7 @@
         "sku": "C126-ECHO",
         "title": "Default Title",
         "price": "14.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4929,7 +4929,7 @@
         "sku": "C123",
         "title": "Default Title",
         "price": "15.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5176,7 +5176,7 @@
         "sku": "C126",
         "title": "Default Title",
         "price": "17.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5612,7 +5612,7 @@
         "sku": "K014-E",
         "title": "Default Title",
         "price": "79.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5805,7 +5805,7 @@
         "sku": "A122",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7014,7 +7014,7 @@
         "sku": "U219",
         "title": "Default Title",
         "price": "18.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -8109,7 +8109,7 @@
     "tags": [
       "UNIT-SENSOR"
     ],
-    "descriptionText": "Unit Color is a color recognition unit that integrates a TCS3472 color light digital converter, capable of converting detected color values into RGB data and returning it to the M5Core. This unit communicates with the M5Core via the PORT A interface (I2C), with an I2C address of 0x29.\n Features\n HY2.0-4P interface, supports UIFlow and Arduino \n 2 x LEGO compatible holes\n Includes\n 1 x Unit Color\n 1 x HY2.0-4P Grove connection cable (20cm)\n Applications\n Product color verification\n Color tracking robots\n Specifications\n Specification \n Parameter \n IC Model \n TCS3472 \n Communication Interface \n I2C @0x29 \n Operating Temperature Range \n -40 ~ 85°C \n Product Size \n 32.0 x 24.0 x 8.0mm \n Product Weight \n 4.3g \n Package Size \n 138.0 x 93.0 x 9.0mm \n Gross Weight \n 10.0g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Unit Color is a high-precision RGB color recognition unit. It integrates the TCS3472 color light-to-digital converter, supporting four-channel RGBC (Red, Green, Blue, Clear) measurement, enabling accurate conversion of ambient light into RGB data. The unit communicates via the I2C interface (0x29) and features an integrated LED fill-light system to ensure accurate color recognition under various lighting conditions. With a LEGO-compatible mounting hole design, it can be flexibly attached to LEGO structures or fixed using screws. It is suitable for a wide range of color recognition applications, such as product color verification, color-tracking robots, and ambient light monitoring.\n Features\n Core Chip: TCS3472\n Measurement Channels: 4-channel RGBC\n Fill Light System: Integrated white LED\n Communication Interface: I2C (0x29)\n 2 x LEGO-compatible mounting holes\n Development Platform\n UiFlow1\n UiFlow2\n Arduino IDE\n Includes\n 1 x Unit Color\n 1 x HY2.0-4P Grove connection cable (20cm)\n Applications\n Product color verification\n Color tracking robots\n Specifications\n Specification \n Parameter \n IC Model \n TCS3472 \n Communication Interface \n I2C @0x29 \n Operating Temperature Range \n -40 ~ 85°C \n Product Size \n 32.0 x 24.0 x 8.0mm \n Product Weight \n 4.2g \n Package Size \n 138.0 x 93.0 x 9.0mm \n Gross Weight \n 10.0g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "U009",
@@ -8798,7 +8798,7 @@
         "sku": "A140",
         "title": "Default Title",
         "price": "4.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -9547,7 +9547,7 @@
         "sku": "M127",
         "title": "Default Title",
         "price": "23.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12777,7 +12777,7 @@
         "sku": "U200",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12863,7 +12863,7 @@
         "sku": "U175",
         "title": "Default Title",
         "price": "4.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -14161,6 +14161,48 @@
     }
   },
   {
+    "handle": "lora-module-13-2-sx1262",
+    "shopifyId": 9348074045697,
+    "title": "LoRa Module 13.2 (SX1262)",
+    "eol": false,
+    "sku": "M149",
+    "category": "module",
+    "formFactor": "MODULE",
+    "subcategories": [
+      "for-stack",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "MODULE-13-2"
+    ],
+    "descriptionText": "Module13.2 LoRa-1262 is a stackable long-range LoRa communication module. The module integrates the Stamp LoRa-1262 communication module and adopts the SX1262 LoRa RF transceiver solution, supporting 868 ~ 923 MHz frequency band communication. The module features an RP-SMA external antenna interface; the LoRa communication part uses an SPI communication interface to exchange data with the main controller, and integrates the M5IOE1 IO expansion chip, which can perform reset, bypass, and power management on the LoRa module, effectively reducing overall power consumption. Multiple onboard DIP switches are used for LoRa communication pin switching and M5IOE1 I2C address modification, allowing flexible adaptation to the IO resources of different controllers and supporting multi-module stacking. It is suitable for scenarios such as remote monitoring, smart home, industrial automation, and IoT nodes.\n Antenna Connection\n Before using the LoRa module, please connect a matched external antenna first. Do not transmit RF signals without an antenna connected, otherwise it will cause permanent hardware damage!\n Features\n Integrated Stamp LoRa-1262 module (based on SX1262)\n Supports 868 ~ 923 MHz operating frequency band\n Uses SPI communication interface\n Supports LoRa, FSK, GFSK, MSK, GMSK, and OOK modulation modes\n LoRa maximum transmit power approximately +22 dBm, receive sensitivity down to -147 dBm (in LoRa low-rate mode)\n Onboard RP-SMA external antenna interface\n Onboard DC 3.7V bat",
+    "variants": [
+      {
+        "sku": "M149",
+        "title": "Default Title",
+        "price": "22.00",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 22,
+      "max": 22,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/M149_LoRa_Module_13.2_SX1262_1.webp?v=1789033724",
+    "url": "https://shop.m5stack.com/products/lora-module-13-2-sx1262",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C",
+        "SPI"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "lora-module-868mhz",
     "shopifyId": 4340566917210,
     "title": "LoRa Module( 868MHz )",
@@ -15304,7 +15346,7 @@
     "tags": [
       "BASE"
     ],
-    "descriptionText": "Base M5GO Bottom is an enhanced universal base for Core series, compatible with all Core models. Compared to the basic Core Bottom, the enhanced base comes with a larger capacity lithium battery (500 mAh), integrates a microphone, LED light strip, infrared LED, and expands with two HY2.0-4P ports (PORT.B/PORT.C). The backside is LEGO-compatible and features pogo pins for connecting supported I2C devices (such as BALA) or a magnetic charging base.\n Features\n Compatible with Core\n Integrated Mic / LED light strip / HY2.0-4P ports\n LEGO bricks compatible\n Supports configurable magnetic charging base\n Built-in 10 RGB LEDs in the base\n Includes\n 1 x Base M5GO Bottom\n 2 x M3x16 Screws\n Specifications\n Specification \n Parameter \n Product Size \n 54.0 x 54.0 x 15.0mm \n Product Weight \n 32.7g \n Package Size \n 132 x 95 x 16mm \n Gross Weight \n 50.6g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Base M5GO Bottom is an enhanced universal base for Core series, compatible with all Core models. Compared to the basic Core Bottom , the enhanced base comes with a larger capacity lithium battery (500 mAh), integrates a microphone, LED light strip, infrared LED, and expands with two HY2.0-4P ports (PORT.B/PORT.C). The backside is LEGO-compatible and features pogo pins for connecting supported I2C devices (such as BALA) or a magnetic charging base.\n Features\n Compatible with Core\n Integrated Mic / LED light strip / HY2.0-4P ports\n LEGO bricks compatible\n Supports configurable magnetic charging base\n Built-in 10 RGB LEDs in the base\n Includes\n 1 x Base M5GO Bottom\n 2 x M3x16 Screws\n Specifications\n Specification \n Parameter \n Product Size \n 54.0 x 54.0 x 15.0mm \n Product Weight \n 32.7g \n Package Size \n 132 x 95 x 16mm \n Gross Weight \n 50.6g \n Product Comparison\n Product Compare \n Base M5GO Bottom \n Base M5GO Bottom2 \n Base M5GO Bottom3 \n Core \n Basic (Core) \n Core2 \n CoreS3 \n RGB \n 10*SK6812 \n 10*SK6812 \n 10*WS2812 \n IMU \n / \n MPU6886 \n / \n IR \n IR \n / \n IR \n BATTERY \n 500mAh \n 500mAh \n 500mAh \n MIC \n SPQ2410 \n LMD4737 \n /",
     "variants": [
       {
         "sku": "A014",
@@ -15639,7 +15681,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16472,7 +16514,7 @@
         "sku": "K132-V11",
         "title": "Default Title",
         "price": "29.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17056,7 +17098,7 @@
         "sku": "K128-LITE",
         "title": "Default Title",
         "price": "44.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18217,7 +18259,7 @@
         "sku": "A143",
         "title": "Default Title",
         "price": "4.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19911,6 +19953,57 @@
     }
   },
   {
+    "handle": "m5stamp-lora-module-sx1262",
+    "shopifyId": 9348087808257,
+    "title": "M5Stamp LoRa Module (SX1262)",
+    "eol": false,
+    "sku": "S014",
+    "category": "stamp-accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-stamp",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-STAMP-WIRELESS"
+    ],
+    "descriptionText": "Stamp LoRa-1262 is an ultra-compact embedded LoRa communication module with a built-in SX1262 high-performance LoRa transceiver, operating over the 868 ~ 923 MHz frequency band. The module is mini in size yet powerful in performance, with stable and reliable RF characteristics. Its maximum transmit power reaches +22 dBm, and its receive sensitivity is as low as -147 dBm, balancing long-distance communication with system reliability. The product is available in multiple variants, allowing users to choose different combinations of a pre-mounted IPEX-4 antenna connector and a 0.5mm@12P FPC connector (for breaking out the module's communication IO) according to application requirements, making it easy to integrate into hardware designs of different sizes and structures. It is suitable for applications such as smart city construction , agriculture and environmental monitoring , and outdoor communication .\n Features\n Integrated LoRa transceiver SX1262\n Operating frequency 868 ~ 923 MHz\n Supports LoRa / FSK / GFSK / MSK / GMSK / OOK modulation modes\n Receive sensitivity: as low as -147 dBm (in LoRa low-rate mode)\n Maximum transmit power: +22 dBm\n Includes\n Stamp LoRa-1262 (SKU:S014)\n 1 x Stamp LoRa-1262\n Stamp LoRa-1262 I (SKU:S014-I)\n 1 x Stamp LoRa-1262 I\n 1 x 868 MHz RP-SMA Rubber Duck Antenna\n 1 x RP-SMA to IPEX-4 Antenna Extension Cable (40mm)\n 1 x Antenna Connector Washer (1.0mm Thickness)\n 1 x Antenna Connector Tooth Washer (0.5mm Thickness)\n 1 x Antenna Connector Brass Nut\n ",
+    "variants": [
+      {
+        "sku": "S014",
+        "title": "M5Stamp LoRa Module",
+        "price": "5.50",
+        "available": true
+      },
+      {
+        "sku": "S014-I",
+        "title": "M5Stamp LoRa Module with Antenna",
+        "price": "7.50",
+        "available": true
+      },
+      {
+        "sku": "S014-IF",
+        "title": "M5Stamp LoRa Module with Antenna and FPC",
+        "price": "7.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 5.5,
+      "max": 7.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/S014_M5Stamp_LoRa_Module_SX1262_1.webp?v=1789034898",
+    "url": "https://shop.m5stack.com/products/m5stamp-lora-module-sx1262",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "m5stamp-pico-5pcs",
     "shopifyId": 6880963297452,
     "title": "M5Stamp Pico (5pcs)",
@@ -20265,7 +20358,7 @@
         "sku": "S016",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20305,7 +20398,7 @@
         "sku": "S016-DIP",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20711,7 +20804,7 @@
         "sku": "U080",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24023,7 +24116,7 @@
         "sku": "U119",
         "title": "Default Title",
         "price": "10.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24848,7 +24941,7 @@
       "ESP32",
       "HOBBY-OTHERS"
     ],
-    "descriptionText": "The PM2.5 Air Quality Kit is an environmental temperature, humidity, and air quality detection product kit. This product is composed of the M5CORE host, SHT30 temperature and humidity sensor, and PMSA003 digital universal particulate matter concentration sensor. It can quickly detect the current environmental temperature and humidity data, and collect and calculate the number of suspended particles of different sizes in the air per unit volume. The simple and reliable design allows for quick deployment of nodes, and it can be used in various scenarios such as daily life or industrial environments for environmental data collection, or to provide real-time and accurate concentration data for instruments or environmental improvement equipment related to suspended particulate matter in the air.\n Features\n DC 5V power supply\n Compatible with M5Stack expansion stacking system\n M5Core base (Pin out SPI/I2C/Power)\n Type-C USB\n 2.54mm universal board\n Includes\n 1 x M5Stack Basic\n 1 x PM2.5 base\n 1 x M5Core base\n 1 x SHT30 sensor\n 1 x Type-C USB\n 2 x M3x16 screws\n Applications\n Environmental PM2.5 measurement\n Temperature and humidity measurement\n Specifications\n Specification \n Parameter \n PM2.5 Sensor \n PMSA003 \n Temperature and Humidity Sensor \n SHT30 \n Minimum Resolution Particle Size \n 0.3μm \n Particulate Matter Mass Concentration Resolution \n 1μg/m³ \n Particulate Matter Measurement Range \n 0.3-1.0, 1.0-2.5, 2.5-10 μm \n Supply Voltage \n 5V \n Operating Temperature \n -10℃ ~ +60℃ \n O",
+    "descriptionText": "PM2.5 Air Quality Kit-SHT30 is an air quality monitoring kit composed of a Basic controller, Module Air Quality with a built-in PMSA003 digital particulate matter concentration sensor, and Base BTC with a built-in SHT30 temperature and humidity sensor. It can simultaneously collect environmental particulate matter concentration and temperature/humidity data. The kit supports suspended particulate matter detection across multiple particle size ranges and can output mass concentration data related to PM2.5 standard values. It is suitable for real-time air quality monitoring, data logging, and trend analysis at fixed locations such as homes, offices, classrooms, and laboratories. It can also provide data reference for environmental improvement devices such as air purifiers and fresh air systems.\n Features\n Based on M5Stack Basic controller\n Equipped with screen and buttons for local data display and interaction\n Module Air Quality\n Built-in PMSA003 particulate matter concentration sensor\n Supports multi-particle-size particulate matter and PM2.5 mass concentration detection\n Provides 2.54-8P expansion interface with SPI/I2C IO pins exposed\n Base BTC\n SHT30 temperature and humidity sensor for simultaneous environmental temperature and humidity data collection\n Supports DC 5V / USB Type-C power supply, compatible with M5Stack modular stacking expansion system\n Includes\n 1 x Basic\n 1 x Module Air Quality\n 1 x Base BTC\n 1 x USB Type-C Cable (100cm)\n 2 x M3x16 screw\n 1 x Hex Key L-Sh",
     "variants": [
       {
         "sku": "K023-B",
@@ -25624,13 +25717,13 @@
       {
         "sku": "A181",
         "title": "Default Title",
-        "price": "2.50",
+        "price": "2.95",
         "available": true
       }
     ],
     "priceRange": {
-      "min": 2.5,
-      "max": 2.5,
+      "min": 2.95,
+      "max": 2.95,
       "currency": "USD"
     },
     "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Repair_Kit_for_Stackchan_1.webp?v=1786527173",
@@ -25938,7 +26031,7 @@
         "sku": "U182-LITE",
         "title": "Default Title",
         "price": "29.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26108,7 +26201,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27833,7 +27926,7 @@
         "sku": "U185",
         "title": "Default Title",
         "price": "6.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27964,7 +28057,7 @@
         "sku": "U088",
         "title": "Default Title",
         "price": "10.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -29075,7 +29168,7 @@
         "sku": "U087",
         "title": "Default Title",
         "price": "19.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
