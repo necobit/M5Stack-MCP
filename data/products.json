@@ -427,7 +427,7 @@
         "sku": "A088-B",
         "title": "1M",
         "price": "2.95",
-        "available": true
+        "available": false
       },
       {
         "sku": "A088-C",
@@ -2949,7 +2949,7 @@
         "sku": "K042-D",
         "title": "Default Title",
         "price": "31.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3195,7 +3195,7 @@
         "sku": "C008-B",
         "title": "Default Title",
         "price": "15.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4929,7 +4929,7 @@
         "sku": "C123",
         "title": "Default Title",
         "price": "15.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5133,7 +5133,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7951,7 +7951,7 @@
         "sku": "U218",
         "title": "Default Title",
         "price": "9.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -9366,6 +9366,45 @@
     }
   },
   {
+    "handle": "display-1-14-inch-for-sticks3",
+    "shopifyId": 9356540248321,
+    "title": "Display 1.14 Inch for StickS3",
+    "eol": false,
+    "sku": "A183",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "accessories",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "ACCESSORIES-DISPLAY"
+    ],
+    "descriptionText": "Display 1.14 For StickS3 is a 1.14-inch color IPS TFT LCD display module with a compact form factor and structure, connected to the mainboard via a 0.4mm-12P board-to-board connector. The module adopts a transmissive display solution and is equipped with the ST7789P3 driver chip. It features a resolution of 135 x 240, supports 262K color display, and offers full viewing angle visibility. It can serve as an original replacement screen for the StickS3, used for device screen repair and replacement, and is also suitable for scenarios such as instrument and meter data display and electronic DIY development.\n Features\n Equipped with ST7789P3 driver chip\n 1.14-inch TFT color LCD display (transmissive)\n 135 × 240 resolution\n 262K color display\n Full viewing angle\n 0.4mm-12P board-to-board connector\n Includes\n 1 x Display 1.14 For StickS3\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n Applications\n StickS3 screen repair and replacement\n Instrument and meter data display\n Electronic DIY development\n Specifications\n Specification \n Parameter \n Screen Type \n 1.14-inch transmissive TFT \n Driver Chip \n ST7789P3 \n Resolution \n 135 x 240 \n Display Color \n 262K colors \n Active Display Area \n 14.864 × 24.912mm \n Connection \n 0.4mm-12P B2B connector \n Viewing Direction \n Full viewing angle \n Operating Temperature \n 0 ~ 40°C \n Power Voltage \n DC 3.3V \n Product Size \n 60.0 x 17.6 x 1.6mm \n Product Weight \n 1.8g \n Package Size \n 138.0 x 93.0 x 13.0mm \n Gross Weight \n 5.6g \n Learn and Documents\n → DOC",
+    "variants": [
+      {
+        "sku": "A183",
+        "title": "Default Title",
+        "price": "4.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 4.5,
+      "max": 4.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A183_Display_1.14_Inch_for_StickS3_1.webp?v=1789699629",
+    "url": "https://shop.m5stack.com/products/display-1-14-inch-for-sticks3",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "display-module-13-2",
     "shopifyId": 7955242778881,
     "title": "Display Module 13.2",
@@ -9911,7 +9950,7 @@
         "sku": "U001-D",
         "title": "Default Title",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -10691,7 +10730,7 @@
         "sku": "U011-B",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -12863,7 +12902,7 @@
         "sku": "U175",
         "title": "Default Title",
         "price": "4.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16757,7 +16796,7 @@
         "sku": "K010",
         "title": "Default Title",
         "price": "46.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16854,7 +16893,7 @@
         "sku": "K010-V11",
         "title": "Default Title",
         "price": "46.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -17098,7 +17137,7 @@
         "sku": "K128-LITE",
         "title": "Default Title",
         "price": "44.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -18259,7 +18298,7 @@
         "sku": "A143",
         "title": "Default Title",
         "price": "4.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19720,7 +19759,7 @@
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20358,7 +20397,7 @@
         "sku": "S016",
         "title": "Default Title",
         "price": "6.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21470,7 +21509,7 @@
         "sku": "U118",
         "title": "Default Title",
         "price": "36.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24116,7 +24155,7 @@
         "sku": "U119",
         "title": "Default Title",
         "price": "10.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -25712,7 +25751,7 @@
     "tags": [
       "ACCESSORIES-OTHERS"
     ],
-    "descriptionText": "The StackChan Repair Kit is a maintenance kit for the StackChan robot, specifically designed to address issues such as damaged or detached FFC cables, lost or stripped screws, loose casing, and main unit/body replacement . It is ideal for assembly, modification, and routine maintenance of StackChan.\n Includes\n 2 x M3 * 22mm cap head machine screw\n 2 x M3 * 14mm cap head machine screw\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n 1 x Hex Key L-Shape 2.5mm (For M3 Screw)\n 1 x 1.25-7P Silicone FFC Cable (60mm)\n 1 x 1.25-4P Male-to-Female Same Direction Extension Cable (100mm)\n Applications\n StackChan repair, part replacement, and routine maintenance\n Specifications\n Specification \n Parameter \n Product Weight \n 9.7g \n Package Size \n 138.0 x 93.0 x 9.0mm \n Gross Weight \n 11.5g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "The StackChan Repair Kit is a maintenance kit for the StackChan robot, specifically designed to address issues such as damaged or detached FFC cables, lost or stripped screws, loose casing, and main unit/body replacement . It is ideal for assembly, modification, and routine maintenance of StackChan.\n Includes\n 2 x M3 * 22mm cap head machine screw\n 2 x M3 * 14mm cap head machine screw\n 1 x Hex Key L-Shape 1.5mm (For M2 Screw)\n 1 x Hex Key L-Shape 2.5mm (For M3 Screw)\n 5 x 1.25-7P Silicone FFC Cable (60mm)\n 1 x 1.25-4P Male-to-Female Same Direction Extension Cable (100mm) \n Applications\n StackChan repair, part replacement, and routine maintenance\n Specifications\n Specification \n Parameter \n Product Weight \n 9.7g \n Package Size \n 138.0 x 93.0 x 9.0mm \n Gross Weight \n 11.5g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "A181",
@@ -25726,7 +25765,7 @@
       "max": 2.95,
       "currency": "USD"
     },
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/Repair_Kit_for_Stackchan_1.webp?v=1786527173",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A181_Repair_Kit_for_Stackchan_3.webp?v=1789453192",
     "url": "https://shop.m5stack.com/products/repair-kit-for-stackchan",
     "docs": null,
     "connectivity": {
@@ -26031,7 +26070,7 @@
         "sku": "U182-LITE",
         "title": "Default Title",
         "price": "29.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -27340,6 +27379,88 @@
     }
   },
   {
+    "handle": "stamp-addon-cam-gc0308-for-stamp-s3bat",
+    "shopifyId": 9356566724865,
+    "title": "Stamp-AddOn Cam GC0308 for Stamp S3Bat",
+    "eol": false,
+    "sku": "A178",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "accessories",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "ACCESSORIES-CAMERA"
+    ],
+    "descriptionText": "Stamp-AddOn Cam0308 is a CMOS camera expansion module designed for the Stamp-S3Bat. It features a 0.3MP GC0308 image sensor and adopts an L-shaped flexible FPC cable, connecting to the mainboard via a 0.4mm-24P B2B board-to-board connector; the side of the lens is provided with a metal mounting hole. The module outputs images through an 8-bit DVP parallel interface and configures the sensor registers via the SCCB bus, supporting QVGA (320 x 240) and VGA (640 x 480) image capture. With its compact size, the module is suitable for installation in space-constrained devices and can be used in embedded vision scenarios such as image acquisition, barcode scanning, and visual inspection.\n Features\n Compatible with Stamp-S3Bat\n 0.3MP GC0308 CMOS image sensor\n Supports QVGA (320 x 240) and VGA (640 x 480) resolutions\n Supports YCbCr 4:2:2, RGB565, and Raw Bayer image output formats\n 8-bit DVP parallel image output interface\n SCCB configuration bus (electrically compatible with I2C)\n L-shaped flexible FPC with integrated 0.4mm-24P B2B board-to-board connector\n Side metal mounting hole for easy installation and fixation\n Includes\n 1 x Stamp-AddOn Cam0308\n Applications\n Embedded image acquisition\n QR code recognition\n Object contour and color detection\n Video surveillance and wireless image transmission\n IoT vision sensor node\n Specifications\n Specification \n Parameter \n Image Sensor \n GC0308 CMOS \n Effective Pixels \n 0.3MP \n Max Resolution \n 640 x 480 \n Lens Size \n 1/6.5 inch \n Aperture",
+    "variants": [
+      {
+        "sku": "A178",
+        "title": "Default Title",
+        "price": "3.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 3.5,
+      "max": 3.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A178_Stamp-AddOn_Cam_GC0308_for_Stamp_S3Bat_1.webp?v=1789700667",
+    "url": "https://shop.m5stack.com/products/stamp-addon-cam-gc0308-for-stamp-s3bat",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "stamp-addon-cam-ov3660-for-stamp-s3bat",
+    "shopifyId": 9356553027841,
+    "title": "Stamp-AddOn Cam OV3660 for Stamp S3Bat",
+    "eol": false,
+    "sku": "A182",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "accessories",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "ACCESSORIES-CAMERA"
+    ],
+    "descriptionText": "Stamp-AddOn Cam3660 is a CMOS camera expansion module designed for the Stamp-S3Bat. It is equipped with a 3MP OV3660 image sensor and features an L-shaped flexible FPC cable, connecting to the mainboard via a 0.4mm-24P B2B board-to-board connector. A metal mounting hole is provided on the side of the lens. The module outputs images through an 8-bit DVP parallel interface and configures the sensor registers via the SCCB bus, supporting image capture at up to 3MP (2048 × 1536) resolution. With its compact size, the module is suitable for installation in devices with limited space and can be used in embedded vision scenarios such as image capture, visual recognition, and video transmission.\n Features\n Designed for the Stamp-S3Bat\n 3MP OV3660 CMOS image sensor\n Supports up to 2048 × 1536 resolution\n Supports JPEG, RAW RGB, RGB565/555/444, CCIR656, and YCbCr422 image output formats\n 8-bit DVP parallel image output interface\n SCCB configuration bus (electrically compatible with I2C)\n Supports PWDN low-power control and hardware reset\n L-shaped flexible FPC, integrated with a 0.4mm-24P B2B board-to-board connector\n Side metal mounting hole for easy installation and fixation\n Includes\n 1 x Stamp-AddOn Cam3660\n Applications\n Embedded image capture\n Object recognition and visual inspection\n QR code recognition\n Video surveillance and wireless image transmission\n IoT vision sensor nodes\n Specifications\n Specification \n Parameter \n Image Sensor \n OV3660 CMOS \n Active Pixels \n 3MP \n Max R",
+    "variants": [
+      {
+        "sku": "A182",
+        "title": "Default Title",
+        "price": "5.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 5.5,
+      "max": 5.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A182_Stamp-AddOn_Cam_OV3660_for_Stamp_S3Bat_1.webp?v=1789700200",
+    "url": "https://shop.m5stack.com/products/stamp-addon-cam-ov3660-for-stamp-s3bat",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "stampfly-accessory-kit-motors-propellers",
     "shopifyId": 8639447400705,
     "title": "StampFly Accessory Kit (Motors + Propellers)",
@@ -27995,6 +28116,47 @@
       ],
       "i2cAddress": "0x29",
       "source": "extracted"
+    }
+  },
+  {
+    "handle": "triviapod",
+    "shopifyId": 9323110498561,
+    "title": "TriviaPOD",
+    "eol": false,
+    "sku": "TP-01-A",
+    "category": "controller",
+    "formFactor": "STANDALONE",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "Controllers-Others",
+      "ESP32-S3",
+      "Pre-Order"
+    ],
+    "descriptionText": "Hello from Etermax\n Loading model…\n Auto rotating\n A tiny trivia machine built for real family play. No phone. No ads. No endless scrolling. Just grab it, spin it, and answer.\n 10,000+ questions in your pocket\n TriviaPOD comes loaded with over 10,000 trivia questions across 8 languages — ready to play straight out of the box. Connect to Wi‑Fi to download new packs and keep the trivia going.\n Your Pod, your crew.\n Meet familiar faces from the Trivia Crack universe. Play Trivia Pet to help Willy grow, unlock rewards, and collect characters as your Pod fills with life. 7 characters to discover. One crew to complete.\n Play Together\n Connect two TriviaPOD devices\nand challenge other players\n The Specs.\n Category \n Specifications \n Display \n 1.75\" round display · 466 × 466 px AMOLED\n Super bright · Touch screen\n Controls \n Two main side buttons\n Dedicated power button\n Storage \n 32 MB flash\n Room for downloadable trivia packs\n Wireless \n Wi‑Fi 2.4 GHz\n Bluetooth / BLE\n Speaker \n Small speaker\n Simple sounds for play feedback\n Charging \n USB‑C charging cable\n Cable included\n Battery \n 450mAh\n Languages \n 8 languages included(more to come)\n EN · ES · FR · DE · IT · PT · ZH · JA\n Included \n TriviaPOD device · Wrist lanyard\n USB‑C cable* · Quick Start guide*\n Recommended age \n From 8 to 99+\n Fun for the whole family\n What’s in the box\n Your TriviaPOD device \n USB-C charging cable \n Wrist lanyard \n → Documents \n Well done!\n What color is the Eiffel Tower painted?\n Red Black Brown Gray \n",
+    "variants": [
+      {
+        "sku": "TP-01-A",
+        "title": "Default Title",
+        "price": "39.90",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 39.9,
+      "max": 39.9,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/TP-01-A_TriviaPOD_7.webp?v=1789725462",
+    "url": "https://shop.m5stack.com/products/triviapod",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
     }
   },
   {

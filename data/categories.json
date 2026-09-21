@@ -42,20 +42,20 @@
   {
     "category": "accessory",
     "label": "Accessories (cables, mounts, power ...)",
-    "total": 111,
+    "total": 114,
     "eolCount": 37,
     "subcategories": [
       {
         "handle": "accessories",
-        "count": 41
+        "count": 44
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 14
       },
       {
         "handle": "for-chain",
         "count": 14
-      },
-      {
-        "handle": "m5stack-new-arrival",
-        "count": 11
       },
       {
         "handle": "for-stack",
@@ -90,16 +90,16 @@
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 68,
+    "total": 69,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 65
+        "count": 66
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 10
+        "count": 11
       }
     ]
   },
