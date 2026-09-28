@@ -427,7 +427,7 @@
         "sku": "A088-B",
         "title": "1M",
         "price": "2.95",
-        "available": false
+        "available": true
       },
       {
         "sku": "A088-C",
@@ -1359,6 +1359,96 @@
     }
   },
   {
+    "handle": "8-channel-servo2-chain-stm32g031",
+    "shopifyId": 9362843173121,
+    "title": "8-Channel Servo2 Chain (STM32G031)",
+    "eol": false,
+    "sku": "U223",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-DRIVER"
+    ],
+    "descriptionText": "Unit 8Servos2-Chain is an 8-channel servo cascade control unit with an integrated STM32G031G8U6 core controller. It adopts a UART communication interface and is compatible with the Chain series UART serial cascade communication protocol. It provides 8x configurable IO channels that support configuring multiple operating modes: servo control, digital input/output, ADC input, RGB LED control, and PWM mode.\n Two onboard HY2.0-4P interfaces serve as the input and output interfaces of the Chain series protocol, enabling chained connections of multiple devices.\n This unit supports DC 9 ~ 24V input and integrates an SY8303AIC step-down circuit to provide a 5V supply, with a maximum total output current of 3A. An onboard INA199A1DCKR current detection circuit can sample the total servo current, and input voltage and 5V supply voltage sampling circuits, a DC power interface status indicator, and a HY2.0-4P interface undervoltage status indicator are also provided, making it suitable for application scenarios such as multi-servo control, robot joint drive, and smart toys.\n Features\n STM32G031G8U6 core controller\n 8x configurable IO channels supporting multiple operating modes:\n Servo control\n Digital input/output\n ADC input\n RGB LED control\n PWM mode\n Communication interface\n Adopts the Chain series UART serial cascade communication protocol\n 2x HY2.0-4P interfaces support multi-device cascade\n Power and detection\n DC 9 ~ 24V power input, with an integrated 5V@3A step-down circuit (per",
+    "variants": [
+      {
+        "sku": "U223",
+        "title": "Default Title",
+        "price": "11.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 11.5,
+      "max": 11.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U223_8-Channel_Servo2_Chain_STM32G031_1.webp?v=1790221189",
+    "url": "https://shop.m5stack.com/products/8-channel-servo2-chain-stm32g031",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "UART",
+        "ADC",
+        "PWM"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "8-channel-servo2-i2c-unit-stm32g031",
+    "shopifyId": 9362840781057,
+    "title": "8-Channel Servo2 I2C Unit (STM32G031)",
+    "eol": false,
+    "sku": "U222",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-DRIVER"
+    ],
+    "descriptionText": "Unit 8Servos2-I2C is an 8-channel servo cascade control unit featuring the STM32G031G8U6 as its core controller. It adopts an I2C communication interface and provides 8x configurable IO channels that support configuring multiple operating modes: servo control, digital input / output, ADC input, RGB LED control, and PWM mode.\n Two onboard HY2.0-4P interfaces are connected internally and share the same I2C bus, and a 16-position rotary encoder switch is provided for flexible configuration of the device I2C address, making it convenient to expand and connect other I2C devices. This unit supports DC 9 ~ 24V input and integrates an SY8303AIC step-down circuit to provide a 5V supply, with a maximum total output current of 3A. An onboard INA199A1DCKR current detection circuit can sample the total servo current, and input voltage and 5V supply voltage sampling circuits as well as power status indicators are also provided, making it suitable for application scenarios such as multi-servo control, robot joint drive, and smart toys.\n Features\n STM32G031G8U6 core controller\n 8x configurable IO channels supporting multiple operating modes:\n Servo control\n Digital input / output\n ADC input\n RGB LED control\n PWM mode\n Communication interface and address configuration\n I2C communication interface\n 2x HY2.0-4P interfaces for multi-I2C device expansion\n 16-position rotary encoder switch for I2C address configuration\n Power and detection\n DC 9 ~ 24V power input, with an integrated 5V@3A step-dow",
+    "variants": [
+      {
+        "sku": "U222",
+        "title": "Default Title",
+        "price": "12.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 12.95,
+      "max": 12.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U222_8-Channel_Servo2_I2C_Unit_STM32G031_1.webp?v=1790220820",
+    "url": "https://shop.m5stack.com/products/8-channel-servo2-i2c-unit-stm32g031",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C",
+        "ADC",
+        "PWM"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "8-encoder-unit-stm32f030",
     "shopifyId": 7914247749889,
     "title": "8-Encoder Unit (STM32F030)",
@@ -1763,8 +1853,7 @@
     "category": "kit",
     "formFactor": "STANDALONE",
     "subcategories": [
-      "ai-hardware",
-      "m5stack-new-arrival"
+      "ai-hardware"
     ],
     "tags": [
       "AI-Accelerator-Card"
@@ -2609,7 +2698,7 @@
       "ATOM",
       "ESP32"
     ],
-    "descriptionText": "Atom Voice is a programmable smart speaker based on the ATOM design. Extremely compact at just 24 x 24 x 17 mm , it can stream music by connecting—via the ESP32’s wireless functions—to a phone, tablet, etc., or play designated streaming media over Wi-Fi. To simplify voice usage, Atom Voice integrates an STT (speech-to-text) service. Flash the dedicated firmware to enable it and issue voice commands to perform diverse operations. You can also write your own code to connect to cloud platforms such as AWS or Google; using the built-in microphone and speaker, Atom Voice can provide AI capabilities for voice control, smart interaction, IoT, and more. An on-board RGB LED (SK6812) clearly indicates connection status. In addition to serving as a smart speaker, it retains the control abilities of the ATOM series—you can connect external devices through the GROVE port. An M2 screw hole on the back facilitates mounting.\n Note\n Pin Usage Precautions\n G19 / G22 / G23 / G33 have been predefined. Do not reuse these pins; otherwise the Atom Voice may be damaged.\n Playback Precautions\n To prevent damage to the Atom Vioice, avoid the following operations:\n Outputting a DC signal through the I2S channel\n Playing white noise for long periods\n Playing full-scale square-wave audio\n Features\n Compact and lightweight\n Built-in STT service\n ESP32-based, supporting A2DP and BLE 4.0\n Wi-Fi protocol IEEE 802.11 b/g/n\n Integrated microphone and speaker\n RGB LED status indication\n GROVE expansion connecto",
+    "descriptionText": "Atom Voice is a programmable smart speaker based on the ATOM design. Extremely compact at just 24 x 24 x 17 mm , it can stream music by connecting—via the ESP32’s wireless functions—to a phone, tablet, etc., or play designated streaming media over Wi-Fi. To simplify voice usage, Atom Voice integrates an STT (speech-to-text) service. Flash the dedicated firmware to enable it and issue voice commands to perform diverse operations. You can also write your own code to connect to cloud platforms such as AWS or Google; using the built-in microphone and speaker, Atom Voice can provide AI capabilities for voice control, smart interaction, IoT, and more. An on-board RGB LED (SK6812) clearly indicates connection status. In addition to serving as a smart speaker, it retains the control abilities of the ATOM series—you can connect external devices through the GROVE port. An M2 screw hole on the back facilitates mounting.\n Note\n Pin Usage Precautions\n G19 / G22 / G23 / G33 have been predefined. Do not reuse these pins; otherwise the Atom Voice may be damaged.\n Playback Precautions\n To prevent damage to the Atom Voice, avoid the following operations:\n Outputting a DC signal through the I2S channel\n Playing white noise for long perf\n iods\n Playing full-scale square-wave audio\n Features\n Compact and lightweight\n Built-in STT service\n ESP32-based, supporting A2DP and BLE 4.0\n Wi-Fi protocol IEEE 802.11 b/g/n\n Integrated microphone and speaker\n RGB LED status indication\n GROVE expansion connec",
     "variants": [
       {
         "sku": "C008-C",
@@ -5133,7 +5222,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5835,8 +5924,7 @@
     "category": "module",
     "formFactor": "BASE",
     "subcategories": [
-      "for-stack",
-      "m5stack-new-arrival"
+      "for-stack"
     ],
     "tags": [
       "BASE"
@@ -7773,8 +7861,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-chain",
-      "m5stack-new-arrival"
+      "for-chain"
     ],
     "tags": [
       "FOR-CHAIN-HMI"
@@ -7939,8 +8026,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-chain",
-      "m5stack-new-arrival"
+      "for-chain"
     ],
     "tags": [
       "FOR-CHAIN-HMI"
@@ -9504,7 +9590,7 @@
         "sku": "M128",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -13435,8 +13521,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "CORE",
@@ -13912,7 +13997,7 @@
         "sku": "U120",
         "title": "Default Title",
         "price": "17.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -15209,6 +15294,48 @@
     }
   },
   {
+    "handle": "m5atom-joystick-with-m5atoms3r-v1-1",
+    "shopifyId": 9362828132609,
+    "title": "M5Atom Joystick with M5AtomS3R V1.1",
+    "eol": false,
+    "sku": "K137-V11",
+    "category": "atomic-base",
+    "formFactor": "ATOMIC_BASE",
+    "subcategories": [
+      "for-atom",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "ATOM-KIT",
+      "ESP32-S3"
+    ],
+    "descriptionText": "Atom JoyStick v1.1 is a multi-functional programmable dual-joystick remote controller. As an iterative version of the Atom JoyStick, its core improvement is that the main controller has been upgraded from AtomS3 to AtomS3R . The AtomS3R integrates the ESP32-S3-PICO-1-N8R8, features 8MB Flash, 8MB PSRAM, and 2.4 GHz Wi-Fi, and includes a built-in BMI270 6-axis attitude sensor and BMM150 3-axis geomagnetic sensor. The controller base integrates an STM32 core main controller and uses an I2C communication interface. It is equipped with 2 Hall-effect five-way joysticks, 2 function buttons, an independent power switch, and RGB LED indicators. It is powered by a high-voltage battery for stronger endurance. There are two onboard battery charging interfaces that can charge the battery of the StampFly v1.1 at the same time. The product is pre-flashed with StampFly remote-control firmware at the factory and communicates with the StampFly via the ESP-NOW protocol. The firmware source code is open source, making it suitable for drone control, robot control, smart cars, and various DIY projects.\n Features\n Atom JoyStick v1.1\n STM32F030F4P6 core main controller\n Dual joysticks, dual buttons, independent power switch\n 2x WS2812C RGB LED\n USB Type-C charging interface\n Buzzer notification\n Battery voltage detection\n Two battery charging interfaces\n AtomS3R Controller\n ESP32-S3-PICO-1-N8R8\n 8MB Flash and 8MB PSRAM\n 0.85\" LCD @ 128x128\n BMI270 6-axis attitude sensor\n BMM150 3-axis geomagnetic s",
+    "variants": [
+      {
+        "sku": "K137-V11",
+        "title": "Default Title",
+        "price": "37.90",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 37.9,
+      "max": 37.9,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/K137-V11_M5Atom_Joystick_with_M5AtomS3R_V1.1_1.webp?v=1790219969",
+    "url": "https://shop.m5stack.com/products/m5atom-joystick-with-m5atoms3r-v1-1",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "m5go-battery-bottom2-for-core2-only",
     "shopifyId": 6079025578156,
     "title": "M5GO Battery Bottom2 (for Core2 only)",
@@ -15720,7 +15847,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16386,8 +16513,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-S3",
@@ -18126,7 +18252,7 @@
         "sku": "K143",
         "title": "Default Title",
         "price": "99.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19759,7 +19885,7 @@
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19880,9 +20006,7 @@
     "sku": "K138-V11",
     "category": "accessory",
     "formFactor": "ACCESSORY",
-    "subcategories": [
-      "m5stack-new-arrival"
-    ],
+    "subcategories": [],
     "tags": [
       "DRONE",
       "ESP32-S3"
@@ -21758,21 +21882,24 @@
     "handle": "m5stickc-plus-esp32-pico-mini-iot-development-kit",
     "shopifyId": 5466980483236,
     "title": "M5StickC PLUS ESP32-PICO Mini IoT Development Kit",
-    "eol": true,
+    "eol": false,
     "sku": "K016-P",
-    "category": "kit",
-    "formFactor": "STANDALONE",
-    "subcategories": [],
-    "tags": [
-      "EOL"
+    "category": "controller",
+    "formFactor": "STICKC_HOST",
+    "subcategories": [
+      "controllers"
     ],
-    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n M5StickC PLUS SE Mini IoT Dev Kit (ESP32-PICO)\n Description\n StickC-Plus is the large-screen version of the M5StickC . Its main controller uses the ESP32-PICO-D4 module, which supports Wi-Fi. Inside its compact body, it integrates rich hardware resources such as infrared, RTC, microphone, LED, IMU, buttons, buzzer, PMU, and more. While retaining the original functions of the M5StickC, it adds a passive buzzer. Additionally, the screen size has been upgraded to 1.14 inches, with a resolution of 135 x 240 TFT, increasing the display area by 18.7% compared to the previous 0.96-inch screen. The battery capacity is 120mAh, and the interface supports HAT and Unit series products.\n This compact and exquisite development tool can unleash unlimited creative potential. StickC-Plus can help quickly build IoT product prototypes, greatly simplifying the entire development process. Even for beginners who are just starting to learn programming, it can be used to create interesting applications and apply them to real-life scenarios.\n Features\n Based on ESP32 development, supports Wi-Fi\n Built-in 3-axis accelerometer and 3-axis gyroscope\n Built-in Red LED\n Integrated infrared transmitter\n Built-in RTC\n Integrated microphone\n User button, LCD (1.14 inch), power/reset button\n 120 mAh lithium battery\n Expansion interface\n Integrated passive buzzer\n Wearable & mountable\n Development Platform\n UiFlow1\n UiFl",
+    "tags": [
+      "ESP32",
+      "STICK"
+    ],
+    "descriptionText": "Product Status Notice Please note that this product is now EOL (End of Life). The units currently available are only from the remaining stock. Once sold out, it will return to EOL status. \n Description\n StickC-Plus is the large-screen version of the M5StickC . Its main controller uses the ESP32-PICO-D4 module, which supports Wi-Fi. Inside its compact body, it integrates rich hardware resources such as infrared, RTC, microphone, LED, IMU, buttons, buzzer, PMU, and more. While retaining the original functions of the M5StickC, it adds a passive buzzer. Additionally, the screen size has been upgraded to 1.14 inches, with a resolution of 135 x 240 TFT, increasing the display area by 18.7% compared to the previous 0.96-inch screen. The battery capacity is 120mAh, and the interface supports HAT and Unit series products.\n This compact and exquisite development tool can unleash unlimited creative potential. StickC-Plus can help quickly build IoT product prototypes, greatly simplifying the entire development process. Even for beginners who are just starting to learn programming, it can be used to create interesting applications and apply them to real-life scenarios.\n Features\n Based on ESP32 development, supports Wi-Fi\n Built-in 3-axis accelerometer and 3-axis gyroscope\n Built-in Red LED\n Integrated infrared transmitter\n Built-in RTC\n Integrated microphone\n User button, LCD (1.14 inch), power/reset button\n 120 mAh lithium battery\n Expansion interface\n Integrated passive buzzer\n Wearabl",
     "variants": [
       {
         "sku": "K016-P",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22643,6 +22770,45 @@
       ],
       "matchType": "prefix-sku"
     },
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
+    "handle": "magnet-nut-kit-10pcs",
+    "shopifyId": 9362833637633,
+    "title": "Magnet Nut Kit (10pcs)",
+    "eol": false,
+    "sku": "A184",
+    "category": "kit",
+    "formFactor": "STANDALONE",
+    "subcategories": [
+      "accessories",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "ACCESSORIES-OTHERS"
+    ],
+    "descriptionText": "Magnet Nut is a magnetic nut kit designed specifically for the M5Stack Unit series. It fits the LEGO-compatible holes reserved on Unit modules. With strong magnetic attraction, it easily enables quick module fastening and flexible adjustment of module placement, enabling diverse mounting solutions and improving the convenience of hardware assembly.\n Assembly Note\n The brass nut and base of this kit are bonded with adhesive. When assembling with the matching screws, do not overtighten, as excessive torque can cause the brass nut to come loose.\n Features\n Fits the LEGO-compatible holes reserved on Unit modules\n Magnetic structure for secure connection\n Metal body, sturdy and durable\n Includes\n 10 x Magnet Nut\n 1 x Hex Key L-Shape 2.0mm (For M2.5 Screw)\n Applications\n Quick magnetic attachment and fastening for Unit modules\n Creative DIY projects with versatile structural assembly\n Specifications\n Specification \n Parameter \n Product Size \n 5.8 x 7.0mm \n Product Weight \n 1.0g/pc \n Package Size \n 138.0 x 93.0 x 14.0mm \n Gross Weight \n 14.0g \n Learn and Documents\n → DOCUMENTS",
+    "variants": [
+      {
+        "sku": "A184",
+        "title": "Default Title",
+        "price": "5.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 5.5,
+      "max": 5.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/A184_Magnet_Nut_Kit_10pcs_1.webp?v=1790220477",
+    "url": "https://shop.m5stack.com/products/magnet-nut-kit-10pcs",
+    "docs": null,
     "connectivity": {
       "grove": [],
       "interfaces": [],
@@ -25745,8 +25911,7 @@
     "category": "kit",
     "formFactor": "STANDALONE",
     "subcategories": [
-      "accessories",
-      "m5stack-new-arrival"
+      "accessories"
     ],
     "tags": [
       "ACCESSORIES-OTHERS"
@@ -26070,7 +26235,7 @@
         "sku": "U182-LITE",
         "title": "Default Title",
         "price": "29.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26240,7 +26405,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -26509,7 +26674,7 @@
         "sku": "K121",
         "title": "Default Title",
         "price": "13.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27231,8 +27396,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-stack",
-      "m5stack-new-arrival"
+      "for-stack"
     ],
     "tags": [
       "BASE"
@@ -27270,8 +27434,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "CORE",
@@ -28135,7 +28298,7 @@
       "ESP32-S3",
       "Pre-Order"
     ],
-    "descriptionText": "Hello from Etermax\n Loading model…\n Auto rotating\n A tiny trivia machine built for real family play. No phone. No ads. No endless scrolling. Just grab it, spin it, and answer.\n 10,000+ questions in your pocket\n TriviaPOD comes loaded with over 10,000 trivia questions across 8 languages — ready to play straight out of the box. Connect to Wi‑Fi to download new packs and keep the trivia going.\n Your Pod, your crew.\n Meet familiar faces from the Trivia Crack universe. Play Trivia Pet to help Willy grow, unlock rewards, and collect characters as your Pod fills with life. 7 characters to discover. One crew to complete.\n Play Together\n Connect two TriviaPOD devices\nand challenge other players\n The Specs.\n Category \n Specifications \n Display \n 1.75\" round display · 466 × 466 px AMOLED\n Super bright · Touch screen\n Controls \n Two main side buttons\n Dedicated power button\n Storage \n 32 MB flash\n Room for downloadable trivia packs\n Wireless \n Wi‑Fi 2.4 GHz\n Bluetooth / BLE\n Speaker \n Small speaker\n Simple sounds for play feedback\n Charging \n USB‑C charging cable\n Cable included\n Battery \n 450mAh\n Languages \n 8 languages included(more to come)\n EN · ES · FR · DE · IT · PT · ZH · JA\n Included \n TriviaPOD device · Wrist lanyard\n USB‑C cable* · Quick Start guide*\n Recommended age \n From 8 to 99+\n Fun for the whole family\n What’s in the box\n Your TriviaPOD device \n USB-C charging cable \n Wrist lanyard \n → Documents \n Well done!\n What color is the Eiffel Tower painted?\n Red Black Brown Gray \n",
+    "descriptionText": "Hello from Etermax\n Loading model…\n Auto rotating\n A tiny trivia machine built for real family play. No phone. No ads. No endless scrolling. Just grab it, spin it, and answer.\n 10,000+ questions in your pocket\n TriviaPOD comes loaded with over 10,000 trivia questions across 8 languages — ready to play straight out of the box. Connect to Wi‑Fi to download new packs and keep the trivia going.\n Your Pod, your crew.\n Meet familiar faces from the Trivia Crack universe. Play Trivia Pet to help Willy grow, unlock rewards, and collect characters as your Pod fills with life. 7 characters to evolve. Multiple scenes to complete.\n Play Together\n Connect two TriviaPOD devices\nand challenge other players\n The Specs.\n Category \n Specifications \n Display \n 1.75\" round display · 466 × 466 px AMOLED\n Super bright · Touch screen\n Controls \n Two main side buttons\n Dedicated power button\n Storage \n 32 MB flash\n Room for downloadable trivia packs\n Wireless \n Wi‑Fi 2.4 GHz\n Bluetooth / BLE\n Speaker \n Small speaker\n Simple sounds for play feedback\n Charging \n USB‑C charging cable\n Cable included\n Battery \n 450mAh\n Languages \n 8 languages included(more to come)\n EN · ES · FR · DE · IT · PT · ZH · JA\n Included \n TriviaPOD device · Wrist lanyard\n USB‑C cable* · Quick Start guide*\n Recommended age \n From 8 to 99+\n Fun for the whole family\n What’s in the box\n Your TriviaPOD device \n USB-C charging cable \n Wrist lanyard \n → Documents \n Well done!\n What color is the Eiffel Tower painted?\n Red Black Brown G",
     "variants": [
       {
         "sku": "TP-01-A",

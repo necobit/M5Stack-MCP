@@ -2,16 +2,16 @@
   {
     "category": "unit",
     "label": "Units (Grove-connected sensors & actuators)",
-    "total": 196,
+    "total": 198,
     "eolCount": 31,
     "subcategories": [
       {
         "handle": "unit",
-        "count": 162
+        "count": 164
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 2
+        "count": 4
       },
       {
         "handle": "accessories",
@@ -35,7 +35,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 4
+        "count": 3
       }
     ]
   },
@@ -50,15 +50,15 @@
         "count": 44
       },
       {
-        "handle": "m5stack-new-arrival",
-        "count": 14
-      },
-      {
         "handle": "for-chain",
         "count": 14
       },
       {
         "handle": "for-stack",
+        "count": 10
+      },
+      {
+        "handle": "m5stack-new-arrival",
         "count": 10
       },
       {
@@ -71,11 +71,11 @@
     "category": "kit",
     "label": "Kits",
     "total": 89,
-    "eolCount": 65,
+    "eolCount": 64,
     "subcategories": [
       {
         "handle": "accessories",
-        "count": 13
+        "count": 14
       },
       {
         "handle": "ai-hardware",
@@ -83,39 +83,43 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 2
+        "count": 1
       }
     ]
   },
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 69,
+    "total": 70,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 66
+        "count": 67
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 11
+        "count": 8
       }
     ]
   },
   {
     "category": "atomic-base",
     "label": "Atomic Bases (for ATOM family)",
-    "total": 39,
+    "total": 40,
     "eolCount": 4,
     "subcategories": [
       {
         "handle": "for-atom",
-        "count": 33
+        "count": 34
       },
       {
         "handle": "accessories",
         "count": 2
+      },
+      {
+        "handle": "m5stack-new-arrival",
+        "count": 1
       }
     ]
   },
