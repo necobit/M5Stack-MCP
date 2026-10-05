@@ -1293,7 +1293,7 @@
         "sku": "U154",
         "title": "Default Title",
         "price": "12.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -4214,7 +4214,7 @@
         "sku": "A152-US915",
         "title": "Default Title",
         "price": "22.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -8627,7 +8627,7 @@
         "sku": "M033",
         "title": "Default Title",
         "price": "14.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10036,7 +10036,7 @@
         "sku": "U001-D",
         "title": "Default Title",
         "price": "5.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10816,7 +10816,7 @@
         "sku": "U011-B",
         "title": "Default Title",
         "price": "6.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13149,7 +13149,7 @@
         "sku": "M119",
         "title": "Default Title",
         "price": "42.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -15847,7 +15847,7 @@
         "sku": "K049-B",
         "title": "Default Title",
         "price": "85.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18252,7 +18252,7 @@
         "sku": "K143",
         "title": "Default Title",
         "price": "99.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19213,7 +19213,7 @@
         "sku": "K145",
         "title": "With NP-F550 Battery",
         "price": "60.00",
-        "available": true
+        "available": false
       },
       {
         "sku": "C145",
@@ -21633,7 +21633,7 @@
         "sku": "U118",
         "title": "Default Title",
         "price": "36.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
