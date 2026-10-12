@@ -1293,7 +1293,7 @@
         "sku": "U154",
         "title": "Default Title",
         "price": "12.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -1812,7 +1812,6 @@
     "category": "unit",
     "formFactor": "UNIT",
     "subcategories": [
-      "m5stack-new-arrival",
       "unit"
     ],
     "tags": [
@@ -2014,7 +2013,7 @@
         "sku": "AI-003-PRO",
         "title": "Default Title",
         "price": "399.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -2755,7 +2754,7 @@
         "sku": "C126-ECHO",
         "title": "Default Title",
         "price": "14.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6364,7 +6363,7 @@
         "sku": "M002",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6758,7 +6757,7 @@
         "sku": "M024",
         "title": "Default Title",
         "price": "2.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -7443,7 +7442,7 @@
       "CARDPUTER",
       "ESP32-S3"
     ],
-    "descriptionText": "Cardputer Mesh Kit is a portable communication terminal kit that integrates LoRa Mesh networking with global positioning capabilities. The kit centers around the Cardputer-Adv core controller and the Cap LoRa-1262 communication expansion module.\n Cardputer-Adv is a card-sized portable programmable controller built on the Stamp-S3A module (based on ESP32-S3FN8). It features a 1.14\" LCD screen and a 56-key compact keyboard for convenient on-site information display and command input. A built-in 1750mAh lithium battery ensures extended standalone operation. The device integrates an ES8311 audio codec, MEMS microphone, 1W speaker, and 3.5mm audio jack for voice interaction and audio output. Additional features include a 6-axis IMU BMI270, an infrared emitter, a microSD card slot, an HY2.0-4P Grove interface, and an EXT 2.54-14P expansion bus. The chassis supports magnetic attachment and is compatible with LEGO mounting holes.\n Cap LoRa-1262 serves as the communication expansion module of the kit. It connects to the Cardputer-Adv via the EXT 2.54-14P interface, drawing power and control signals directly from the host — plug-and-play with no additional configuration required. The module is built around the SX1262 LoRa solution, supporting the 868 ~ 923 MHz band with a receive sensitivity of -147 dBm and a transmit power of +22 dBm. An RP-SMA external antenna and RF shielding ensure reliable long-range communication with strong interference immunity. An integrated AT6668 GNSS module",
+    "descriptionText": "Cardputer Mesh Kit is a portable communication terminal kit that integrates LoRa Mesh networking with global positioning capabilities. The kit centers around the Cardputer-Adv core controller and the Cap LoRa-1262 communication expansion module.\n Cardputer-Adv is a card-sized portable programmable controller built on the Stamp-S3A module (based on ESP32-S3FN8). It features a 1.14\" LCD screen and a 56-key compact keyboard for convenient on-site information display and command input. A built-in 1500mAh lithium battery ensures extended standalone operation. The device integrates an ES8311 audio codec, MEMS microphone, 1W speaker, and 3.5mm audio jack for voice interaction and audio output. Additional features include a 6-axis IMU BMI270, an infrared emitter, a microSD card slot, an HY2.0-4P Grove interface, and an EXT 2.54-14P expansion bus. The chassis supports magnetic attachment and is compatible with LEGO mounting holes.\n Cap LoRa-1262 serves as the communication expansion module of the kit. It connects to the Cardputer-Adv via the EXT 2.54-14P interface, drawing power and control signals directly from the host — plug-and-play with no additional configuration required. The module is built around the SX1262 LoRa solution, supporting the 868 ~ 923 MHz band with a receive sensitivity of -147 dBm and a transmit power of +22 dBm. An RP-SMA external antenna and RF shielding ensure reliable long-range communication with strong interference immunity. An integrated AT6668 GNSS module",
     "variants": [
       {
         "sku": "K152",
@@ -7853,6 +7852,50 @@
     }
   },
   {
+    "handle": "chain-microphone-gmi4015p",
+    "shopifyId": 9533978542337,
+    "title": "Chain Microphone (GMI4015P)",
+    "eol": false,
+    "sku": "U226",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-chain",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-CHAIN-HMI"
+    ],
+    "descriptionText": "Chain MIC is a sound acquisition node in the M5Stack Chain series. It features a built-in GMI4015P-2C microphone, an SGM321YC5/TR operational amplifier, and a programmable RGB LED. It supports 12-bit ADC sampling of sound signals and threshold triggering, making it suitable for applications such as environmental sound detection, voice-controlled interaction, and device status indication. It integrates an STM32G031G8U6 main controller and uses a UART serial daisy-chain communication protocol. Its two HY2.0-4P expansion interfaces allow more Chain series devices to be connected, enabling richer sound sensing and interactive applications.\n Features\n M5Stack Chain series\n GMI4015P-2C microphone sound acquisition\n Supports 12-bit ADC sampling of sound signals and threshold triggering\n STM32G031G8U6 main controller\n 1 x RGB LED\n UART serial daisy-chain communication protocol\n 2 x HY2.0-4P expansion interfaces for connecting Chain series devices\n Includes\n 1 x Chain MIC\n 1 x Chain Bridge\n Applications\n Environmental sound detection\n Sound threshold triggering\n Voice-controlled interactive devices\n Smart home sound sensing\n Specifications\n Specification \n Parameter \n MCU \n STM32G031G8U6 \n Power Input \n DC 5V \n Communication \n UART 115200bps@8N1 \n Interface \n 2 x HY2.0-4P \n Microphone \n GMI4015P-2C \n Operational Amplifier \n SGM321YC5/TR \n RGB LED \n 1 x WS2812C-2020 \n Sound Signal \n 12-bit ADC sampled value, threshold trigger status \n Operating Power Consumption \n 5V@35.54mA (MIC activ",
+    "variants": [
+      {
+        "sku": "U226",
+        "title": "Default Title",
+        "price": "8.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 8.5,
+      "max": 8.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U226_Chain_Microphone_GMI4015P_1.webp?v=1791514498",
+    "url": "https://shop.m5stack.com/products/chain-microphone-gmi4015p",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "UART",
+        "ADC"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "chain-mono-matrix-with-8x8-leds-white",
     "shopifyId": 9179632009473,
     "title": "Chain Mono Matrix with 8x8 LEDs - White",
@@ -8054,6 +8097,50 @@
       ],
       "interfaces": [
         "UART"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "chain-switch-stm32g031",
+    "shopifyId": 9533975953665,
+    "title": "Chain Switch (STM32G031)",
+    "eol": false,
+    "sku": "U227",
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-chain",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-CHAIN-HMI"
+    ],
+    "descriptionText": "Chain Switch is a slide switch input node in the M5Stack Chain series, supporting both slider mode and switch mode. The device can output 12-bit slider position data and is equipped with a programmable RGB LED for intuitive status feedback. It integrates an STM32G031G8U6 core controller and adopts a UART cascading communication protocol. Through two HY2.0-4P expansion interfaces, it can connect to more Chain series devices, making it suitable for applications such as control panels, status switching, and interactive devices.\n Features\n M5Stack Chain series\n Supports slider mode and switch mode:\n Slider mode: reads the slider position and outputs a range of 0 ~ 4095\n Switch mode: outputs the switch state based on the configured on/off thresholds\n 12-bit ADC slider position detection\n STM32G031G8U6 core controller\n 1x RGB LED\n Uses a UART serial cascading communication protocol\n 2x HY2.0-4P expansion ports, capable of expanding Chain series devices\n Includes\n 1 x Chain Switch\n 1 x Chain Bridge\n Applications\n Control Panel Input\n Smart Home Status Switching\n Interactive Device Control\n Specifications\n Specification \n Parameter \n MCU \n STM32G031G8U6 \n Input Power \n DC 5V \n Communication Method \n UART 115200bps@8N1 \n Interface Specification \n 2x HY2.0-4P \n Slider Position Detection \n 12-bit ADC, Output Range 0 ~ 4095 \n RGB LED \n 1x WS2812C \n Operating Power Consumption \n 5V@10.57mA (Typical Operating State) \n Product Size \n 24.0 x 24.0 x 18.5mm \n Product Weight \n 5.9g \n Package Si",
+    "variants": [
+      {
+        "sku": "U227",
+        "title": "Default Title",
+        "price": "9.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 9.95,
+      "max": 9.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U227_Chain_Switch_STM32G031_1.webp?v=1791514192",
+    "url": "https://shop.m5stack.com/products/chain-switch-stm32g031",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "UART",
+        "ADC"
       ],
       "i2cAddress": null,
       "source": "extracted"
@@ -8627,7 +8714,7 @@
         "sku": "M033",
         "title": "Default Title",
         "price": "14.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -10491,7 +10578,7 @@
         "sku": "M141",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -13149,7 +13236,7 @@
         "sku": "M119",
         "title": "Default Title",
         "price": "42.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16595,7 +16682,7 @@
       "CARDPUTER",
       "ESP32-S3"
     ],
-    "descriptionText": "Cardputer-Adv: Compact Programmable Platform for Embedded Prototyping & IoT Development\n The Cardputer-Adv is a card-sized, versatile programmable platform powered by the Stamp-S3A module  with  ESP32-S3FN8 core processor . With its 1.14\" LCD display and an intuitive 56-key keyboard, the Cardputer-Adv offers easy interaction and seamless command entry for a wide range of applications.\n Advanced Audio Features\n Equipped with high-quality audio components, the Cardputer-Adv includes an ES8311 codec , a precision MEMS microphone with a superior signal-to-noise ratio, an NS4150B amplifier circuit , and a 1W speaker output. For enhanced audio flexibility, it also features a 3.5mm headphone jack for external audio devices.\n Efficient Power Management\n Designed for long-lasting performance, the Cardputer-Adv is powered by a 1750mAh lithium battery , ensuring optimized power consumption for extended operation. It also features independent power switching for efficient energy management.\n Motion Sensing & Infrared Capabilities\n The platform comes with an integrated BMI270 6-axis accelerometer for accurate motion sensing, and infrared transmission functionality, enabling interactive and sensor-driven applications.\n Expandable Storage & Connectivity\n For flexible storage options, the Cardputer-Adv includes a microSD card slot . Connectivity is enhanced through HY2.0-4P Grove connectors and EXT 2.54-14P expansion headers , allowing for easy integration of external sensors and accessories",
+    "descriptionText": "Cardputer-Adv: Compact Programmable Platform for Embedded Prototyping & IoT Development\n The Cardputer-Adv is a card-sized, versatile programmable platform powered by the Stamp-S3A module  with  ESP32-S3FN8 core processor . With its 1.14\" LCD display and an intuitive 56-key keyboard, the Cardputer-Adv offers easy interaction and seamless command entry for a wide range of applications.\n Advanced Audio Features\n Equipped with high-quality audio components, the Cardputer-Adv includes an ES8311 codec , a precision MEMS microphone with a superior signal-to-noise ratio, an NS4150B amplifier circuit , and a 1W speaker output. For enhanced audio flexibility, it also features a 3.5mm headphone jack for external audio devices.\n Efficient Power Management\n Designed for long-lasting performance, the Cardputer-Adv is powered by a 1500mAh lithium battery , ensuring optimized power consumption for extended operation. It also features independent power switching for efficient energy management.\n Motion Sensing & Infrared Capabilities\n The platform comes with an integrated BMI270 6-axis accelerometer for accurate motion sensing, and infrared transmission functionality, enabling interactive and sensor-driven applications.\n Expandable Storage & Connectivity\n For flexible storage options, the Cardputer-Adv includes a microSD card slot . Connectivity is enhanced through HY2.0-4P Grove connectors and EXT 2.54-14P expansion headers , allowing for easy integration of external sensors and accessories",
     "variants": [
       {
         "sku": "K132-ADV",
@@ -18252,7 +18339,7 @@
         "sku": "K143",
         "title": "Default Title",
         "price": "99.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19046,7 +19133,7 @@
         "sku": "C152",
         "title": "Default Title",
         "price": "45.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19213,13 +19300,13 @@
         "sku": "K145",
         "title": "With NP-F550 Battery",
         "price": "60.00",
-        "available": false
+        "available": true
       },
       {
         "sku": "C145",
         "title": "Without NP-F550 Battery",
         "price": "55.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19323,6 +19410,51 @@
     }
   },
   {
+    "handle": "m5stack-toughc5-iot-dev-kit-esp32-c5",
+    "shopifyId": 9533981556993,
+    "title": "M5Stack ToughC5 IoT Dev Kit (ESP32-C5)",
+    "eol": false,
+    "sku": "K162",
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "CORE",
+      "ESP32-C5"
+    ],
+    "descriptionText": "ToughC5 is an outdoor waterproof IoT controller. Built around the ESP32-C5HR8 core module, it features a RISC-V 32-bit single-core processor running at 240MHz, with 16MB Flash and 8MB PSRAM. It supports 2.4 & 5 GHz dual-band Wi-Fi 6, BLE 5, and IEEE 802.15.4 (Zigbee, Thread) multi-protocol connectivity, meeting access requirements across a variety of network scenarios. It integrates a 2.0\" color LCD display (resolution 320 × 240) with a highly sensitive capacitive touch panel, and includes an onboard buzzer, microSD card slot, and RX8130CE real-time clock. The housing is made of PC + ABS (with UV powder), providing resistance to UV aging. Internally, the device offers I2C, GPIO, UART, and RS485 expansion interfaces as well as a battery connector, which are routed externally through the M12 connectors on both sides of the body for additional expansion. The system uses M5PM1 + M5IOE1 for multi-level power management and supports low-power wake-up. The device provides standard water and dust resistance (not designed for immersion), making it suitable for a wide range of applications such as outdoor edge data collection, smart buildings, and industrial gateways.\n Features\n ESP32-C5HR8 Core Main Controller\n 16MB Flash\n 8MB PSRAM\n 2.4 & 5 GHz Dual-Band Wi-Fi 6\n Supports BLE 5 / IEEE 802.15.4 (Zigbee, Thread)\n Human-Machine Interaction\n 2.0\" LCD Capacitive Touch Screen, 320 x 240 Resolution\n Onboard Passive Buzzer\n Clock and Power\n Onboard RX8130CE RTC Clock\n RTC Clock Battery (CR20",
+    "variants": [
+      {
+        "sku": "K162",
+        "title": "Default Title",
+        "price": "49.90",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 49.9,
+      "max": 49.9,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/K162_M5Stack_ToughC5_IoT_Dev_Kit_ESP32-C5_2.webp?v=1791514760",
+    "url": "https://shop.m5stack.com/products/m5stack-toughc5-iot-dev-kit-esp32-c5",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C",
+        "UART",
+        "GPIO",
+        "RS485"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "m5stack-trace-board-for-lidar-bot",
     "shopifyId": 1760129876058,
     "title": "Trace Unit (For Lidar Bot/Bala)",
@@ -19390,7 +19522,7 @@
         "sku": "U078-M12",
         "title": "Default Title",
         "price": "95.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19885,7 +20017,7 @@
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20508,8 +20640,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-C5",
@@ -20548,8 +20679,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "ESP32-C5",
@@ -20886,7 +21016,7 @@
         "sku": "S007-PIN254-V033",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -22048,7 +22178,7 @@
         "sku": "K016-P2",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22973,13 +23103,13 @@
       {
         "sku": "U178",
         "title": "Default Title",
-        "price": "12.95",
+        "price": "19.95",
         "available": true
       }
     ],
     "priceRange": {
-      "min": 12.95,
-      "max": 12.95,
+      "min": 19.95,
+      "max": 19.95,
       "currency": "USD"
     },
     "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_9731286d-4422-419b-9aea-6957d9ed7fb8.webp?v=1706252278",
@@ -23013,13 +23143,13 @@
       {
         "sku": "U187",
         "title": "Default Title",
-        "price": "14.50",
+        "price": "27.95",
         "available": true
       }
     ],
     "priceRange": {
-      "min": 14.5,
-      "max": 14.5,
+      "min": 27.95,
+      "max": 27.95,
       "currency": "USD"
     },
     "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_6d315d61-a685-4227-9be5-009a1d92815b.webp?v=1724986785",
@@ -28210,7 +28340,7 @@
         "sku": "U185",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -29402,7 +29532,7 @@
         "sku": "U151",
         "title": "Default Title",
         "price": "2.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
