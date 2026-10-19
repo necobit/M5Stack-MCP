@@ -35,7 +35,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 3
+        "count": 2
       }
     ]
   },
@@ -71,7 +71,7 @@
     "category": "kit",
     "label": "Kits",
     "total": 89,
-    "eolCount": 64,
+    "eolCount": 65,
     "subcategories": [
       {
         "handle": "accessories",
@@ -79,7 +79,7 @@
       },
       {
         "handle": "ai-hardware",
-        "count": 3
+        "count": 2
       },
       {
         "handle": "m5stack-new-arrival",
@@ -90,16 +90,16 @@
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 71,
+    "total": 73,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 68
+        "count": 70
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 7
+        "count": 8
       }
     ]
   },

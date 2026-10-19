@@ -1885,17 +1885,15 @@
     "handle": "ai-8850-llm-accelerator-m-2-kit-8gb-version-ax8850",
     "shopifyId": 9014056157441,
     "title": "AI-8850 LLM Accelerator M.2 Kit 8GB Version (AX8850)",
-    "eol": false,
+    "eol": true,
     "sku": "AI-002-8G",
     "category": "kit",
     "formFactor": "STANDALONE",
-    "subcategories": [
-      "ai-hardware"
-    ],
+    "subcategories": [],
     "tags": [
-      "AI-Accelerator-Card"
+      "EOL"
     ],
-    "descriptionText": "LLM-8850 Kit is a high-performance AI accelerator kit designed for edge AI and embedded computing scenarios. It consists of the LLM-8850 Card AI accelerator and the LLM-8850 PiHat adapter board. The core LLM-8850 Card is based on the Axera AX8850 SoC and adopts the M.2 M-Key 2242 form factor, delivering up to 24 TOPS @ INT8 of computing power in a compact size. It efficiently accelerates multimodal large-model inference and video analytics workloads. The card integrates an active cooling system with a micro blower fan + CNC aluminum fin heatsink , with intelligent speed control driven by the onboard EC according to a temperature–current curve. This ensures stable low-temperature operation even under long-term full load or in enclosed chassis environments, preventing thermal throttling. The accompanying LLM-8850 PiHat adapter board provides a 2.54-40P bus and a USB Type-C PD power input , and connects to the Raspberry Pi 5 via a PCIe expansion FPC adapter , enabling seamless integration of high-performance AI acceleration on the Raspberry Pi platform for building compact and efficient edge intelligence systems.\n Features\n Ultra-compact form factor: M.2 M-Key 2242 size\n High-performance NPU: 24 TOPS @ INT8, octa-core Cortex-A55 1.7 GHz CPU\n Intelligent cooling / power: onboard blower fan + CNC aluminum integrated heatsink, EC-monitored temperature–current–speed closed loop\n 8GB (4+4) high-bandwidth memory: 64-bit LPDDR4x, 4266 Mbps\n Hardware video engine: 8K @ 30 fps H.264/H.26",
+    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) .\n Description\n LLM-8850 Kit is a high-performance AI accelerator kit designed for edge AI and embedded computing scenarios. It consists of the LLM-8850 Card AI accelerator and the LLM-8850 PiHat adapter board. The core LLM-8850 Card is based on the Axera AX8850 SoC and adopts the M.2 M-Key 2242 form factor, delivering up to 24 TOPS @ INT8 of computing power in a compact size. It efficiently accelerates multimodal large-model inference and video analytics workloads. The card integrates an active cooling system with a micro blower fan + CNC aluminum fin heatsink , with intelligent speed control driven by the onboard EC according to a temperature–current curve. This ensures stable low-temperature operation even under long-term full load or in enclosed chassis environments, preventing thermal throttling. The accompanying LLM-8850 PiHat adapter board provides a 2.54-40P bus and a USB Type-C PD power input , and connects to the Raspberry Pi 5 via a PCIe expansion FPC adapter , enabling seamless integration of high-performance AI acceleration on the Raspberry Pi platform for building compact and efficient edge intelligence systems.\n Features\n Ultra-compact form factor: M.2 M-Key 2242 size\n High-performance NPU: 24 TOPS @ INT8, octa-core Cortex-A55 1.7 GHz CPU\n Intelligent cooling / power: onboard blower fan + CNC aluminum integrated heatsink, EC-monitored temperature–current–speed closed loop\n 8GB (4+4) high-bandwidth memory:",
     "variants": [
       {
         "sku": "AI-002-8G",
@@ -2013,7 +2011,7 @@
         "sku": "AI-003-PRO",
         "title": "Default Title",
         "price": "399.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -2754,7 +2752,7 @@
         "sku": "C126-ECHO",
         "title": "Default Title",
         "price": "14.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -3283,7 +3281,7 @@
         "sku": "C008-B",
         "title": "Default Title",
         "price": "15.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5017,7 +5015,7 @@
         "sku": "C123",
         "title": "Default Title",
         "price": "15.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5221,7 +5219,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6316,7 +6314,7 @@
         "sku": "A016",
         "title": "Default Title",
         "price": "6.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6363,7 +6361,7 @@
         "sku": "M002",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6757,7 +6755,7 @@
         "sku": "M024",
         "title": "Default Title",
         "price": "2.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7101,7 +7099,7 @@
         "sku": "U219",
         "title": "Default Title",
         "price": "18.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12693,7 +12691,7 @@
         "sku": "U041-B",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -13101,9 +13099,7 @@
     "sku": "A176",
     "category": "module",
     "formFactor": "MODULE",
-    "subcategories": [
-      "m5stack-new-arrival"
-    ],
+    "subcategories": [],
     "tags": [
       "FOR-STAMPLC-EXPANSION-MODULE"
     ],
@@ -15442,7 +15438,7 @@
         "sku": "A014-C",
         "title": "Default Title",
         "price": "13.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17106,7 +17102,7 @@
         "sku": "K010-V11",
         "title": "Default Title",
         "price": "46.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -22066,8 +22062,7 @@
     "category": "controller",
     "formFactor": "STICKC_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "Backorder",
@@ -22178,7 +22173,7 @@
         "sku": "K016-P2",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24560,6 +24555,86 @@
     }
   },
   {
+    "handle": "paperdiy-assembly-kit-esp32-s3",
+    "shopifyId": 9590397927681,
+    "title": "PaperDIY Assembly Kit (ESP32-S3)",
+    "eol": false,
+    "sku": "K159",
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "E-PAPER",
+      "ESP32-S3"
+    ],
+    "descriptionText": "PaperDIY Assembly Kit is a DIY e-paper development board kit that includes a main control board, an e-paper display, and a 140mAh lithium battery, with hardware assembly completed by the user. The main control board uses the ESP32-S3R8 core, featuring a standard 16MB Flash + 8MB PSRAM memory combination and supporting 2.4 GHz Wi-Fi connectivity. The kit is equipped with a 4.7\" e-paper display with a resolution of 960×540, supporting 16-level grayscale display. It has an onboard battery connector, a microSD card slot, and a USB Type-C interface. The open structure allows users to design their own peripheral structures, making it suitable for building desktop information displays, electronic labels, maker DIY projects, and embedded hardware development experiments.\n Attention\n This screen does not support touch functionality.\n Features\n ESP32-S3R8 core:\n 16MB Flash\n 8MB PSRAM\n 2.4 GHz Wi-Fi\n 4.7\" e-paper display, 960×540 resolution\n 16-level grayscale display\n Onboard DC 3.7V battery connector, includes a 140mAh lithium battery\n microSD card slot\n Low-power power management design\n Includes\n 1 x PaperDIY (e-paper display + main control board + 140mAh battery + acrylic screen pressure plate)\n Applications\n Electronic DIY creative projects\n DIY desktop information display\n Custom electronic labels, signage\n Hardware development learning and experiments\n Specifications\n Specification \n Parameter \n SoC \n ESP32-S3-WROOM-1-N16R8 @ Xtensa® 32-bit LX7 dual-core processor, 240MHz \n Flas",
+    "variants": [
+      {
+        "sku": "K159",
+        "title": "Default Title",
+        "price": "25.00",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 25,
+      "max": 25,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/PaperDIY_Assembly_Kit_ESP32-S3_1.webp?v=1792115132",
+    "url": "https://shop.m5stack.com/products/paperdiy-assembly-kit-esp32-s3",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
+    "handle": "paperdiy-complete-kit-esp32-s3",
+    "shopifyId": 9590398943489,
+    "title": "PaperDIY Complete Kit (ESP32-S3)",
+    "eol": false,
+    "sku": "K159-B",
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "E-PAPER",
+      "ESP32-S3"
+    ],
+    "descriptionText": "PaperDIY Complete Kit is an e-paper development board kit that comes standard with a main control board, an e-paper display, and a 3D-printed enclosure, with hardware assembly completed at the factory. The main control board adopts the ESP32-S3R8 core controller and comes standard with a 16MB Flash + 8MB PSRAM memory combination, supporting 2.4 GHz Wi-Fi connectivity. The kit is equipped with a 4.7\" e-paper display with a resolution of 960×540, supporting 16-level grayscale display. It features an onboard battery connector, a microSD card slot, and a USB Type-C port, with a built-in 140mAh battery. Open-source model files are included, allowing users to re-produce the enclosure or independently modify the design. It is suitable for building desktop information displays, electronic labels, maker DIY projects, and embedded hardware development experiments.\n Attention\n This screen does not support touch functionality.\n Features\n ESP32-S3R8 core controller:\n 16MB Flash\n 8MB PSRAM\n 2.4 GHz Wi-Fi\n 4.7\" e-paper display, 960×540 resolution\n 16-level grayscale display\n Onboard DC 3.7V battery connector, built-in 140mAh battery\n microSD card slot\n Low-power power management design\n Comes standard with a 3D-printed enclosure; the enclosure model is open-source, supporting re-printing and custom modifications\n Includes\n 1 x PaperDIY (E-Paper + Main Control Board + 140mAh Battery + Acrylic Screen Pressure Plate, Pre-installed 3D-Printed Enclosure)\n Applications\n Electronic DIY creative pr",
+    "variants": [
+      {
+        "sku": "K159-B",
+        "title": "Default Title",
+        "price": "29.90",
+        "available": false
+      }
+    ],
+    "priceRange": {
+      "min": 29.9,
+      "max": 29.9,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/PaperDIY_Complete_Kit_ESP32-S3_2.webp?v=1792116385",
+    "url": "https://shop.m5stack.com/products/paperdiy-complete-kit-esp32-s3",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "unknown"
+    }
+  },
+  {
     "handle": "papermono-lite-dev-kit-800x480-3-97-e-ink-display",
     "shopifyId": 9316359536897,
     "title": "PaperMono Lite Dev Kit (800x480, 3.97\" e-Ink Display)",
@@ -26365,7 +26440,7 @@
         "sku": "U182-LITE",
         "title": "Default Title",
         "price": "29.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28110,7 +28185,7 @@
         "sku": "K027",
         "title": "Default Title",
         "price": "49.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28933,7 +29008,7 @@
         "sku": "U174-B",
         "title": "Default Title",
         "price": "17.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -29532,7 +29607,7 @@
         "sku": "U151",
         "title": "Default Title",
         "price": "2.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
