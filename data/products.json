@@ -38,6 +38,49 @@
     }
   },
   {
+    "handle": "10-dof-imu-unit-bmi270-bmm350-spa06-003",
+    "shopifyId": 9709912621313,
+    "title": "10-DoF IMU Unit (BMI270, BMM350, SPA06-003)",
+    "eol": false,
+    "sku": "U230",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-SENSOR"
+    ],
+    "descriptionText": "Unit DoF10 is a 10-axis attitude sensing unit that integrates a six-axis inertial sensor, a three-axis magnetometer, and a barometric pressure sensor. It features the low-power BMI270 IMU, the BMM350 three-axis magnetometer, and the SPA06-003 pressure sensor. The BMI270 integrates a 16-bit 3-axis accelerometer and a 16-bit 3-axis gyroscope, with configurable measurement ranges and on-chip motion event detection. The BMM350 uses TMR (tunnel magnetoresistance) technology for three-axis magnetic field measurement, achieving approximately 0.1 μT resolution and excellent temperature stability. The SPA06-003 measures pressure, temperature, and relative altitude.\n Unit DoF10 outputs acceleration, angular velocity, temperature, three-axis magnetic field, and pressure data in real time, making it suitable for robot attitude estimation, heading detection, electronic compass, motion tracking, barometric altimetry, floor change detection, drones, and other applications.\n Features\n Integrated six-axis inertial, three-axis magnetic, and barometric pressure sensors\n I2C communication interface\n BMI270 with 16-bit sampling and motion detection\n BMM350 with TMR technology and high magnetic field resolution\n SPA06-003 for pressure, temperature, and altitude measurement\n Supports various attitude, heading, and altitude applications\n Includes\n 1 x Unit DoF10\n 1 x HY2.0-4P Grove Cable (5cm)\n Applications\n Robot attitude sensing\n Heading detection\n Electronic compass\n Motion tracking\n Barometric a",
+    "variants": [
+      {
+        "sku": "U230",
+        "title": "Default Title",
+        "price": "9.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 9.5,
+      "max": 9.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U230_10-DoF_IMUUnit_BMI270_BMM350_SPA06-003_1.webp?v=1792723326",
+    "url": "https://shop.m5stack.com/products/10-dof-imu-unit-bmi270-bmm350-spa06-003",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "13-56mhz-rfid-card-f08-chip-5pcs",
     "shopifyId": 1960862285914,
     "title": "13.56MHz RFID Card-F08 Chip (5pcs)",
@@ -621,6 +664,49 @@
         "I2C"
       ],
       "i2cAddress": "0x53",
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "3-axis-magnetometer-unit-bmm350",
+    "shopifyId": 9709917667585,
+    "title": "3-Axis Magnetometer Unit (BMM350)",
+    "eol": false,
+    "sku": "U231",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-SENSOR"
+    ],
+    "descriptionText": "Unit BMM350 is a three-axis magnetometer unit featuring the BMM350 sensor and supporting 100 kHz and 400 kHz communication rates. Based on TMR (tunnel magnetoresistance) technology, it measures magnetic fields along the X/Y/Z axes with approximately 0.1 μT resolution and excellent temperature stability. The module transmits data over I2C, provides real-time three-axis geomagnetic data, and supports heading detection after calibration, making it suitable for robot navigation, heading detection, electronic compass, motion tracking, and magnetic field sensing.\n Features\n BMM350 three-axis TMR magnetometer\n Measurement axes: X / Y / Z\n Magnetic field resolution: approx. 0.1 μT\n Magnetic field range: ±2000 μT (typical)\n Magnetic sensing technology: TMR (tunnel magnetoresistance)\n Communication rate: 100 kHz / 400 kHz\n Supports heading readout and calibration\n Includes\n 1 x Unit BMM350\n 1 x HY2.0-4P Grove Cable (5cm)\n Applications\n Robot navigation\n Heading detection\n Electronic compass\n Motion tracking\n Magnetic field sensing\n Specifications\n Specification \n Parameter \n IC Model \n BMM350 \n Sensor Type \n Three-axis magnetometer \n Magnetic Field Range \n X/Y/Z axes: ±2000 μT (typical on each axis) \n Magnetic Field Resolution \n approx. 0.1 μT \n Communication Interface \n I2C @ 0x14 \n I2C Communication Rate \n 100 kHz / 400 kHz \n Sleep Current \n 6.42 μA (measured) \n Continuous Read Current \n 167.02 μA (measured) \n Heading Accuracy \n Error < 10° after calibration \n Operating Temperature R",
+    "variants": [
+      {
+        "sku": "U231",
+        "title": "Default Title",
+        "price": "6.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 6.5,
+      "max": 6.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U231_3-Axis_Magnetometer_Unit_BMM350_1.webp?v=1792723671",
+    "url": "https://shop.m5stack.com/products/3-axis-magnetometer-unit-bmm350",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": "0x14",
       "source": "extracted"
     }
   },
@@ -1236,6 +1322,49 @@
     }
   },
   {
+    "handle": "6-dof-imu-unit-bmi270",
+    "shopifyId": 9709905903873,
+    "title": "6-DoF IMU Unit (BMI270)",
+    "eol": false,
+    "sku": "U228",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-SENSOR"
+    ],
+    "descriptionText": "Unit DoF6 is a six-axis inertial sensor unit built around the low-power BMI270 IMU. The BMI270 integrates a 16-bit 3-axis accelerometer and a 16-bit 3-axis gyroscope, with configurable measurement ranges, on-chip motion detection, and fast startup. Data is transmitted over I2C, enabling real-time acquisition of acceleration, angular velocity, and temperature for motion-sensing applications such as robot attitude sensing, motion detection, wearables, gimbal control, and human-machine interaction.\n Features\n BMI270 six-axis inertial sensor\n I2C interface with address switching support\n 16-bit accelerometer and gyroscope sampling\n Configurable measurement ranges and built-in motion detection\n Acceleration, angular velocity, and temperature acquisition\n Suited to attitude sensing and motion detection\n Includes\n 1 x Unit DoF6\n 1 x HY2.0-4P Grove Cable (5cm)\n Applications\n Robot attitude sensing\n Motion detection\n Wearables\n Gimbal control\n Human-machine interaction\n Specifications\n Specification \n Parameter \n IC Model \n BMI270 \n Sensor Type \n Six-axis inertial sensor \n Accelerometer \n 16-bit 3-axis accelerometer \n Accelerometer Range \n ±2 g / ±4 g / ±8 g / ±16 g \n Accelerometer Accuracy \n ±20 mg (approx. ±0.02 g) \n Gyroscope \n 16-bit 3-axis gyroscope \n Gyroscope Range \n ±125 / ±250 / ±500 / ±1000 / ±2000 °/s \n Gyroscope Accuracy \n ±0.5 °/s \n Communication Interface \n I2C @ 0x68 / 0x69 (switchable via onboard switch) \n Product Size \n 24.0 x 24.0 x 8.0mm \n Product Weight \n 3.1g \n Pa",
+    "variants": [
+      {
+        "sku": "U228",
+        "title": "Default Title",
+        "price": "5.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 5.5,
+      "max": 5.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U228_6-DoF_IMU_Unit_BMI270_1.webp?v=1792721824",
+    "url": "https://shop.m5stack.com/products/6-dof-imu-unit-bmi270",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": "0x68",
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "6-sides-plastic-corner-connector-for-1515-aluminum-profile",
     "shopifyId": 1828549132378,
     "title": "6 Sides Plastic Corner Connector for 1515 Aluminum Extrusions",
@@ -1487,6 +1616,49 @@
         "I2C"
       ],
       "i2cAddress": "0x41",
+      "source": "extracted"
+    }
+  },
+  {
+    "handle": "9-dof-imu-unit-bmi270-bmm350",
+    "shopifyId": 9709910851841,
+    "title": "9-DoF IMU Unit (BMI270, BMM350)",
+    "eol": false,
+    "sku": "U229",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-SENSOR"
+    ],
+    "descriptionText": "Unit DoF9 is a nine-axis attitude sensing unit that combines a six-axis inertial sensor with a three-axis magnetometer. It features the low-power BMI270 IMU and the BMM350 three-axis magnetometer. The BMI270 integrates a 16-bit 3-axis accelerometer and a 16-bit 3-axis gyroscope, with configurable measurement ranges and on-chip motion detection. The BMM350 uses TMR (tunnel magnetoresistance) technology for three-axis magnetic field measurement, achieving approximately 0.1 μT resolution and excellent temperature stability. Data is transmitted over I2C, providing real-time acceleration, angular velocity, temperature, and three-axis magnetic field data for robot attitude sensing, heading detection, electronic compass, motion tracking, navigation assistance, and gimbal control.\n Features\n Integrated six-axis inertial and three-axis geomagnetic sensors\n 16-bit accelerometer and gyroscope sampling\n TMR magnetometer with high magnetic field resolution of 0.1 μT\n Real-time acquisition of inertial, temperature, and magnetic field data\n I2C interface with BMI270 address switching\n Includes\n 1 x Unit DoF9\n 1 x HY2.0-4P Grove Cable (5cm)\n Applications\n Robot attitude sensing\n Heading detection\n Electronic compass\n Motion tracking\n Navigation assistance\n Gimbal control\n Specifications\n Specification \n Parameter \n Inertial Sensor IC \n BMI270 \n Geomagnetic Sensor IC \n BMM350 \n Sensor Type \n Six-axis inertial and three-axis geomagnetic sensor \n Accelerometer \n 16-bit 3-axis accelerometer \n Ac",
+    "variants": [
+      {
+        "sku": "U229",
+        "title": "Default Title",
+        "price": "8.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 8.5,
+      "max": 8.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U229_9-DoF_IMU_Unit_BMI270_BMM350_1.webp?v=1792722894",
+    "url": "https://shop.m5stack.com/products/9-dof-imu-unit-bmi270-bmm350",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C"
+      ],
+      "i2cAddress": null,
       "source": "extracted"
     }
   },
@@ -1773,7 +1945,6 @@
     "category": "unit",
     "formFactor": "UNIT",
     "subcategories": [
-      "m5stack-new-arrival",
       "unit"
     ],
     "tags": [
@@ -4655,7 +4826,7 @@
         "sku": "A077",
         "title": "Default Title",
         "price": "3.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5698,7 +5869,7 @@
         "sku": "K014-E",
         "title": "Default Title",
         "price": "79.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6314,7 +6485,7 @@
         "sku": "A016",
         "title": "Default Title",
         "price": "6.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -7648,8 +7819,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-chain",
-      "m5stack-new-arrival"
+      "for-chain"
     ],
     "tags": [
       "FOR-CHAIN-HMI"
@@ -7984,8 +8154,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-chain",
-      "m5stack-new-arrival"
+      "for-chain"
     ],
     "tags": [
       "FOR-CHAIN-SENSOR"
@@ -9675,7 +9844,7 @@
         "sku": "M128",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12691,7 +12860,7 @@
         "sku": "U041-B",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13232,7 +13401,7 @@
         "sku": "M119",
         "title": "Default Title",
         "price": "42.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16802,7 +16971,7 @@
         "sku": "M146",
         "title": "Default Title",
         "price": "10.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17782,7 +17951,7 @@
         "sku": "A004-V3",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -17832,7 +18001,7 @@
         "sku": "A003-V3",
         "title": "Default Title",
         "price": "12.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -18501,7 +18670,7 @@
     "tags": [
       "CABLE"
     ],
-    "descriptionText": "The Magnetic Type-C Cable is a Type-C data cable with a magnetic connector, which not only makes device connection more convenient but also significantly reduces port wear and extends the lifespan of the device. The magnetic head can automatically detach when accidentally pulled, effectively protecting the device from damage. Additionally, the M5 design supports multi-device compatibility, making it suitable for various devices with a Type-C interface. This data cable is made from eco-friendly materials and complies with the RoHS environmental standard.\n Features\n Magnetic\n Data Transfer\n Includes\n 1 x Magnetic Type-C Cable\n Specifications\n Specification \n Parameter \n Output Current Voltage \n 5V@200mA \n Internal Resistance \n 0.2Ω \n Length \n 1 meter \n Product Size \n Diameter: 3.3mm \n Package Size \n 136 x 92 x 13.7mm \n Product Weight \n 25.0g \n Package Weight \n 27.2g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "The Magnetic Type-C Cable is a Type-C data cable with a magnetic connector, which not only makes device connection more convenient but also significantly reduces port wear and extends the lifespan of the device. The magnetic head can automatically detach when accidentally pulled, effectively protecting the device from damage. Additionally, the M5 design supports multi-device compatibility, making it suitable for various devices with a Type-C interface. This data cable is made from eco-friendly materials and complies with the RoHS environmental standard.\n Features\n Magnetic\n Data Transfer\n Includes\n 1 x Magnetic Type-C Cable\n Specifications\n Specification \n Parameter \n Working Current \n < 2500mA \n Contact Resistance \n Maximum 5 mΩ \n Length \n 1 meter \n Package Size \n 136 x 92 x 13.7mm \n Product Weight \n 25.0g \n Gross Weight \n 27.2g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "A143",
@@ -19129,7 +19298,7 @@
         "sku": "C152",
         "title": "Default Title",
         "price": "45.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19302,7 +19471,7 @@
         "sku": "C145",
         "title": "Without NP-F550 Battery",
         "price": "55.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19518,7 +19687,7 @@
         "sku": "U078-M12",
         "title": "Default Title",
         "price": "95.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19936,7 +20105,7 @@
         "sku": "S003",
         "title": "Default Title",
         "price": "38.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20013,7 +20182,7 @@
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20558,8 +20727,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "STAMP"
@@ -21093,7 +21261,7 @@
         "sku": "U080",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21381,7 +21549,7 @@
         "sku": "U068",
         "title": "Default Title",
         "price": "4.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21925,7 +22093,7 @@
     "tags": [
       "FOR-STICK-SENSOR"
     ],
-    "descriptionText": "Hat NCIR is a single-point infrared temperature measurement sensor compatible with M5SticKC. Built-in infrared sensor MLX90614 , capable of measuring the surface temperature of the human body or other objects. Unlike most contact-type sensors, this sensor detects temperature by measuring the infrared light waves emitted from distant objects without physical contact, which gives it a wider measuring range than ordinary sensors: -70°C to +380°C. With a field of view (FOV) of 90°, it can conveniently and quickly measure the average temperature at a given location.\n Features\n MLX90614ESF-AAA\n I2C address (0x5A)\n Object temperature measurement range: -70°C ~ 380°C\n Ambient temperature measurement range: -40°C ~ 125 ˚C\n Measurement accuracy at room temperature: ±0.5°C\n Field of view: 90°\n Development Platform: Arduino, UIFlow (Blockly, Python)\n Includes\n 1 x Hat NCIR\n 1 x Double-Sided Tape\n Applications\n Human body temperature measurement\n Object (biological) motion detection\n Specifications\n Specification \n Parameter \n Communication Interface \n I2C Communication @0x5A \n Product Size \n 24.0 x 25.0 x 14.0mm \n Product Weight \n 5.0g \n Package Size \n 138.0 x 93.0 x 13.0mm \n Gross Weight \n 13.0g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Hat NCIR is a single-point infrared temperature measurement sensor compatible with M5SticKC. Built-in infrared sensor MLX90614 , capable of measuring the surface temperature of the human body or other objects. Unlike most contact-type sensors, this sensor detects temperature by measuring the infrared light waves emitted from distant objects without physical contact, which gives it a wider measuring range than ordinary sensors: -70°C to +380°C. With a field of view (FOV) of 90°, it can conveniently and quickly measure the average temperature at a given location.\n Features\n MLX90614ESF-BAA\n I2C address (0x5A)\n Object temperature measurement range: -70°C ~ 380°C\n Ambient temperature measurement range: -40°C ~ 125 ˚C\n Measurement accuracy at room temperature: ±0.5°C\n Field of view: 90°\n Development Platform: Arduino, UIFlow (Blockly, Python)\n Includes\n 1 x Hat NCIR\n 1 x Double-Sided Tape\n Applications\n Human body temperature measurement\n Object (biological) motion detection\n Specifications\n Specification \n Parameter \n Communication Interface \n I2C Communication @0x5A \n Product Size \n 24.0 x 25.0 x 14.0mm \n Product Weight \n 5.0g \n Package Size \n 138.0 x 93.0 x 13.0mm \n Gross Weight \n 13.0g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "U061",
@@ -22173,7 +22341,7 @@
         "sku": "K016-P2",
         "title": "Default Title",
         "price": "19.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -23988,7 +24156,7 @@
     "tags": [
       "UNIT-SENSOR"
     ],
-    "descriptionText": "Unit NCIR is a single‑point infrared temperature measurement sensor. It features a built‑in infrared sensor MLX90614 , capable of measuring the surface temperature of the human body or other objects.\n Unlike most contact‑type sensors, this sensor detects temperature by measuring infrared light emitted from distant objects, without physical contact. This gives it a wider temperature measurement range: ‑70 °C to + 380 °C. With a field of view of 90°, it can quickly and conveniently measure the average temperature at a certain position.\n This Unit connects to M5Core via PORT A I2C (0x5A).\n Features\n MLX90614ESF‑AAA\n Object and ambient temperature measurement\n Development Platform: Arduino, UIFlow (Blockly, Python)\n 2 x LEGO‑compatible holes\n Includes\n 1 x Unit NCIR\n 1 x HY2.0‑4P Grove Cable (20cm)\n Applications\n Human body temperature measurement\n Object (biological) motion detection\n Specifications\n Specification \n Parameter \n Communication Interface \n I2C @0x5A \n Object Temperature \n -70 °C ~ 380 °C \n Ambient Temperature \n -40 °C ~ 125 °C \n Accuracy \n ±0.5 °C \n Field of View \n 90° \n Product Size \n 32.0 x 24.0 x 8.6mm \n Product Weight \n 4.8g \n Package Size \n 138.0 x 93.0 x 13.0mm \n Gross Weight \n 10.0g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Unit NCIR is a single‑point infrared temperature measurement sensor. It features a built‑in infrared sensor MLX90614 , capable of measuring the surface temperature of the human body or other objects.\n Unlike most contact‑type sensors, this sensor detects temperature by measuring infrared light emitted from distant objects, without physical contact. This gives it a wider temperature measurement range: ‑70 °C to + 380 °C. With a field of view of 90°, it can quickly and conveniently measure the average temperature at a certain position.\n This Unit connects to M5Core via PORT A I2C (0x5A).\n Features\n MLX90614ESF‑BAA\n Object and ambient temperature measurement\n Development Platform: Arduino, UIFlow (Blockly, Python)\n 2 x LEGO‑compatible holes\n Includes\n 1 x Unit NCIR\n 1 x HY2.0‑4P Grove Cable (20cm)\n Applications\n Human body temperature measurement\n Object (biological) motion detection\n Specifications\n Specification \n Parameter \n Communication Interface \n I2C @0x5A \n Object Temperature \n -70 °C ~ 380 °C \n Ambient Temperature \n -40 °C ~ 125 °C \n Accuracy \n ±0.5 °C \n Field of View \n 90° \n Product Size \n 32.0 x 24.0 x 8.6mm \n Product Weight \n 4.8g \n Package Size \n 138.0 x 93.0 x 13.0mm \n Gross Weight \n 10.0g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "U028",
