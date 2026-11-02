@@ -476,7 +476,7 @@
         "sku": "A088-C",
         "title": "5M",
         "price": "5.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -2923,7 +2923,7 @@
         "sku": "C126-ECHO",
         "title": "Default Title",
         "price": "14.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3260,7 +3260,7 @@
         "sku": "K137",
         "title": "Default Title",
         "price": "29.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5433,7 +5433,7 @@
         "sku": "C126",
         "title": "Default Title",
         "price": "17.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5869,7 +5869,7 @@
         "sku": "K014-E",
         "title": "Default Title",
         "price": "79.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -6191,7 +6191,7 @@
         "sku": "K025-B",
         "title": "Default Title",
         "price": "9.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -8415,7 +8415,7 @@
         "sku": "U104",
         "title": "Default Title",
         "price": "45.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -9844,7 +9844,7 @@
         "sku": "M128",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -9884,7 +9884,7 @@
         "sku": "U183",
         "title": "Default Title",
         "price": "6.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10745,7 +10745,7 @@
         "sku": "M141",
         "title": "Default Title",
         "price": "6.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12596,7 +12596,7 @@
         "sku": "U160-V11",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -16700,7 +16700,7 @@
         "sku": "U202",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19257,7 +19257,7 @@
         "sku": "K123",
         "title": "Default Title",
         "price": "48.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19471,7 +19471,7 @@
         "sku": "C145",
         "title": "Without NP-F550 Battery",
         "price": "55.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20105,7 +20105,7 @@
         "sku": "S003",
         "title": "Default Title",
         "price": "38.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20182,7 +20182,7 @@
         "sku": "S007",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20677,6 +20677,50 @@
     }
   },
   {
+    "handle": "m5stamp-timer-power-2-py32l020",
+    "shopifyId": 9720838816001,
+    "title": "M5Stamp Timer Power 2 (PY32L020)",
+    "eol": false,
+    "sku": "S021",
+    "category": "stamp-accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [
+      "for-stamp",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "FOR-STAMP-OTHERS"
+    ],
+    "descriptionText": "Stamp Timer Power2 is a power management module for low-power embedded devices. It integrates the M5PM1 power management IC and adopts a multi-stage power control architecture that enables power for the main controller and various peripherals on demand, effectively reducing overall standby power consumption and extending battery life. The module supports DC 5V input/output control, DC 3.7V lithium battery power supply, and input voltage detection. It also integrates a lithium battery charging circuit with two adjustable charging current levels. Featuring a 1.27mm castellated-hole package, the module provides 5 programmable IOs in addition to the basic power input/output control pins. These IOs can be configured as GPIO, ADC, PWM, RGB LED, IRQ, and other functions. The module also supports timed wake-up and external input interrupt wake-up, making it suitable for low-power systems with on-demand power-up, periodic operation, and event-triggered operation. It is well suited for embedded device power management, smart homes, and low-power IoT devices.\n Features\n Built-in M5PM1 power management IC\n Built-in lithium battery charging IC with two adjustable charging current levels (650mA/180mA), suitable for different batteries\n 5x programmable expansion IO (GPIO / ADC / PWM / RGB LED / IRQ)\n Supports DC 5V / DC 3.7V battery input power\n I2C communication interface (0x6E)\n 1.27mm-28Pin castellated-hole package\n Peripherals & Control\n Power button input signal interface\n Power indica",
+    "variants": [
+      {
+        "sku": "S021",
+        "title": "Default Title",
+        "price": "6.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 6.95,
+      "max": 6.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/S021_M5Stamp_Timer_Power2_PY32L020_13.webp?v=1793330750",
+    "url": "https://shop.m5stack.com/products/m5stamp-timer-power-2-py32l020",
+    "docs": null,
+    "connectivity": {
+      "grove": [],
+      "interfaces": [
+        "I2C",
+        "GPIO",
+        "ADC",
+        "PWM"
+      ],
+      "i2cAddress": "0x6e",
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "m5stamp-timer-power-bm8563",
     "shopifyId": 7951464923393,
     "title": "M5Stamp Timer Power (BM8563)",
@@ -20765,8 +20809,7 @@
     "category": "controller",
     "formFactor": "STAMP_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "STAMP"
@@ -20777,7 +20820,7 @@
         "sku": "S017-F",
         "title": "Default Title",
         "price": "24.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -21180,7 +21223,7 @@
         "sku": "S007-PIN254-V033",
         "title": "Default Title",
         "price": "7.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21743,7 +21786,7 @@
         "sku": "U053-D",
         "title": "Default Title",
         "price": "10.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -24744,7 +24787,7 @@
         "sku": "K159",
         "title": "Default Title",
         "price": "25.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -27047,7 +27090,7 @@
         "sku": "K121",
         "title": "Default Title",
         "price": "13.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28016,7 +28059,7 @@
         "sku": "A147",
         "title": "Default Title",
         "price": "8.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {

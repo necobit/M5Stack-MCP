@@ -99,7 +99,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 7
+        "count": 6
       }
     ]
   },
@@ -138,16 +138,16 @@
   {
     "category": "stamp-accessory",
     "label": "Stamp accessories",
-    "total": 9,
+    "total": 10,
     "eolCount": 0,
     "subcategories": [
       {
         "handle": "for-stamp",
-        "count": 9
+        "count": 10
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 1
+        "count": 2
       }
     ]
   }
