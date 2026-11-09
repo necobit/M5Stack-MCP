@@ -156,7 +156,7 @@
         "sku": "A064",
         "title": "500mm-4 pcs a set",
         "price": "6.95",
-        "available": true
+        "available": false
       },
       {
         "sku": "A065",
@@ -2182,7 +2182,7 @@
         "sku": "AI-003-PRO",
         "title": "Default Title",
         "price": "399.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3921,7 +3921,7 @@
     "tags": [
       "ATOM-TAIL"
     ],
-    "descriptionText": "Tail Bat is an external battery accessory designed for ATOM. It can be plugged into the tail of the ATOM to directly power it, making it convenient for users to use in mobile scenarios. The Tail Bat features a switch button on the front and contains a 190mAh battery controlled by the power management chip IP5303. When the power is turned on, a red indicator light will illuminate. The usage method is the same as that of the M5Stack Core: single-click to turn on the power, double-click to turn off the power, the indicator light flashes during charging, and stays on when fully charged. Since the Tail Bat has a pass-through design for the interface while adding the battery, it does not affect the original wiring method and interface functionality. The built-in battery can only be charged via the Type-C interface and cannot be charged through the GROVE interface.\n Features\n Compatible with Atom-Matrix/Atom-Lite\n Plug and play\n Built-in rechargeable lithium battery\n LED indicator\n Includes\n 1 x TailBat\n Applications\n External mobile power supply for ATOM\n Specifications\n Specification \n Parameter \n External Port \n 1x GROVE \n LED Indicator \n 1x RED LED \n USB Port \n USB Type-C \n Battery Capacity \n 190mAh \n Case Material \n Plastic (PC) \n Product Size \n 55.0 x 22.0 x 14.0mm \n Product Weight \n 14.8g \n Package Size \n 136.0 x 92.0 x 23.0mm \n Gross Weight \n 17.0g \n Learn and Documents\n → DOCUMENTS",
+    "descriptionText": "Tail Bat is an external battery accessory designed for ATOM. It can be plugged into the tail of the ATOM to directly power it, making it convenient for users to use in mobile scenarios. The Tail Bat features a switch button on the front and contains a 200mAh battery controlled by the power management chip IP5303. When the power is turned on, a red indicator light will illuminate. The usage method is the same as that of the M5Stack Core: single-click to turn on the power, double-click to turn off the power, the indicator light flashes during charging, and stays on when fully charged. Since the Tail Bat has a pass-through design for the interface while adding the battery, it does not affect the original wiring method and interface functionality. The built-in battery can only be charged via the Type-C interface and cannot be charged through the GROVE interface.\n Features\n Compatible with Atom-Matrix/Atom-Lite\n Plug and play\n Built-in rechargeable lithium battery\n LED indicator\n Includes\n 1 x TailBat\n Applications\n External mobile power supply for ATOM\n Specifications\n Specification \n Parameter \n External Port \n 1x GROVE \n LED Indicator \n 1x RED LED \n USB Port \n USB Type-C \n Battery Capacity \n 200mAh \n Case Material \n Plastic (PC) \n Product Size \n 55.0 x 22.0 x 14.0mm \n Product Weight \n 14.8g \n Package Size \n 136.0 x 92.0 x 23.0mm \n Gross Weight \n 17.0g \n Learn and Documents\n → DOCUMENTS",
     "variants": [
       {
         "sku": "T001",
@@ -4826,7 +4826,7 @@
         "sku": "A077",
         "title": "Default Title",
         "price": "3.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -5390,7 +5390,7 @@
         "sku": "C126-M12",
         "title": "Default Title",
         "price": "23.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -6191,7 +6191,7 @@
         "sku": "K025-B",
         "title": "Default Title",
         "price": "9.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -9884,7 +9884,7 @@
         "sku": "U183",
         "title": "Default Title",
         "price": "6.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -12596,7 +12596,7 @@
         "sku": "U160-V11",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -13401,7 +13401,7 @@
         "sku": "M119",
         "title": "Default Title",
         "price": "42.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -14466,13 +14466,13 @@
     "tags": [
       "EOL"
     ],
-    "descriptionText": "Product Status Notice This product is EOL (End of Life) . Please order the new version: Cap LoRa-1262 \n Description\n Cap LoRa868 is a high-performance LoRa communication and GNSS global navigation expansion module designed for the Cardputer-Adv. The LoRa module is based on the SX1262 chip solution, equipped by default with an external SMA antenna , providing stronger anti-interference capability and long-distance communication performance. It supports the 868MHz ~ 923MHz frequency band and offers long-range, low-power wireless links for IoT applications.\nThe GPS module adopts the AT6668-based solution, with a built-in ceramic antenna for precise and reliable satellite positioning services. It supports multi-frequency, multi-mode GNSS signal reception, enabling the reception of signals from multiple satellite navigation systems (including GPS, BD2, BD3, GLONASS, GALILEO, and QZSS, etc.) and supports both multi-system joint positioning and standalone positioning with strong anti-interference capability and high positioning accuracy. Even in weak signal environments, it can quickly obtain high-accuracy location data and is suitable for remote data collection, smart cities, smart homes, vehicle positioning and navigation, and IoT device positioning.\n Features\n Integrated LoRa modulation technology and GNSS global positioning system\n Operating frequency 868 ~ 923 MHz\n Supports FSK, GFSK, MSK, GMSK, LoRa, OOK modulation modes\n LoRa receive sensitivity: as low as -147 dBm (in LoRa l",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . Please order the new version: Cap LoRa-1262 \n Description\n Cap LoRa868 is a high-performance LoRa communication and GNSS global navigation expansion module designed for the Cardputer-Adv. The LoRa module is based on the SX1262 chip solution, equipped by default with an external SMA antenna , providing stronger anti-interference capability and long-distance communication performance. It supports the 868MHz ~ 923MHz frequency band and offers long-range, low-power wireless links for IoT applications.\nThe GPS module adopts the AT6668-based solution, with a built-in ceramic antenna for precise and reliable satellite positioning services. It supports multi-frequency, multi-mode GNSS signal reception, enabling the reception of signals from multiple satellite navigation systems (including GPS, BD2, BD3, GLONASS, GALILEO, and QZSS, etc.) and supports both multi-system joint positioning and standalone positioning with strong anti-interference capability and high positioning accuracy. Even in weak signal environments, it can quickly obtain high-accuracy location data and is suitable for remote data collection, smart cities, smart homes, vehicle positioning and navigation, and IoT device positioning.\n Features\n Integrated LoRa modulation technology and GNSS global positioning system\n Operating frequency 868 ~ 923 MHz\n Supports FSK, GFSK, MSK, GMSK and LoRa modulation modes\n LoRa receive sensitivity: as low as -147 dBm (in LoRa low",
     "variants": [
       {
         "sku": "U201",
         "title": "Default Title",
         "price": "14.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -14551,7 +14551,7 @@
     "tags": [
       "MODULE-13-2"
     ],
-    "descriptionText": "Module13.2 LoRa-1262 is a stackable long-range LoRa communication module. The module integrates the Stamp LoRa-1262 communication module and adopts the SX1262 LoRa RF transceiver solution, supporting 868 ~ 923 MHz frequency band communication. The module features an RP-SMA external antenna interface; the LoRa communication part uses an SPI communication interface to exchange data with the main controller, and integrates the M5IOE1 IO expansion chip, which can perform reset, bypass, and power management on the LoRa module, effectively reducing overall power consumption. Multiple onboard DIP switches are used for LoRa communication pin switching and M5IOE1 I2C address modification, allowing flexible adaptation to the IO resources of different controllers and supporting multi-module stacking. It is suitable for scenarios such as remote monitoring, smart home, industrial automation, and IoT nodes.\n Antenna Connection\n Before using the LoRa module, please connect a matched external antenna first. Do not transmit RF signals without an antenna connected, otherwise it will cause permanent hardware damage!\n Features\n Integrated Stamp LoRa-1262 module (based on SX1262)\n Supports 868 ~ 923 MHz operating frequency band\n Uses SPI communication interface\n Supports LoRa, FSK, GFSK, MSK, GMSK, and OOK modulation modes\n LoRa maximum transmit power approximately +22 dBm, receive sensitivity down to -147 dBm (in LoRa low-rate mode)\n Onboard RP-SMA external antenna interface\n Onboard DC 3.7V bat",
+    "descriptionText": "Module13.2 LoRa-1262 is a stackable long-range LoRa communication module. The module integrates the Stamp LoRa-1262 communication module and adopts the SX1262 LoRa RF transceiver solution, supporting 868 ~ 923 MHz frequency band communication. The module features an RP-SMA external antenna interface; the LoRa communication part uses an SPI communication interface to exchange data with the main controller, and integrates the M5IOE1 IO expansion chip, which can perform reset, bypass, and power management on the LoRa module, effectively reducing overall power consumption. Multiple onboard DIP switches are used for LoRa communication pin switching and M5IOE1 I2C address modification, allowing flexible adaptation to the IO resources of different controllers and supporting multi-module stacking. It is suitable for scenarios such as remote monitoring, smart home, industrial automation, and IoT nodes.\n Antenna Connection Before using the LoRa module, please connect a matched external antenna first. Do not transmit RF signals without an antenna connected, otherwise it will cause permanent hardware damage! \n Features\n Integrated Stamp LoRa-1262 module (based on SX1262)\n Supports 868 ~ 923 MHz operating frequency band\n Uses SPI communication interface\n Supports LoRa, FSK, GFSK, MSK and GMSK modulation modes\n LoRa maximum transmit power approximately +22 dBm, receive sensitivity down to -147 dBm (in LoRa low-rate mode)\n Onboard RP-SMA external antenna interface\n Onboard DC 3.7V battery i",
     "variants": [
       {
         "sku": "M149",
@@ -14682,7 +14682,7 @@
     "tags": [
       "EOL"
     ],
-    "descriptionText": "Product Status Notice This product is EOL (End of Life) . \n Description\n Module LoRa868 v1.2 is a LoRa communication module (operating at 868 MHz) in the M5Stack stackable module series. It uses the E22-900M22S module (chip SX1262 ) and supports LoRa™ modulation technology , offering strong anti-interference performance and long-range communication. It meets FCC, CE, RoHS international standards and operates in the ISM license-free 868 MHz band . The module communicates via SPI interface , comes with an external SMA antenna , and features DIP switches for flexible selection of NSS, BUSY, RST, IRQ lines, supporting multiple stacks simultaneously for greater customization. Ideal for remote monitoring, smart cities, smart homes, industrial automation, IoT devices, and other applications.\n Features\n SPI serial communication protocol\n E22-900M22S module (based on SX1262)\n Built-in DIP switches for pin selection\n Supports multiple stackable deployments\n Operating frequency: 850 – 930 MHz\n Supports FSK, GFSK, MSK, GMSK, LoRa™, OOK modulation modes\n Receive sensitivity: as low as –147 dBm (LoRa™ low-rate mode)\n Default external SMA antenna connector\n Development platforms:\n Arduino\n PlatformIO\n UiFlow2\n Includes\n 1 × Module LoRa868 v1.2\n 1 × External SMA antenna\n Applications\n Remote monitoring\n Smart cities\n Home and industrial automation\n IoT devices\n Specifications\n Specification \n Details \n LoRa Module \n E22-900M22S module (based on SX1262) \n Frequency Range \n 850 ~ 930 MHz \n Com",
+    "descriptionText": "Product Status Notice This product is EOL (End of Life) . \n Description\n Module LoRa868 v1.2 is a LoRa communication module (operating at 868 MHz) in the M5Stack stackable module series. It uses the E22-900M22S module (chip SX1262 ) and supports LoRa™ modulation technology , offering strong anti-interference performance and long-range communication. It meets FCC, CE, RoHS international standards and operates in the ISM license-free 868 MHz band . The module communicates via SPI interface , comes with an external SMA antenna , and features DIP switches for flexible selection of NSS, BUSY, RST, IRQ lines, supporting multiple stacks simultaneously for greater customization. Ideal for remote monitoring, smart cities, smart homes, industrial automation, IoT devices, and other applications.\n Features\n SPI serial communication protocol\n E22-900M22S module (based on SX1262)\n Built-in DIP switches for pin selection\n Supports multiple stackable deployments\n Operating frequency: 850 – 930 MHz\n Supports FSK, GFSK, MSK, GMSK and LoRa™ modulation modes\n Receive sensitivity: as low as –147 dBm (LoRa™ low-rate mode)\n Default external SMA antenna connector\n Development platforms:\n Arduino\n PlatformIO\n UiFlow2\n Includes\n 1 × Module LoRa868 v1.2\n 1 × External SMA antenna\n Applications\n Remote monitoring\n Smart cities\n Home and industrial automation\n IoT devices\n Specifications\n Specification \n Details \n LoRa Module \n E22-900M22S module (based on SX1262) \n Frequency Range \n 850 ~ 930 MHz \n Commu",
     "variants": [
       {
         "sku": "M029-V12",
@@ -16931,7 +16931,7 @@
         "sku": "K132-V11",
         "title": "Default Title",
         "price": "29.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -16971,7 +16971,7 @@
         "sku": "M146",
         "title": "Default Title",
         "price": "10.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -17154,6 +17154,48 @@
       "interfaces": [],
       "i2cAddress": null,
       "source": "unknown"
+    }
+  },
+  {
+    "handle": "m5stack-core-matrix-dev-kit-esp32-c61",
+    "shopifyId": 9735008878849,
+    "title": "M5Stack Core Matrix Dev Kit (ESP32-C61)",
+    "eol": false,
+    "sku": "C158",
+    "category": "controller",
+    "formFactor": "CORE_HOST",
+    "subcategories": [
+      "controllers",
+      "m5stack-new-arrival"
+    ],
+    "tags": [
+      "CORE",
+      "ESP32-C61"
+    ],
+    "descriptionText": "CoreMatrix is an IoT controller featuring a 16 x 16 LED matrix display. It is powered by the ESP32-C61HR8 core, which uses a 32-bit RISC-V single-core processor running at 160MHz, supports 2.4 GHz Wi-Fi 6, and includes 16MB of Flash and 8MB of PSRAM.\nThe front panel features a 16 x 16 white LED matrix that displays device status, event reminders, and interactive feedback through icons and simple animations. An onboard BMI270 6-axis IMU supports motion detection and orientation-based interaction.\nThe device also integrates a microSD card slot, a passive buzzer, three user buttons, and a power button. Peripheral control, charging management, and multi-level power management are handled by the M5IOE1 and Stamp Timer Power2 (M5PM1).\nThe onboard M5-Bus and HY2.0-4P Grove interfaces allow connection to M5Stack Modules and other sensor devices, making the device suitable for pixel icon and animation display, sensor data acquisition, device status indication, and IoT interaction applications.\n Features\n ESP32-C61HR8 core controller:\n 16MB Flash\n 8MB PSRAM\n 2.4 GHz Wi-Fi 6\n LED matrix and sensors:\n 16 x 16 white LED matrix driven by TM1680\n BMI270 6-axis IMU with interrupt wake-up support\n Human-machine interaction:\n Onboard passive buzzer\n 3x user buttons + 1x power button\n Power system:\n Multi-level power management via Stamp Timer Power2 (M5PM1) + M5IOE1\n Onboard battery power connector\n Expansion:\n microSD card slot\n M5-Bus expansion interface\n HY2.0-4P Grove expansion interface\n ",
+    "variants": [
+      {
+        "sku": "C158",
+        "title": "Default Title",
+        "price": "29.90",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 29.9,
+      "max": 29.9,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/1_05fdb59c-d45d-4fa9-a05f-0034d229d8b8.webp?v=1793932096",
+    "url": "https://shop.m5stack.com/products/m5stack-core-matrix-dev-kit-esp32-c61",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [],
+      "i2cAddress": null,
+      "source": "extracted"
     }
   },
   {
@@ -19298,7 +19340,7 @@
         "sku": "C152",
         "title": "Default Title",
         "price": "45.00",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20427,7 +20469,7 @@
     "tags": [
       "FOR-STAMP-WIRELESS"
     ],
-    "descriptionText": "Stamp LoRa-1262 is an ultra-compact embedded LoRa communication module with a built-in SX1262 high-performance LoRa transceiver, operating over the 868 ~ 923 MHz frequency band. The module is mini in size yet powerful in performance, with stable and reliable RF characteristics. Its maximum transmit power reaches +22 dBm, and its receive sensitivity is as low as -147 dBm, balancing long-distance communication with system reliability. The product is available in multiple variants, allowing users to choose different combinations of a pre-mounted IPEX-4 antenna connector and a 0.5mm@12P FPC connector (for breaking out the module's communication IO) according to application requirements, making it easy to integrate into hardware designs of different sizes and structures. It is suitable for applications such as smart city construction , agriculture and environmental monitoring , and outdoor communication .\n Features\n Integrated LoRa transceiver SX1262\n Operating frequency 868 ~ 923 MHz\n Supports LoRa / FSK / GFSK / MSK / GMSK / OOK modulation modes\n Receive sensitivity: as low as -147 dBm (in LoRa low-rate mode)\n Maximum transmit power: +22 dBm\n Includes\n Stamp LoRa-1262 (SKU:S014)\n 1 x Stamp LoRa-1262\n Stamp LoRa-1262 I (SKU:S014-I)\n 1 x Stamp LoRa-1262 I\n 1 x 868 MHz RP-SMA Rubber Duck Antenna\n 1 x RP-SMA to IPEX-4 Antenna Extension Cable (40mm)\n 1 x Antenna Connector Washer (1.0mm Thickness)\n 1 x Antenna Connector Tooth Washer (0.5mm Thickness)\n 1 x Antenna Connector Brass Nut\n ",
+    "descriptionText": "Stamp LoRa-1262 is an ultra-compact embedded LoRa communication module with a built-in SX1262 high-performance LoRa transceiver, operating over the 868 ~ 923 MHz frequency band. The module is mini in size yet powerful in performance, with stable and reliable RF characteristics. Its maximum transmit power reaches +22 dBm, and its receive sensitivity is as low as -147 dBm, balancing long-distance communication with system reliability. The product is available in multiple variants, allowing users to choose different combinations of a pre-mounted IPEX-4 antenna connector and a 0.5mm@12P FPC connector (for breaking out the module's communication IO) according to application requirements, making it easy to integrate into hardware designs of different sizes and structures. It is suitable for applications such as smart city construction , agriculture and environmental monitoring , and outdoor communication .\n Features\n Integrated LoRa transceiver SX1262\n Operating frequency 868 ~ 923 MHz\n Supports LoRa / FSK / GFSK / MSK / GMSK modulation modes\n Receive sensitivity: as low as -147 dBm (in LoRa low-rate mode)\n Maximum transmit power: +22 dBm\n Includes\n Stamp LoRa-1262 (SKU:S014)\n 1 x Stamp LoRa-1262\n Stamp LoRa-1262 I (SKU:S014-I)\n 1 x Stamp LoRa-1262 I\n 1 x 868 MHz RP-SMA Rubber Duck Antenna\n 1 x RP-SMA to IPEX-4 Antenna Extension Cable (40mm)\n 1 x Antenna Connector Washer (1.0mm Thickness)\n 1 x Antenna Connector Tooth Washer (0.5mm Thickness)\n 1 x Antenna Connector Brass Nut\n Stamp ",
     "variants": [
       {
         "sku": "S014",
@@ -20898,7 +20940,7 @@
         "sku": "S016-DIP",
         "title": "Default Title",
         "price": "7.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22430,7 +22472,7 @@
         "sku": "K016-H2",
         "title": "Default Title",
         "price": "22.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -24854,8 +24896,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "E-PAPER",
@@ -26042,7 +26083,7 @@
         "sku": "A146",
         "title": "10cm (10pcs a pack)",
         "price": "14.50",
-        "available": true
+        "available": false
       },
       {
         "sku": "A146-B",
@@ -28059,7 +28100,7 @@
         "sku": "A147",
         "title": "Default Title",
         "price": "8.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -28714,7 +28755,7 @@
       "ESP32-S3",
       "Pre-Order"
     ],
-    "descriptionText": "Hello from Etermax\n Loading model…\n Auto rotating\n A tiny trivia machine built for real family play. No phone. No ads. No endless scrolling. Just grab it, spin it, and answer.\n 10,000+ questions in your pocket\n TriviaPOD comes loaded with over 10,000 trivia questions across 8 languages — ready to play straight out of the box. Connect to Wi‑Fi to download new packs and keep the trivia going.\n Your Pod, your crew.\n Meet familiar faces from the Trivia Crack universe. Play Trivia Pet to help Willy grow, unlock rewards, and collect characters as your Pod fills with life. 7 characters to evolve. Multiple scenes to complete.\n Play Together\n Connect two TriviaPOD devices\nand challenge other players\n The Specs.\n Category \n Specifications \n Display \n 1.75\" round display · 466 × 466 px AMOLED\n Super bright · Touch screen\n Controls \n Two main side buttons\n Dedicated power button\n Storage \n 32 MB flash\n Room for downloadable trivia packs\n Wireless \n Wi‑Fi 2.4 GHz\n Bluetooth / BLE\n Speaker \n Small speaker\n Simple sounds for play feedback\n Charging \n USB‑C charging cable\n Cable included\n Battery \n 450mAh\n Languages \n 8 languages included(more to come)\n EN · ES · FR · DE · IT · PT · ZH · JA\n Included \n TriviaPOD device · Wrist lanyard\n USB‑C cable* · Quick Start guide*\n Recommended age \n From 8 to 99+\n Fun for the whole family\n What’s in the box\n Your TriviaPOD device \n USB-C charging cable \n Wrist lanyard \n → Documents \n Well done!\n What color is the Eiffel Tower painted?\n Red Black Brown G",
+    "descriptionText": "Important Notice – Custom Firmware\n TriviaPOD comes with proprietary software developed by Etermax. Installing custom or third-party firmware may overwrite the original software, and users may not be able to restore the official TriviaPOD experience afterward.\nOfficial software updates are available directly through TriviaPOD’s built-in Wi-Fi update system. \n Hello from Etermax\n Loading model…\n Auto rotating\n A tiny trivia machine built for real family play. No phone. No ads. No endless scrolling. Just grab it, spin it, and answer.\n 10,000+ questions in your pocket\n TriviaPOD comes loaded with over 10,000 trivia questions across 8 languages — ready to play straight out of the box. Connect to Wi‑Fi to download new packs and keep the trivia going.\n Your Pod, your crew.\n Meet familiar faces from the Trivia Crack universe. Play Trivia Pet to help Willy grow, unlock rewards, and collect characters as your Pod fills with life. 7 characters to evolve. Multiple scenes to complete.\n Play Together\n Connect two TriviaPOD devices\nand challenge other players\n The Specs.\n Category \n Specifications \n Display \n 1.75\" round display · 466 × 466 px AMOLED\n Super bright · Touch screen\n Controls \n Two main side buttons\n Dedicated power button\n Storage \n 32 MB flash\n Room for downloadable trivia packs\n Wireless \n Wi‑Fi 2.4 GHz\n Bluetooth / BLE\n Speaker \n Small speaker\n Simple sounds for play feedback\n Charging \n USB‑C charging cable\n Cable included\n Battery \n 450mAh\n Languages \n 8 languages includ",
     "variants": [
       {
         "sku": "TP-01-A",
@@ -29385,7 +29426,7 @@
         "sku": "U213",
         "title": "Default Title",
         "price": "21.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {

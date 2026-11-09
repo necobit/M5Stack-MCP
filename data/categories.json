@@ -90,12 +90,12 @@
   {
     "category": "controller",
     "label": "Controllers (Core / Stick / Atom / Stamp ...)",
-    "total": 73,
+    "total": 74,
     "eolCount": 3,
     "subcategories": [
       {
         "handle": "controllers",
-        "count": 70
+        "count": 71
       },
       {
         "handle": "m5stack-new-arrival",
