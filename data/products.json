@@ -476,7 +476,7 @@
         "sku": "A088-C",
         "title": "5M",
         "price": "5.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -907,6 +907,50 @@
     }
   },
   {
+    "handle": "4-encoder-motor-driver-unit-drv8837dsgr",
+    "shopifyId": 9753736347905,
+    "title": "4-Encoder Motor Driver Unit (DRV8837DSGR)",
+    "eol": false,
+    "sku": "U233",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-DRIVER"
+    ],
+    "descriptionText": "Unit 4EncoderMotor Driver is a 4-channel encoder DC motor driver unit featuring an STM32F030C8T6 main controller. It uses an I2C communication interface and provides four DC 5V motor outputs with corresponding A/B encoder inputs, making it suitable for 6-wire encoder geared motors and TT geared motors. The driver supports PWM speed control, forward/reverse control, and closed-loop speed and position control. It integrates an INA199A current-sensing circuit and motor operating voltage detection, enabling real-time monitoring of motor current and voltage.\n Two onboard HY2.0-4P Grove ports share the same I2C bus, making it easy to connect additional I2C devices. The I2C address is software-configurable, allowing multiple driver units to be connected to the same bus and expand the number of motor drive channels. The unit accepts an external DC 6 ~ 12V input and, through its onboard DC-DC buck converter, provides a total output capacity of up to DC 5V@8A. This output can power motors and also supply power to a host device through the Grove interface. An onboard programmable RGB LED indicates the device operating status. The unit is suitable for multi-joint robots, wheeled chassis, robotic arms, and similar applications.\n Features\n STM32F030C8T6 main controller\n 4-channel encoder motor drive\n Compatible with 6-wire encoder geared motors / TT geared motors (M+ / M- / GND / 5V / EN_B / EN_A)\n Supports 3 ~ 15 PPR encoders\n Motor control\n PWM speed control\n Forward/reverse / stop\n A/B ",
+    "variants": [
+      {
+        "sku": "U233",
+        "title": "Default Title",
+        "price": "12.95",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 12.95,
+      "max": 12.95,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U233_4-Encoder_Motor_Driver_Unit_DRV8837DSGR_1.webp?v=1794541689",
+    "url": "https://shop.m5stack.com/products/4-encoder-motor-driver-unit-drv8837dsgr",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C",
+        "PWM"
+      ],
+      "i2cAddress": null,
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "4-relay-unit",
     "shopifyId": 5974429761708,
     "title": "4-Relay Unit",
@@ -926,7 +970,7 @@
         "sku": "U097",
         "title": "Default Title",
         "price": "12.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -3243,24 +3287,21 @@
     "handle": "atom-joystick-with-m5atoms3",
     "shopifyId": 8558002995457,
     "title": "M5Atom Joystick with M5AtomS3",
-    "eol": false,
+    "eol": true,
     "sku": "K137",
-    "category": "atomic-base",
-    "formFactor": "ATOMIC_BASE",
-    "subcategories": [
-      "for-atom"
-    ],
+    "category": "accessory",
+    "formFactor": "ACCESSORY",
+    "subcategories": [],
     "tags": [
-      "ATOM-KIT",
-      "ESP32-S3"
+      "EOL"
     ],
-    "descriptionText": "To use with M5Stamp Fly: https://shop.m5stack.com/products/m5stamp-fly-with-m5stamps3 \n Description\n Atom JoyStick is a versatile programmable dual joystick remote controller, using AtomS3 as the main controller, with STM32 for co-processing functions on the board. It features 2 Hall sensor 5-direction joysticks and 2 function buttons, with built-in RGB LEDs for human-machine interaction and status reminders. It also includes two high-voltage power battery charging circuits. The product comes pre-loaded with the Stamp Fly remote firmware, communicating with Stamp Fly via the ESP-NOW protocol, and the firmware source code is open-source. This product is suitable for drone control, robot control, smart car projects, and various DIY projects.\n Usage Reminder\n For first-time use of Atom JoyStick, you need to flash the flight firmware according to the following tutorial to pair with StampFly for flight.\n Charging Reminder\n When charging via the data cable, the corresponding battery has a power indicator light. Red indicates the battery is charging and not fully charged; Green indicates the battery is fully charged, reaching 4.35V.\n Battery Maintenance\n 1. Do not discharge the battery below 3V per cell under load.\n2. Do not store fully charged batteries for more than 3 days. For long-term storage, keep the voltage between 3.8V and 3.9V.\n Features\n STM32F030F4P6\n Equipped with AtomS3\n Compatible with Atom series controllers\n Dual joysticks, dual buttons, toggle switch\n WS2812C RGB L",
+    "descriptionText": "Product Status Notice\n This product is EOL (End of Life) . \n Please order the new version:\n Atom JoyStick v1.1\n To use with M5Stamp Fly: https://shop.m5stack.com/products/m5stamp-fly-with-m5stamps3 \n Description\n Atom JoyStick is a versatile programmable dual joystick remote controller, using AtomS3 as the main controller, with STM32 for co-processing functions on the board. It features 2 Hall sensor 5-direction joysticks and 2 function buttons, with built-in RGB LEDs for human-machine interaction and status reminders. It also includes two high-voltage power battery charging circuits. The product comes pre-loaded with the Stamp Fly remote firmware, communicating with Stamp Fly via the ESP-NOW protocol, and the firmware source code is open-source. This product is suitable for drone control, robot control, smart car projects, and various DIY projects.\n Usage Reminder\n For first-time use of Atom JoyStick, you need to flash the flight firmware according to the following tutorial to pair with StampFly for flight.\n Charging Reminder\n When charging via the data cable, the corresponding battery has a power indicator light. Red indicates the battery is charging and not fully charged; Green indicates the battery is fully charged, reaching 4.35V.\n Battery Maintenance\n 1. Do not discharge the battery below 3V per cell under load.\n2. Do not store fully charged batteries for more than 3 days. For long-term storage, keep the voltage between 3.8V and 3.9V.\n Features\n STM32F030F4P6\n Equipped ",
     "variants": [
       {
         "sku": "K137",
         "title": "Default Title",
         "price": "29.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -4914,7 +4955,7 @@
         "sku": "A136",
         "title": "Default Title",
         "price": "7.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -5274,7 +5315,7 @@
         "sku": "K147",
         "title": "Default Title",
         "price": "21.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -10131,6 +10172,50 @@
     }
   },
   {
+    "handle": "encoder-motor-driver-unit-drv8837dsgr",
+    "shopifyId": 9753731039489,
+    "title": "Encoder Motor Driver Unit (DRV8837DSGR)",
+    "eol": false,
+    "sku": "U232",
+    "category": "unit",
+    "formFactor": "UNIT",
+    "subcategories": [
+      "m5stack-new-arrival",
+      "unit"
+    ],
+    "tags": [
+      "UNIT-DRIVER"
+    ],
+    "descriptionText": "Unit EncoderMotor Driver is a single-channel encoder DC motor driver unit featuring an STM32G031G8U6 main controller. It uses an I2C communication interface and provides one DC 5V motor output with a corresponding A/B encoder input, making it suitable for 6-wire encoder geared motors and TT geared motors. The driver supports PWM speed control, forward/reverse control, and closed-loop speed and position control. It integrates an INA199A current-sensing circuit and motor operating voltage detection, enabling real-time monitoring of motor current and voltage.\n An onboard programmable RGB LED indicates the device operating status. The unit accepts an external DC 6 ~ 12V input and provides a DC 5V motor output through an onboard DC-DC buck converter. It is suitable for robot drive mechanisms, joint modules, smart cars, and similar applications.\n Features\n STM32G031G8U6 main controller\n Single-channel encoder motor drive\n Compatible with 6-wire encoder geared motors / TT geared motors (M+ / M- / GND / 5V / EN_B / EN_A)\n Supports 3 ~ 15 PPR encoders\n Motor control\n PWM speed control\n Forward/reverse / stop\n A/B phase counting\n Speed loop / position loop closed-loop control\n Soft start / soft stop\n Sleep\n I2C communication interface\n Default address 0x2F, software-configurable (0x08 ~ 0x77)\n Flexible power supply\n External power input: DC 6 ~ 12V\n Grove interface power input: DC 5V\n Integrated DC-DC buck converter for motor power and Grove interface output, with a maximum load of DC ",
+    "variants": [
+      {
+        "sku": "U232",
+        "title": "Default Title",
+        "price": "9.50",
+        "available": true
+      }
+    ],
+    "priceRange": {
+      "min": 9.5,
+      "max": 9.5,
+      "currency": "USD"
+    },
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0056/7689/2250/files/U232_Encoder_Motor_Driver_Unit_DRV8837DSGR_1.webp?v=1794541806",
+    "url": "https://shop.m5stack.com/products/encoder-motor-driver-unit-drv8837dsgr",
+    "docs": null,
+    "connectivity": {
+      "grove": [
+        "A"
+      ],
+      "interfaces": [
+        "I2C",
+        "PWM"
+      ],
+      "i2cAddress": "0x2f",
+      "source": "extracted"
+    }
+  },
+  {
     "handle": "encoder-unit",
     "shopifyId": 7525044584705,
     "title": "Encoder Unit",
@@ -14472,7 +14557,7 @@
         "sku": "U201",
         "title": "Default Title",
         "price": "14.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -15650,8 +15735,7 @@
     "category": "accessory",
     "formFactor": "ACCESSORY",
     "subcategories": [
-      "for-stack",
-      "m5stack-new-arrival"
+      "for-stack"
     ],
     "tags": [
       "BASE"
@@ -16138,8 +16222,7 @@
     "category": "controller",
     "formFactor": "CORE_HOST",
     "subcategories": [
-      "controllers",
-      "m5stack-new-arrival"
+      "controllers"
     ],
     "tags": [
       "E-PAPER",
@@ -17216,7 +17299,7 @@
         "sku": "K010",
         "title": "Default Title",
         "price": "46.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -17264,7 +17347,7 @@
         "sku": "K010-AWS",
         "title": "Default Title",
         "price": "49.90",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -18546,7 +18629,7 @@
         "sku": "K143",
         "title": "Default Title",
         "price": "99.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -19299,7 +19382,7 @@
         "sku": "K123",
         "title": "Default Title",
         "price": "48.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -19729,7 +19812,7 @@
         "sku": "U078-M12",
         "title": "Default Title",
         "price": "95.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -20394,7 +20477,7 @@
         "sku": "K138",
         "title": "Default Title",
         "price": "49.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -20862,7 +20945,7 @@
         "sku": "S017-F",
         "title": "Default Title",
         "price": "24.50",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -21828,7 +21911,7 @@
         "sku": "U053-D",
         "title": "Default Title",
         "price": "10.95",
-        "available": false
+        "available": true
       }
     ],
     "priceRange": {
@@ -22426,7 +22509,7 @@
         "sku": "K016-P2",
         "title": "Default Title",
         "price": "19.95",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -22472,7 +22555,7 @@
         "sku": "K016-H2",
         "title": "Default Title",
         "price": "22.90",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26170,7 +26253,7 @@
         "sku": "U173",
         "title": "Default Title",
         "price": "18.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -26862,7 +26945,7 @@
         "sku": "K036-B",
         "title": "Default Title",
         "price": "65.00",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {
@@ -28060,7 +28143,7 @@
         "sku": "A182",
         "title": "Default Title",
         "price": "5.50",
-        "available": true
+        "available": false
       }
     ],
     "priceRange": {

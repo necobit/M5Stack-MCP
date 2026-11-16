@@ -2,16 +2,16 @@
   {
     "category": "unit",
     "label": "Units (Grove-connected sensors & actuators)",
-    "total": 202,
+    "total": 204,
     "eolCount": 31,
     "subcategories": [
       {
         "handle": "unit",
-        "count": 168
+        "count": 170
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 6
+        "count": 8
       },
       {
         "handle": "accessories",
@@ -42,8 +42,8 @@
   {
     "category": "accessory",
     "label": "Accessories (cables, mounts, power ...)",
-    "total": 116,
-    "eolCount": 37,
+    "total": 117,
+    "eolCount": 38,
     "subcategories": [
       {
         "handle": "accessories",
@@ -59,7 +59,7 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 10
+        "count": 9
       },
       {
         "handle": "ai-hardware",
@@ -99,19 +99,19 @@
       },
       {
         "handle": "m5stack-new-arrival",
-        "count": 6
+        "count": 5
       }
     ]
   },
   {
     "category": "atomic-base",
     "label": "Atomic Bases (for ATOM family)",
-    "total": 40,
+    "total": 39,
     "eolCount": 4,
     "subcategories": [
       {
         "handle": "for-atom",
-        "count": 34
+        "count": 33
       },
       {
         "handle": "accessories",
